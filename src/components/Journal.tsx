@@ -53,7 +53,7 @@ export default function Journal(): ReactNode {
                     key={fish.id}
                     className="flex items-center justify-center w-[165px] h-[90px] bg-light-beige rounded-4xl cursor-pointer"
                   >
-                    <img src={`/img/fish/${fish.id}.png`} className="h-full" alt={fish.description} />
+                    <img src={`/img/fish/${fish.textureName}`} className="h-full" alt={fish.description} />
                   </button>
                 )
               })}
@@ -63,7 +63,7 @@ export default function Journal(): ReactNode {
         <div className="flex flex-col gap-4 w-2/6 h-full">
           <div className="flex items-center justify-center w-full h-3/5 bg-dark-beige rounded-4xl">
             {selectedFish && (
-              <img className="rotate-animation" src={`/img/fish/${selectedFish.id}.png`} alt={selectedFish.description} />
+              <img className="rotate-animation" src={`/img/fish/${selectedFish.textureName}`} alt={selectedFish.description} />
             )}
           </div>
 

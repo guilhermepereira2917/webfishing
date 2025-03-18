@@ -6,7 +6,8 @@
     "catchBlurb": "Doing it's best :)",
     "tier": 0,
     "averageSize": 4.0,
-    "sellValue": 1.0
+    "sellValue": 1.0,
+    "textureName": "fish_rain_anomalocaris.png"
   },
   {
     "id": "fish_rain_heliocoprion",
@@ -15,7 +16,8 @@
     "catchBlurb": "Nature's pizza cutter!",
     "tier": 1,
     "averageSize": 6.0,
-    "sellValue": 1.0
+    "sellValue": 1.0,
+    "textureName": "fish_rain_heliocoprion.png"
   },
   {
     "id": "fish_rain_horseshoe_crab",
@@ -24,7 +26,8 @@
     "catchBlurb": "Guess it's my lucky day!",
     "tier": 0,
     "averageSize": 4.0,
-    "sellValue": 1.0
+    "sellValue": 1.0,
+    "textureName": "fish_rain_horseshoe_crab.png"
   },
   {
     "id": "fish_rain_leedsichthys",
@@ -33,6 +36,7 @@
     "catchBlurb": "A giant!",
     "tier": 2,
     "averageSize": 2.0,
-    "sellValue": 1.0
+    "sellValue": 1.0,
+    "textureName": "fish_rain_leedsichthys.png"
   }
 ]

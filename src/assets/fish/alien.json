@@ -6,6 +6,7 @@
     "catchBlurb": "...what? the fuck?",
     "tier": 1,
     "averageSize": 9.0,
-    "sellValue": 8.0
+    "sellValue": 8.0,
+    "textureName": "fish_alien_dog.png"
   }
 ]

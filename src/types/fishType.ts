@@ -6,4 +6,5 @@ export default interface Fish {
   tier: number,
   sellValue: number,
   averageSize: number,
+  textureName: string,
 }

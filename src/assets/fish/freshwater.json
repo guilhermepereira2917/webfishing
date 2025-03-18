@@ -6,7 +6,8 @@
     "catchBlurb": "See you later- !",
     "tier": 2,
     "averageSize": 2.0,
-    "sellValue": 9.0
+    "sellValue": 9.0,
+    "textureName": "fish_lake_alligator.png"
   },
   {
     "id": "fish_lake_axolotl",
@@ -15,7 +16,8 @@
     "catchBlurb": "Can I ax-olotl you a question? (...I tried, ok?)",
     "tier": 2,
     "averageSize": 3.0,
-    "sellValue": 9.0
+    "sellValue": 9.0,
+    "textureName": "fish_lake_axolotl.png"
   },
   {
     "id": "fish_lake_bass",
@@ -24,7 +26,8 @@
     "catchBlurb": "Seems out of tune to me.",
     "tier": 0,
     "averageSize": 4.0,
-    "sellValue": 8.0
+    "sellValue": 8.0,
+    "textureName": "fish_lake_bass.png"
   },
   {
     "id": "fish_lake_bluegill",
@@ -33,7 +36,8 @@
     "catchBlurb": "Bluegill? What a thrill!",
     "tier": 0,
     "averageSize": 1.0,
-    "sellValue": 9.0
+    "sellValue": 9.0,
+    "textureName": "fish_lake_bluegill.png"
   },
   {
     "id": "fish_lake_bowfin",
@@ -42,7 +46,8 @@
     "catchBlurb": "Bowfin deez n-",
     "tier": 1,
     "averageSize": 7.0,
-    "sellValue": 3.0
+    "sellValue": 3.0,
+    "textureName": "fish_lake_bowfin.png"
   },
   {
     "id": "fish_lake_bullshark",
@@ -51,7 +56,8 @@
     "catchBlurb": "Bullshark? Bull S-",
     "tier": 2,
     "averageSize": 2.0,
-    "sellValue": 1.0
+    "sellValue": 1.0,
+    "textureName": "fish_lake_bullshark.png"
   },
   {
     "id": "fish_lake_carp",
@@ -60,7 +66,8 @@
     "catchBlurb": "Carp? What a lark!",
     "tier": 0,
     "averageSize": 5.0,
-    "sellValue": 8.0
+    "sellValue": 8.0,
+    "textureName": "fish_lake_carp.png"
   },
   {
     "id": "fish_lake_catfish",
@@ -69,7 +76,8 @@
     "catchBlurb": "He's just like you! But yknow... more... fishy?",
     "tier": 0,
     "averageSize": 6.0,
-    "sellValue": 3.0
+    "sellValue": 3.0,
+    "textureName": "fish_lake_catfish.png"
   },
   {
     "id": "fish_lake_crab",
@@ -78,7 +86,8 @@
     "catchBlurb": "Arg!",
     "tier": 1,
     "averageSize": 8.0,
-    "sellValue": 2.0
+    "sellValue": 2.0,
+    "textureName": "fish_lake_crab.png"
   },
   {
     "id": "fish_lake_crappie",
@@ -87,7 +96,8 @@
     "catchBlurb": "Holy Crappie!",
     "tier": 1,
     "averageSize": 2.0,
-    "sellValue": 2.0
+    "sellValue": 2.0,
+    "textureName": "fish_lake_crappie.png"
   },
   {
     "id": "fish_lake_crayfish",
@@ -96,7 +106,8 @@
     "catchBlurb": "Blah blah blah.",
     "tier": 0,
     "averageSize": 1.0,
-    "sellValue": 1.0
+    "sellValue": 1.0,
+    "textureName": "fish_lake_crayfish.png"
   },
   {
     "id": "fish_lake_drum",
@@ -105,7 +116,8 @@
     "catchBlurb": "Also known as the Gooble Gobble. Real fact.",
     "tier": 0,
     "averageSize": 2.0,
-    "sellValue": 1.0
+    "sellValue": 1.0,
+    "textureName": "fish_lake_drum.png"
   },
   {
     "id": "fish_lake_frog",
@@ -114,7 +126,8 @@
     "catchBlurb": "Cozy Staple.",
     "tier": 0,
     "averageSize": 6.0,
-    "sellValue": 2.0
+    "sellValue": 2.0,
+    "textureName": "fish_lake_frog.png"
   },
   {
     "id": "fish_lake_gar",
@@ -123,7 +136,8 @@
     "catchBlurb": "Step-Brother of the Alligator!",
     "tier": 2,
     "averageSize": 1.0,
-    "sellValue": 8.0
+    "sellValue": 8.0,
+    "textureName": "fish_lake_gar.png"
   },
   {
     "id": "fish_lake_golden_bass",
@@ -132,7 +146,8 @@
     "catchBlurb": "Woah! What a catch!",
     "tier": 2,
     "averageSize": 4.0,
-    "sellValue": 3.0
+    "sellValue": 3.0,
+    "textureName": "fish_lake_golden_bass.png"
   },
   {
     "id": "fish_lake_goldfish",
@@ -141,7 +156,8 @@
     "catchBlurb": "We're rich!",
     "tier": 0,
     "averageSize": 1.0,
-    "sellValue": 1.0
+    "sellValue": 1.0,
+    "textureName": "fish_lake_goldfish.png"
   },
   {
     "id": "fish_lake_guppy",
@@ -150,7 +166,8 @@
     "catchBlurb": "Guess you're a guppy puppy!",
     "tier": 0,
     "averageSize": 4.0,
-    "sellValue": 1.0
+    "sellValue": 1.0,
+    "textureName": "fish_lake_guppy.png"
   },
   {
     "id": "fish_lake_kingsalmon",
@@ -159,7 +176,8 @@
     "catchBlurb": "Royalty!",
     "tier": 2,
     "averageSize": 1.0,
-    "sellValue": 7.0
+    "sellValue": 7.0,
+    "textureName": "fish_lake_kingsalmon.png"
   },
   {
     "id": "fish_lake_koi",
@@ -168,7 +186,8 @@
     "catchBlurb": "This koi is the boy for me!",
     "tier": 0,
     "averageSize": 3.0,
-    "sellValue": 2.0
+    "sellValue": 2.0,
+    "textureName": "fish_lake_koi.png"
   },
   {
     "id": "fish_lake_leech",
@@ -177,7 +196,8 @@
     "catchBlurb": "Bringing back oldschool medicine!",
     "tier": 1,
     "averageSize": 5.0,
-    "sellValue": 3.0
+    "sellValue": 3.0,
+    "textureName": "fish_lake_leech.png"
   },
   {
     "id": "fish_lake_mooneye",
@@ -186,7 +206,8 @@
     "catchBlurb": "Mooneye? At this time?",
     "tier": 2,
     "averageSize": 3.0,
-    "sellValue": 8.0
+    "sellValue": 8.0,
+    "textureName": "fish_lake_mooneye.png"
   },
   {
     "id": "fish_lake_muskellunge",
@@ -195,7 +216,8 @@
     "catchBlurb": "A muskie!",
     "tier": 1,
     "averageSize": 1.0,
-    "sellValue": 6.0
+    "sellValue": 6.0,
+    "textureName": "fish_lake_muskellunge.png"
   },
   {
     "id": "fish_lake_perch",
@@ -204,7 +226,8 @@
     "catchBlurb": "Man am I parched...",
     "tier": 0,
     "averageSize": 2.0,
-    "sellValue": 7.0
+    "sellValue": 7.0,
+    "textureName": "fish_lake_perch.png"
   },
   {
     "id": "fish_lake_pike",
@@ -213,7 +236,8 @@
     "catchBlurb": "This Piked my interest!",
     "tier": 1,
     "averageSize": 5.0,
-    "sellValue": 2.0
+    "sellValue": 2.0,
+    "textureName": "fish_lake_pike.png"
   },
   {
     "id": "fish_lake_pupfish",
@@ -222,7 +246,8 @@
     "catchBlurb": "A little puppy!",
     "tier": 2,
     "averageSize": 7.0,
-    "sellValue": 8.0
+    "sellValue": 8.0,
+    "textureName": "fish_lake_pupfish.png"
   },
   {
     "id": "fish_lake_rainbowtrout",
@@ -231,7 +256,8 @@
     "catchBlurb": "These fishes gay. Good for them, good for them.",
     "tier": 0,
     "averageSize": 6.0,
-    "sellValue": 7.0
+    "sellValue": 7.0,
+    "textureName": "fish_lake_rainbowtrout.png"
   },
   {
     "id": "fish_lake_salmon",
@@ -240,7 +266,8 @@
     "catchBlurb": "It's Sal' good, 'mon!",
     "tier": 0,
     "averageSize": 7.0,
-    "sellValue": 5.0
+    "sellValue": 5.0,
+    "textureName": "fish_lake_salmon.png"
   },
   {
     "id": "fish_lake_snail",
@@ -249,7 +276,8 @@
     "catchBlurb": "Meow?",
     "tier": 0,
     "averageSize": 4.0,
-    "sellValue": 2.0
+    "sellValue": 2.0,
+    "textureName": "fish_lake_snail.png"
   },
   {
     "id": "fish_lake_sturgeon",
@@ -258,7 +286,8 @@
     "catchBlurb": "I want a second opinion.",
     "tier": 0,
     "averageSize": 1.0,
-    "sellValue": 4.0
+    "sellValue": 4.0,
+    "textureName": "fish_lake_sturgeon.png"
   },
   {
     "id": "fish_lake_toad",
@@ -267,7 +296,8 @@
     "catchBlurb": "What a boy!",
     "tier": 1,
     "averageSize": 1.0,
-    "sellValue": 3.0
+    "sellValue": 3.0,
+    "textureName": "fish_lake_toad.png"
   },
   {
     "id": "fish_lake_turtle",
@@ -276,7 +306,8 @@
     "catchBlurb": "This catch was quite the hurdle!",
     "tier": 1,
     "averageSize": 2.0,
-    "sellValue": 3.0
+    "sellValue": 3.0,
+    "textureName": "fish_lake_turtle.png"
   },
   {
     "id": "fish_lake_walleye",
@@ -285,6 +316,7 @@
     "catchBlurb": "Walleye? What a guy!",
     "tier": 0,
     "averageSize": 7.0,
-    "sellValue": 9.0
+    "sellValue": 9.0,
+    "textureName": "fish_lake_walleye.png"
   }
 ]

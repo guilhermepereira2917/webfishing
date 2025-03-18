@@ -60,7 +60,8 @@ for index, folder in enumerate(fish_folders):
 
         texture_match = texture_pattern.search(content)
         texture_path = os.path.join(sources_path, texture_match.group(1))
-        texture_save_path = os.path.join(os.path.dirname(__file__), "..", f"public\\img\\fish\\{id}.png")      
+        texture_name = f"{id}.png"
+        texture_save_path = os.path.join(os.path.dirname(__file__), "..", f"public\\img\\fish\\{texture_name}")
         shutil.copy2(texture_path, texture_save_path)
 
         if name_match and desc_match:
@@ -72,6 +73,7 @@ for index, folder in enumerate(fish_folders):
             "tier": int(tier_match.group(1)),
             "averageSize": float(average_size_match.group(1)),
             "sellValue": float(sell_value_match.group(1)),
+            "textureName": texture_name,
           })
     
   json_file = os.path.join(os.path.dirname(__file__), "..", f"src\\assets\\fish\\{save_names[index]}.json")

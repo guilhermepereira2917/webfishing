@@ -6,7 +6,8 @@
     "catchBlurb": "Obtuse or acute? (... did i read that right?).",
     "tier": 0,
     "averageSize": 2.0,
-    "sellValue": 1.0
+    "sellValue": 1.0,
+    "textureName": "fish_ocean_angelfish.png"
   },
   {
     "id": "fish_ocean_atlantic_salmon",
@@ -15,7 +16,8 @@
     "catchBlurb": "It's like non-atlantic salmon but atlantic",
     "tier": 0,
     "averageSize": 3.0,
-    "sellValue": 9.0
+    "sellValue": 9.0,
+    "textureName": "fish_ocean_atlantic_salmon.png"
   },
   {
     "id": "fish_ocean_bluefish",
@@ -24,7 +26,8 @@
     "catchBlurb": "One fish, two fish, red fish...",
     "tier": 0,
     "averageSize": 8.0,
-    "sellValue": 1.0
+    "sellValue": 1.0,
+    "textureName": "fish_ocean_bluefish.png"
   },
   {
     "id": "fish_ocean_clownfish",
@@ -33,7 +36,8 @@
     "catchBlurb": "Well this isnt so scary...",
     "tier": 0,
     "averageSize": 1.0,
-    "sellValue": 9.0
+    "sellValue": 9.0,
+    "textureName": "fish_ocean_clownfish.png"
   },
   {
     "id": "fish_ocean_coalacanth",
@@ -42,7 +46,8 @@
     "catchBlurb": "Did you see it? I can't!",
     "tier": 2,
     "averageSize": 1.0,
-    "sellValue": 3.0
+    "sellValue": 3.0,
+    "textureName": "fish_ocean_coalacanth.png"
   },
   {
     "id": "fish_ocean_dogfish",
@@ -51,7 +56,8 @@
     "catchBlurb": "He's just like you! But yknow... more... fishy?",
     "tier": 0,
     "averageSize": 8.0,
-    "sellValue": 2.0
+    "sellValue": 2.0,
+    "textureName": "fish_ocean_dogfish.png"
   },
   {
     "id": "fish_ocean_eel",
@@ -60,7 +66,8 @@
     "catchBlurb": "Eel? EEL!",
     "tier": 0,
     "averageSize": 5.0,
-    "sellValue": 3.0
+    "sellValue": 3.0,
+    "textureName": "fish_ocean_eel.png"
   },
   {
     "id": "fish_ocean_flounder",
@@ -69,7 +76,8 @@
     "catchBlurb": "Flounder? I hardly know 'er!",
     "tier": 0,
     "averageSize": 4.0,
-    "sellValue": 1.0
+    "sellValue": 1.0,
+    "textureName": "fish_ocean_flounder.png"
   },
   {
     "id": "fish_ocean_golden_manta_ray",
@@ -78,7 +86,8 @@
     "catchBlurb": "Woah! What a catch!",
     "tier": 2,
     "averageSize": 6.0,
-    "sellValue": 3.0
+    "sellValue": 3.0,
+    "textureName": "fish_ocean_golden_manta_ray.png"
   },
   {
     "id": "fish_ocean_greatwhiteshark",
@@ -87,7 +96,8 @@
     "catchBlurb": "Do I smell blood...?",
     "tier": 2,
     "averageSize": 1.0,
-    "sellValue": 3.0
+    "sellValue": 3.0,
+    "textureName": "fish_ocean_greatwhiteshark.png"
   },
   {
     "id": "fish_ocean_grouper",
@@ -96,7 +106,8 @@
     "catchBlurb": "Grouper? I hardly know 'er!",
     "tier": 0,
     "averageSize": 1.0,
-    "sellValue": 1.0
+    "sellValue": 1.0,
+    "textureName": "fish_ocean_grouper.png"
   },
   {
     "id": "fish_ocean_hammerhead_shark",
@@ -105,7 +116,8 @@
     "catchBlurb": "Guess you hit the nail on the head!",
     "tier": 1,
     "averageSize": 3.0,
-    "sellValue": 3.0
+    "sellValue": 3.0,
+    "textureName": "fish_ocean_hammerhead_shark.png"
   },
   {
     "id": "fish_ocean_herring",
@@ -114,7 +126,8 @@
     "catchBlurb": "Huh... this isnt red...",
     "tier": 0,
     "averageSize": 3.0,
-    "sellValue": 9.0
+    "sellValue": 9.0,
+    "textureName": "fish_ocean_herring.png"
   },
   {
     "id": "fish_ocean_krill",
@@ -123,7 +136,8 @@
     "catchBlurb": "Shrimply impressive! (this isnt a shrimp btw)",
     "tier": 0,
     "averageSize": 5.0,
-    "sellValue": 5.0
+    "sellValue": 5.0,
+    "textureName": "fish_ocean_krill.png"
   },
   {
     "id": "fish_ocean_lionfish",
@@ -132,7 +146,8 @@
     "catchBlurb": "Well I ain't callin' you a truther!",
     "tier": 1,
     "averageSize": 3.0,
-    "sellValue": 3.0
+    "sellValue": 3.0,
+    "textureName": "fish_ocean_lionfish.png"
   },
   {
     "id": "fish_ocean_lobster",
@@ -141,7 +156,8 @@
     "catchBlurb": "What a beaut!",
     "tier": 0,
     "averageSize": 7.0,
-    "sellValue": 1.0
+    "sellValue": 1.0,
+    "textureName": "fish_ocean_lobster.png"
   },
   {
     "id": "fish_ocean_manowar",
@@ -150,7 +166,8 @@
     "catchBlurb": "ok you should probably not be holding this",
     "tier": 2,
     "averageSize": 3.0,
-    "sellValue": 3.0
+    "sellValue": 3.0,
+    "textureName": "fish_ocean_manowar.png"
   },
   {
     "id": "fish_ocean_manta_ray",
@@ -159,7 +176,8 @@
     "catchBlurb": "The butterfly of the sea!",
     "tier": 2,
     "averageSize": 6.0,
-    "sellValue": 3.0
+    "sellValue": 3.0,
+    "textureName": "fish_ocean_manta_ray.png"
   },
   {
     "id": "fish_ocean_marlin",
@@ -168,7 +186,8 @@
     "catchBlurb": "Something something MARLIN",
     "tier": 1,
     "averageSize": 2.0,
-    "sellValue": 3.0
+    "sellValue": 3.0,
+    "textureName": "fish_ocean_marlin.png"
   },
   {
     "id": "fish_ocean_octopus",
@@ -177,7 +196,8 @@
     "catchBlurb": "How vulgar!",
     "tier": 1,
     "averageSize": 1.0,
-    "sellValue": 3.0
+    "sellValue": 3.0,
+    "textureName": "fish_ocean_octopus.png"
   },
   {
     "id": "fish_ocean_oyster",
@@ -186,7 +206,8 @@
     "catchBlurb": "Oyster? I hardly know 'er!",
     "tier": 0,
     "averageSize": 1.0,
-    "sellValue": 1.0
+    "sellValue": 1.0,
+    "textureName": "fish_ocean_oyster.png"
   },
   {
     "id": "fish_ocean_sawfish",
@@ -195,7 +216,8 @@
     "catchBlurb": "I saw it!",
     "tier": 0,
     "averageSize": 2.0,
-    "sellValue": 5.0
+    "sellValue": 5.0,
+    "textureName": "fish_ocean_sawfish.png"
   },
   {
     "id": "fish_ocean_seahorse",
@@ -204,7 +226,8 @@
     "catchBlurb": "Giddy up!﻿",
     "tier": 1,
     "averageSize": 2.0,
-    "sellValue": 3.0
+    "sellValue": 3.0,
+    "textureName": "fish_ocean_seahorse.png"
   },
   {
     "id": "fish_ocean_sea_turtle",
@@ -213,7 +236,8 @@
     "catchBlurb": "Surf's up!",
     "tier": 2,
     "averageSize": 1.0,
-    "sellValue": 3.0
+    "sellValue": 3.0,
+    "textureName": "fish_ocean_sea_turtle.png"
   },
   {
     "id": "fish_ocean_shrimp",
@@ -222,7 +246,8 @@
     "catchBlurb": "One in a krillion! (this isnt a krill btw)",
     "tier": 0,
     "averageSize": 1.0,
-    "sellValue": 9.0
+    "sellValue": 9.0,
+    "textureName": "fish_ocean_shrimp.png"
   },
   {
     "id": "fish_ocean_squid",
@@ -231,7 +256,8 @@
     "catchBlurb": "A true alien!",
     "tier": 2,
     "averageSize": 2.0,
-    "sellValue": 3.0
+    "sellValue": 3.0,
+    "textureName": "fish_ocean_squid.png"
   },
   {
     "id": "fish_ocean_stingray",
@@ -240,7 +266,8 @@
     "catchBlurb": "What a ripper!",
     "tier": 1,
     "averageSize": 1.0,
-    "sellValue": 3.0
+    "sellValue": 3.0,
+    "textureName": "fish_ocean_stingray.png"
   },
   {
     "id": "fish_ocean_sunfish",
@@ -249,7 +276,8 @@
     "catchBlurb": "Here it comes!",
     "tier": 0,
     "averageSize": 1.0,
-    "sellValue": 3.0
+    "sellValue": 3.0,
+    "textureName": "fish_ocean_sunfish.png"
   },
   {
     "id": "fish_ocean_swordfish",
@@ -258,7 +286,8 @@
     "catchBlurb": "Master duelist!",
     "tier": 1,
     "averageSize": 2.0,
-    "sellValue": 3.0
+    "sellValue": 3.0,
+    "textureName": "fish_ocean_swordfish.png"
   },
   {
     "id": "fish_ocean_tuna",
@@ -267,7 +296,8 @@
     "catchBlurb": "Well this was a tuna fun!",
     "tier": 0,
     "averageSize": 1.0,
-    "sellValue": 2.0
+    "sellValue": 2.0,
+    "textureName": "fish_ocean_tuna.png"
   },
   {
     "id": "fish_ocean_whale",
@@ -276,7 +306,8 @@
     "catchBlurb": "A whale of a time!",
     "tier": 2,
     "averageSize": 2.0,
-    "sellValue": 3.0
+    "sellValue": 3.0,
+    "textureName": "fish_ocean_whale.png"
   },
   {
     "id": "fish_ocean_wolffish",
@@ -285,6 +316,7 @@
     "catchBlurb": "A true alpha.",
     "tier": 1,
     "averageSize": 1.0,
-    "sellValue": 3.0
+    "sellValue": 3.0,
+    "textureName": "fish_ocean_wolffish.png"
   }
 ]

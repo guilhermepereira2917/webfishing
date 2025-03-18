@@ -6,7 +6,8 @@
     "catchBlurb": "Yuck! Who put this in here...",
     "tier": 0,
     "averageSize": 1.0,
-    "sellValue": 1.0
+    "sellValue": 1.0,
+    "textureName": "wtrash_bone.png"
   },
   {
     "id": "wtrash_boot",
@@ -15,7 +16,8 @@
     "catchBlurb": "Yuck! Who put this in here...",
     "tier": 0,
     "averageSize": 1.0,
-    "sellValue": 1.0
+    "sellValue": 1.0,
+    "textureName": "wtrash_boot.png"
   },
   {
     "id": "wtrash_branch",
@@ -24,7 +26,8 @@
     "catchBlurb": "Agh! Caught a snag!",
     "tier": 0,
     "averageSize": 1.0,
-    "sellValue": 5.0
+    "sellValue": 5.0,
+    "textureName": "wtrash_branch.png"
   },
   {
     "id": "wtrash_diamond",
@@ -33,7 +36,8 @@
     "catchBlurb": "Dug right out of the rough!",
     "tier": 0,
     "averageSize": 4.0,
-    "sellValue": 1.0
+    "sellValue": 1.0,
+    "textureName": "wtrash_diamond.png"
   },
   {
     "id": "wtrash_drink_rings",
@@ -42,7 +46,8 @@
     "catchBlurb": "Yuck! Who put this in here...",
     "tier": 0,
     "averageSize": 1.0,
-    "sellValue": 5.0
+    "sellValue": 5.0,
+    "textureName": "wtrash_drink_rings.png"
   },
   {
     "id": "wtrash_plastic_bag",
@@ -51,7 +56,8 @@
     "catchBlurb": "Yuck! Who put this in here...",
     "tier": 0,
     "averageSize": 1.0,
-    "sellValue": 5.0
+    "sellValue": 5.0,
+    "textureName": "wtrash_plastic_bag.png"
   },
   {
     "id": "wtrash_sodacan",
@@ -60,7 +66,8 @@
     "catchBlurb": "Yuck! Who put this in here...",
     "tier": 0,
     "averageSize": 3.0,
-    "sellValue": 5.0
+    "sellValue": 5.0,
+    "textureName": "wtrash_sodacan.png"
   },
   {
     "id": "wtrash_weed",
@@ -69,6 +76,7 @@
     "catchBlurb": "Agh! Caught a snag!",
     "tier": 0,
     "averageSize": 1.0,
-    "sellValue": 5.0
+    "sellValue": 5.0,
+    "textureName": "wtrash_weed.png"
   }
 ]

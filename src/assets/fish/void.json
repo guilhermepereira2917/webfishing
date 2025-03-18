@@ -6,6 +6,7 @@
     "catchBlurb": "NiceCatch!NiceCatch!NiceCatch!NiceCatch!NiceCatch!NiceCatch!NiceCatch!NiceCatch!NiceCatch!NiceCatch!",
     "tier": 1,
     "averageSize": 9.0,
-    "sellValue": 1.0
+    "sellValue": 1.0,
+    "textureName": "fish_void_voidfish.gif"
   }
 ]
