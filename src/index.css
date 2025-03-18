@@ -1,0 +1,62 @@
+@import "tailwindcss";
+
+body,
+#root {
+  min-width: 100vw;
+  min-height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+body {
+  background-color: var(--color-medium-beige);
+
+  font-family: "accid";
+  letter-spacing: 0.12rem;
+}
+
+@font-face {
+  font-family: 'accid';
+  src: url('/font/accid___.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@theme {
+  --font-accid: "accid", sans-serif;
+
+  --color-light-beige: rgb(255, 238, 213);
+  --color-greyed-out-beige: rgb(178, 167, 149);
+  --color-medium-beige: rgb(128, 89, 49);
+  --color-dark-beige: rgb(213, 170, 115);
+
+  --color-light-green: rgb(90, 117, 90);
+  --color-dark-green: rgb(63, 82, 63);
+}
+
+@layer utilities {
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotateY(0deg);
+  }
+
+  100% {
+    transform: rotateY(-360deg);
+  }
+}
+
+.rotate-animation {
+  animation: rotate 6s linear infinite;
+}

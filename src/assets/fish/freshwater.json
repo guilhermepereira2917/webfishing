@@ -1,0 +1,226 @@
+[
+  {
+    "id": "fish_lake_alligator",
+    "name": "Alligator",
+    "description": "Alligator mississippiensis",
+    "catchBlurb": "See you later- !",
+    "tier": 2
+  },
+  {
+    "id": "fish_lake_axolotl",
+    "name": "Axolotl",
+    "description": "Ambystoma mexicanum",
+    "catchBlurb": "Can I ax-olotl you a question? (...I tried, ok?)",
+    "tier": 2
+  },
+  {
+    "id": "fish_lake_bass",
+    "name": "Largemouth Bass",
+    "description": "Micropterus salmoides",
+    "catchBlurb": "Seems out of tune to me.",
+    "tier": 0
+  },
+  {
+    "id": "fish_lake_bluegill",
+    "name": "Bluegill",
+    "description": "Lepomis macrochirus",
+    "catchBlurb": "Bluegill? What a thrill!",
+    "tier": 0
+  },
+  {
+    "id": "fish_lake_bowfin",
+    "name": "Bowfin",
+    "description": "Amia calva",
+    "catchBlurb": "Bowfin deez n-",
+    "tier": 1
+  },
+  {
+    "id": "fish_lake_bullshark",
+    "name": "Bull Shark",
+    "description": "Carcharhinus leucas",
+    "catchBlurb": "Bullshark? Bull S-",
+    "tier": 2
+  },
+  {
+    "id": "fish_lake_carp",
+    "name": "Carp",
+    "description": "Cyprinus carpio",
+    "catchBlurb": "Carp? What a lark!",
+    "tier": 0
+  },
+  {
+    "id": "fish_lake_catfish",
+    "name": "Catfish",
+    "description": "Ictalurus punctatus",
+    "catchBlurb": "He's just like you! But yknow... more... fishy?",
+    "tier": 0
+  },
+  {
+    "id": "fish_lake_crab",
+    "name": "Crab",
+    "description": "Uca minax",
+    "catchBlurb": "Arg!",
+    "tier": 1
+  },
+  {
+    "id": "fish_lake_crappie",
+    "name": "Crappie",
+    "description": "Pomoxis annularis",
+    "catchBlurb": "Holy Crappie!",
+    "tier": 1
+  },
+  {
+    "id": "fish_lake_crayfish",
+    "name": "Crayfish",
+    "description": "Procambarus clarkii",
+    "catchBlurb": "Blah blah blah.",
+    "tier": 0
+  },
+  {
+    "id": "fish_lake_drum",
+    "name": "Drum",
+    "description": "Aplodinotus grunniens",
+    "catchBlurb": "Also known as the Gooble Gobble. Real fact.",
+    "tier": 0
+  },
+  {
+    "id": "fish_lake_frog",
+    "name": "Frog",
+    "description": "Rana temporaria",
+    "catchBlurb": "Cozy Staple.",
+    "tier": 0
+  },
+  {
+    "id": "fish_lake_gar",
+    "name": "Gar",
+    "description": "Atractosteus spatula",
+    "catchBlurb": "Step-Brother of the Alligator!",
+    "tier": 2
+  },
+  {
+    "id": "fish_lake_golden_bass",
+    "name": "Golden Bass",
+    "description": "Micropterus aurum",
+    "catchBlurb": "Woah! What a catch!",
+    "tier": 2
+  },
+  {
+    "id": "fish_lake_goldfish",
+    "name": "Goldfish",
+    "description": "Carassius auratus",
+    "catchBlurb": "We're rich!",
+    "tier": 0
+  },
+  {
+    "id": "fish_lake_guppy",
+    "name": "Guppy",
+    "description": "Poecilia reticulata",
+    "catchBlurb": "Guess you're a guppy puppy!",
+    "tier": 0
+  },
+  {
+    "id": "fish_lake_kingsalmon",
+    "name": "King Salmon",
+    "description": "Oncorhynchus tshawytscha",
+    "catchBlurb": "Royalty!",
+    "tier": 2
+  },
+  {
+    "id": "fish_lake_koi",
+    "name": "Koi",
+    "description": "Cyprinus rubrofuscus",
+    "catchBlurb": "This koi is the boy for me!",
+    "tier": 0
+  },
+  {
+    "id": "fish_lake_leech",
+    "name": "Leech",
+    "description": "Hirudo medicinalis",
+    "catchBlurb": "Bringing back oldschool medicine!",
+    "tier": 1
+  },
+  {
+    "id": "fish_lake_mooneye",
+    "name": "Mooneye",
+    "description": "Hiodon tergisus",
+    "catchBlurb": "Mooneye? At this time?",
+    "tier": 2
+  },
+  {
+    "id": "fish_lake_muskellunge",
+    "name": "Muskellunge",
+    "description": "Esox masquinongy",
+    "catchBlurb": "A muskie!",
+    "tier": 1
+  },
+  {
+    "id": "fish_lake_perch",
+    "name": "Perch",
+    "description": "Perca flavescens",
+    "catchBlurb": "Man am I parched...",
+    "tier": 0
+  },
+  {
+    "id": "fish_lake_pike",
+    "name": "Pike",
+    "description": "Esox lucius",
+    "catchBlurb": "This Piked my interest!",
+    "tier": 1
+  },
+  {
+    "id": "fish_lake_pupfish",
+    "name": "Pupfish",
+    "description": "Cyprinodon pachycephalus",
+    "catchBlurb": "A little puppy!",
+    "tier": 2
+  },
+  {
+    "id": "fish_lake_rainbowtrout",
+    "name": "Rainbow Trout",
+    "description": "Oncorhynchus mykiss",
+    "catchBlurb": "These fishes gay. Good for them, good for them.",
+    "tier": 0
+  },
+  {
+    "id": "fish_lake_salmon",
+    "name": "Salmon",
+    "description": "Oncorhynchus nerka",
+    "catchBlurb": "It's Sal' good, 'mon!",
+    "tier": 0
+  },
+  {
+    "id": "fish_lake_snail",
+    "name": "Snail",
+    "description": "Lymnaea stagnalis",
+    "catchBlurb": "Meow?",
+    "tier": 0
+  },
+  {
+    "id": "fish_lake_sturgeon",
+    "name": "Sturgeon",
+    "description": "Acipenser fulvescens",
+    "catchBlurb": "I want a second opinion.",
+    "tier": 0
+  },
+  {
+    "id": "fish_lake_toad",
+    "name": "Toad",
+    "description": "Bufo bufo",
+    "catchBlurb": "What a boy!",
+    "tier": 1
+  },
+  {
+    "id": "fish_lake_turtle",
+    "name": "Turtle",
+    "description": "Actinemys marmorata",
+    "catchBlurb": "This catch was quite the hurdle!",
+    "tier": 1
+  },
+  {
+    "id": "fish_lake_walleye",
+    "name": "Walleye",
+    "description": "Sander vitreus",
+    "catchBlurb": "Walleye? What a guy!",
+    "tier": 0
+  }
+]
