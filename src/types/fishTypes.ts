@@ -1,7 +1,7 @@
 enum FishTypesEnum {
-  FRESHWATER,
-  SALTWATER,
-  MISC,
+  FRESHWATER = 'freshwater',
+  SALTWATER = 'saltwater',
+  MISC = 'misc',
 }
 
 export default FishTypesEnum

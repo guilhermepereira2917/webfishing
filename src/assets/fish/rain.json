@@ -1,0 +1,30 @@
+[
+  {
+    "id": "fish_rain_anomalocaris",
+    "name": "Anomalocaris",
+    "description": "Anomalocaris canadensis",
+    "catchBlurb": "Doing it's best :)",
+    "tier": 0
+  },
+  {
+    "id": "fish_rain_heliocoprion",
+    "name": "Helicoprion",
+    "description": "Helicoprion bessonowi",
+    "catchBlurb": "Nature's pizza cutter!",
+    "tier": 1
+  },
+  {
+    "id": "fish_rain_horseshoe_crab",
+    "name": "Horseshoe Crab",
+    "description": "Tachypleus tridentatus",
+    "catchBlurb": "Guess it's my lucky day!",
+    "tier": 0
+  },
+  {
+    "id": "fish_rain_leedsichthys",
+    "name": "Leedsichthys",
+    "description": "Leedsichthys problematicus",
+    "catchBlurb": "A giant!",
+    "tier": 2
+  }
+]
