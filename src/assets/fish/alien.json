@@ -4,6 +4,8 @@
     "name": "Unidentified Fish Object",
     "description": "Alienus Caninus",
     "catchBlurb": "...what? the fuck?",
-    "tier": 1
+    "tier": 1,
+    "averageSize": 9.0,
+    "sellValue": 8.0
   }
 ]

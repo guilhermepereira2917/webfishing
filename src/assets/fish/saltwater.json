@@ -4,223 +4,287 @@
     "name": "Angelfish",
     "description": "Pterophyllum scalare",
     "catchBlurb": "Obtuse or acute? (... did i read that right?).",
-    "tier": 0
+    "tier": 0,
+    "averageSize": 2.0,
+    "sellValue": 1.0
   },
   {
     "id": "fish_ocean_atlantic_salmon",
     "name": "Atlantic Salmon",
     "description": "Salmo salar",
     "catchBlurb": "It's like non-atlantic salmon but atlantic",
-    "tier": 0
+    "tier": 0,
+    "averageSize": 3.0,
+    "sellValue": 9.0
   },
   {
     "id": "fish_ocean_bluefish",
     "name": "Bluefish",
     "description": "Pomatomus saltatrix",
     "catchBlurb": "One fish, two fish, red fish...",
-    "tier": 0
+    "tier": 0,
+    "averageSize": 8.0,
+    "sellValue": 1.0
   },
   {
     "id": "fish_ocean_clownfish",
     "name": "Clownfish",
     "description": "Amphiprion ocellaris",
     "catchBlurb": "Well this isnt so scary...",
-    "tier": 0
+    "tier": 0,
+    "averageSize": 1.0,
+    "sellValue": 9.0
   },
   {
     "id": "fish_ocean_coalacanth",
     "name": "Coelacanth",
     "description": "Latimeria chalumnae",
     "catchBlurb": "Did you see it? I can't!",
-    "tier": 2
+    "tier": 2,
+    "averageSize": 1.0,
+    "sellValue": 3.0
   },
   {
     "id": "fish_ocean_dogfish",
     "name": "Dogfish",
     "description": "Squalus acanthias",
     "catchBlurb": "He's just like you! But yknow... more... fishy?",
-    "tier": 0
+    "tier": 0,
+    "averageSize": 8.0,
+    "sellValue": 2.0
   },
   {
     "id": "fish_ocean_eel",
     "name": "Eel",
     "description": "Anguilla anguilla",
     "catchBlurb": "Eel? EEL!",
-    "tier": 0
+    "tier": 0,
+    "averageSize": 5.0,
+    "sellValue": 3.0
   },
   {
     "id": "fish_ocean_flounder",
     "name": "Flounder",
     "description": "Paralichthys dentatus",
     "catchBlurb": "Flounder? I hardly know 'er!",
-    "tier": 0
+    "tier": 0,
+    "averageSize": 4.0,
+    "sellValue": 1.0
   },
   {
     "id": "fish_ocean_golden_manta_ray",
     "name": "Golden Manta Ray",
     "description": "Mobula aurum",
     "catchBlurb": "Woah! What a catch!",
-    "tier": 2
+    "tier": 2,
+    "averageSize": 6.0,
+    "sellValue": 3.0
   },
   {
     "id": "fish_ocean_greatwhiteshark",
     "name": "Great White Shark",
     "description": "Carcharodon carcharias",
     "catchBlurb": "Do I smell blood...?",
-    "tier": 2
+    "tier": 2,
+    "averageSize": 1.0,
+    "sellValue": 3.0
   },
   {
     "id": "fish_ocean_grouper",
     "name": "Grouper",
     "description": "Mycteroperca bonaci",
     "catchBlurb": "Grouper? I hardly know 'er!",
-    "tier": 0
+    "tier": 0,
+    "averageSize": 1.0,
+    "sellValue": 1.0
   },
   {
     "id": "fish_ocean_hammerhead_shark",
     "name": "Hammerhead Shark",
     "description": "Sphyrna mokarran",
     "catchBlurb": "Guess you hit the nail on the head!",
-    "tier": 1
+    "tier": 1,
+    "averageSize": 3.0,
+    "sellValue": 3.0
   },
   {
     "id": "fish_ocean_herring",
     "name": "Herring",
     "description": "Clupea harengus",
     "catchBlurb": "Huh... this isnt red...",
-    "tier": 0
+    "tier": 0,
+    "averageSize": 3.0,
+    "sellValue": 9.0
   },
   {
     "id": "fish_ocean_krill",
     "name": "Krill",
     "description": "Euphausia superba",
     "catchBlurb": "Shrimply impressive! (this isnt a shrimp btw)",
-    "tier": 0
+    "tier": 0,
+    "averageSize": 5.0,
+    "sellValue": 5.0
   },
   {
     "id": "fish_ocean_lionfish",
     "name": "Lionfish",
     "description": "Pterois volitans",
     "catchBlurb": "Well I ain't callin' you a truther!",
-    "tier": 1
+    "tier": 1,
+    "averageSize": 3.0,
+    "sellValue": 3.0
   },
   {
     "id": "fish_ocean_lobster",
     "name": "Lobster",
     "description": "Homarus americanus",
     "catchBlurb": "What a beaut!",
-    "tier": 0
+    "tier": 0,
+    "averageSize": 7.0,
+    "sellValue": 1.0
   },
   {
     "id": "fish_ocean_manowar",
     "name": "Man O' War",
     "description": "Physalia physalis",
     "catchBlurb": "ok you should probably not be holding this",
-    "tier": 2
+    "tier": 2,
+    "averageSize": 3.0,
+    "sellValue": 3.0
   },
   {
     "id": "fish_ocean_manta_ray",
     "name": "Manta Ray",
     "description": "Mobula birostris",
     "catchBlurb": "The butterfly of the sea!",
-    "tier": 2
+    "tier": 2,
+    "averageSize": 6.0,
+    "sellValue": 3.0
   },
   {
     "id": "fish_ocean_marlin",
     "name": "Marlin",
     "description": "Makaira nigricans",
     "catchBlurb": "Something something MARLIN",
-    "tier": 1
+    "tier": 1,
+    "averageSize": 2.0,
+    "sellValue": 3.0
   },
   {
     "id": "fish_ocean_octopus",
     "name": "Octopus",
     "description": "Octopus vulgaris",
     "catchBlurb": "How vulgar!",
-    "tier": 1
+    "tier": 1,
+    "averageSize": 1.0,
+    "sellValue": 3.0
   },
   {
     "id": "fish_ocean_oyster",
     "name": "Oyster",
     "description": "Crassostrea gigas",
     "catchBlurb": "Oyster? I hardly know 'er!",
-    "tier": 0
+    "tier": 0,
+    "averageSize": 1.0,
+    "sellValue": 1.0
   },
   {
     "id": "fish_ocean_sawfish",
     "name": "Sawfish",
     "description": "Pristis perotteti",
     "catchBlurb": "I saw it!",
-    "tier": 0
+    "tier": 0,
+    "averageSize": 2.0,
+    "sellValue": 5.0
   },
   {
     "id": "fish_ocean_seahorse",
     "name": "Seahorse",
     "description": "Hippocampus kuda",
     "catchBlurb": "Giddy up!﻿",
-    "tier": 1
+    "tier": 1,
+    "averageSize": 2.0,
+    "sellValue": 3.0
   },
   {
     "id": "fish_ocean_sea_turtle",
     "name": "Sea Turtle",
     "description": "Chelonia mydas",
     "catchBlurb": "Surf's up!",
-    "tier": 2
+    "tier": 2,
+    "averageSize": 1.0,
+    "sellValue": 3.0
   },
   {
     "id": "fish_ocean_shrimp",
     "name": "Shrimp",
     "description": "Pandalus borealis",
     "catchBlurb": "One in a krillion! (this isnt a krill btw)",
-    "tier": 0
+    "tier": 0,
+    "averageSize": 1.0,
+    "sellValue": 9.0
   },
   {
     "id": "fish_ocean_squid",
     "name": "Squid",
     "description": "Dosidicus gigas",
     "catchBlurb": "A true alien!",
-    "tier": 2
+    "tier": 2,
+    "averageSize": 2.0,
+    "sellValue": 3.0
   },
   {
     "id": "fish_ocean_stingray",
     "name": "Sting Ray",
     "description": "Dasyatis pastinaca",
     "catchBlurb": "What a ripper!",
-    "tier": 1
+    "tier": 1,
+    "averageSize": 1.0,
+    "sellValue": 3.0
   },
   {
     "id": "fish_ocean_sunfish",
     "name": "Sunfish",
     "description": "Mola mola",
     "catchBlurb": "Here it comes!",
-    "tier": 0
+    "tier": 0,
+    "averageSize": 1.0,
+    "sellValue": 3.0
   },
   {
     "id": "fish_ocean_swordfish",
     "name": "Swordfish",
     "description": "Xiphias gladius",
     "catchBlurb": "Master duelist!",
-    "tier": 1
+    "tier": 1,
+    "averageSize": 2.0,
+    "sellValue": 3.0
   },
   {
     "id": "fish_ocean_tuna",
     "name": "Tuna",
     "description": "Thunnus alalunga",
     "catchBlurb": "Well this was a tuna fun!",
-    "tier": 0
+    "tier": 0,
+    "averageSize": 1.0,
+    "sellValue": 2.0
   },
   {
     "id": "fish_ocean_whale",
     "name": "Whale",
     "description": "Balaenoptera musculus",
     "catchBlurb": "A whale of a time!",
-    "tier": 2
+    "tier": 2,
+    "averageSize": 2.0,
+    "sellValue": 3.0
   },
   {
     "id": "fish_ocean_wolffish",
     "name": "Wolffish",
     "description": "Anarhichas lupus",
     "catchBlurb": "A true alpha.",
-    "tier": 1
+    "tier": 1,
+    "averageSize": 1.0,
+    "sellValue": 3.0
   }
 ]

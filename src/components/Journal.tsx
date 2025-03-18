@@ -67,14 +67,21 @@ export default function Journal(): ReactNode {
             )}
           </div>
 
-          <div className="w-full h-2/5 p-4 bg-dark-beige rounded-4xl">
+          <div className="w-full h-2/5 p-4 bg-dark-beige rounded-4xl overflow-y-scroll no-scrollbar">
             {selectedFish && (
               <p className="text-2xl text-wrap break-words">
                 <span>{selectedFish.name}</span> <br />
                 <span className="text-medium-beige">{selectedFish.description}</span> <br />
                 <span className="text-light-beige">{selectedFish.catchBlurb}</span> <br />
+
                 <span className="text-medium-beige">Tier: </span>
-                <span className="text-light-beige">{selectedFish.tier + 1}</span>
+                <span className="text-light-beige">{selectedFish.tier + 1}</span> <br />
+
+                <span className="text-medium-beige">Sell Value: </span>
+                <span className="text-light-beige">${selectedFish.sellValue}</span> <br />
+
+                <span className="text-medium-beige">Average Size: </span>
+                <span className="text-light-beige">{selectedFish.averageSize}.0 m</span> <br />
               </p>
             )}
           </div>

@@ -4,55 +4,71 @@
     "name": "Bone",
     "description": "What a story!",
     "catchBlurb": "Yuck! Who put this in here...",
-    "tier": 0
+    "tier": 0,
+    "averageSize": 1.0,
+    "sellValue": 1.0
   },
   {
     "id": "wtrash_boot",
     "name": "Old Boot",
     "description": "Don't Litter!",
     "catchBlurb": "Yuck! Who put this in here...",
-    "tier": 0
+    "tier": 0,
+    "averageSize": 1.0,
+    "sellValue": 1.0
   },
   {
     "id": "wtrash_branch",
     "name": "Branch",
     "description": "Stick!",
     "catchBlurb": "Agh! Caught a snag!",
-    "tier": 0
+    "tier": 0,
+    "averageSize": 1.0,
+    "sellValue": 5.0
   },
   {
     "id": "wtrash_diamond",
     "name": "Diamond",
     "description": "Shiny!",
     "catchBlurb": "Dug right out of the rough!",
-    "tier": 0
+    "tier": 0,
+    "averageSize": 4.0,
+    "sellValue": 1.0
   },
   {
     "id": "wtrash_drink_rings",
     "name": "Drink Rings",
     "description": "Don't Litter!",
     "catchBlurb": "Yuck! Who put this in here...",
-    "tier": 0
+    "tier": 0,
+    "averageSize": 1.0,
+    "sellValue": 5.0
   },
   {
     "id": "wtrash_plastic_bag",
     "name": "Plastic Bag",
     "description": "Don't Litter!",
     "catchBlurb": "Yuck! Who put this in here...",
-    "tier": 0
+    "tier": 0,
+    "averageSize": 1.0,
+    "sellValue": 5.0
   },
   {
     "id": "wtrash_sodacan",
     "name": "Soda Can",
     "description": "Don't Litter!",
     "catchBlurb": "Yuck! Who put this in here...",
-    "tier": 0
+    "tier": 0,
+    "averageSize": 3.0,
+    "sellValue": 5.0
   },
   {
     "id": "wtrash_weed",
     "name": "Weed",
     "description": "Weed!",
     "catchBlurb": "Agh! Caught a snag!",
-    "tier": 0
+    "tier": 0,
+    "averageSize": 1.0,
+    "sellValue": 5.0
   }
 ]

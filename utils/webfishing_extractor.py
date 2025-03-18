@@ -33,6 +33,9 @@ name_pattern = re.compile(r'item_name\s*=\s*"(.+?)"')
 desc_pattern = re.compile(r'item_description\s*=\s*"(.+?)"')
 catch_blurb_pattern = re.compile(r'catch_blurb\s*=\s*"(.+?)"')
 tier_pattern = re.compile(r'tier\s*=\s*(.+?)')
+average_size_pattern = re.compile(r'average_size\s*=\s*(.+?)')
+sell_value_pattern = re.compile(r'sell_value\s*=\s*(.+?)')
+
 texture_pattern = re.compile(r'path="res://(.+?)" type="Texture"')
 
 for index, folder in enumerate(fish_folders):
@@ -52,6 +55,8 @@ for index, folder in enumerate(fish_folders):
         desc_match = desc_pattern.search(content)
         catch_blurb_match = catch_blurb_pattern.search(content)
         tier_match = tier_pattern.search(content)
+        average_size_match = average_size_pattern.search(content)
+        sell_value_match = sell_value_pattern.search(content)
 
         texture_match = texture_pattern.search(content)
         texture_path = os.path.join(sources_path, texture_match.group(1))
@@ -65,6 +70,8 @@ for index, folder in enumerate(fish_folders):
             "description": desc_match.group(1),
             "catchBlurb": catch_blurb_match.group(1),
             "tier": int(tier_match.group(1)),
+            "averageSize": float(average_size_match.group(1)),
+            "sellValue": float(sell_value_match.group(1)),
           })
     
   json_file = os.path.join(os.path.dirname(__file__), "..", f"src\\assets\\fish\\{save_names[index]}.json")

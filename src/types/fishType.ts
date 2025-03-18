@@ -4,4 +4,6 @@ export default interface Fish {
   description: string,
   catchBlurb: string,
   tier: number,
+  sellValue: number,
+  averageSize: number,
 }

@@ -4,6 +4,8 @@
     "name": "CREATURE",
     "description": "rraim eor",
     "catchBlurb": "NiceCatch!NiceCatch!NiceCatch!NiceCatch!NiceCatch!NiceCatch!NiceCatch!NiceCatch!NiceCatch!NiceCatch!",
-    "tier": 1
+    "tier": 1,
+    "averageSize": 9.0,
+    "sellValue": 1.0
   }
 ]
