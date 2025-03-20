@@ -19,7 +19,7 @@ jobs:
             yarn-deps-${{ hashFiles('yarn.lock') }}
       # Build the static site
       - name: Create static build
-        run: npm install && npm run build
+        run: yarn install && yarn run build
       # Upload the artifact for other stages to use
       - name: Share artifact in github workflow
         uses: actions/upload-artifact@v4.6.2
