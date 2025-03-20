@@ -1,7 +1,8 @@
 import { ReactNode, useEffect, useState } from "react";
-import FishTypesEnum from "../types/fishTypes";
 import fishApi from "../api/fishApi";
 import Fish from "../types/fishType";
+import FishTypesEnum from "../types/fishTypes";
+import Container from "./Container";
 
 export default function Journal(): ReactNode {
   const [selectedTabIndex, setSelectedTabIndex] = useState(0)
@@ -15,11 +16,7 @@ export default function Journal(): ReactNode {
   }, [selectedTabIndex])
 
   return (
-    <main className="relative w-[1140px] h-[640px] bg-light-beige rounded-4xl">
-      <div className="absolute -rotate-3 -translate-1/2 bg-light-green text-xl text-light-beige py-3 px-12 rounded-4xl">
-        journal
-      </div>
-
+    <Container name="journal">
       <div className="flex w-full h-full gap-4 p-4 pt-8">
         <div className="flex flex-col gap-4 w-4/6">
           <div className="flex w-full items-start justify-evenly gap-2">
@@ -87,6 +84,6 @@ export default function Journal(): ReactNode {
           </div>
         </div>
       </div>
-    </main>
+    </Container>
   )
 }

@@ -17,6 +17,10 @@ body {
   letter-spacing: 0.12rem;
 }
 
+#root {
+  align-items: start;
+}
+
 @font-face {
   font-family: 'accid';
   src: url('/font/accid___.ttf') format('truetype');
@@ -44,6 +48,16 @@ body {
   .no-scrollbar {
     -ms-overflow-style: none;
     scrollbar-width: none;
+  }
+
+  .render-pixelated {
+    image-rendering: optimizeSpeed;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: -o-crisp-edges;
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: pixelated;
+    image-rendering: optimize-contrast;
+    -ms-interpolation-mode: nearest-neighbor;
   }
 }
 
