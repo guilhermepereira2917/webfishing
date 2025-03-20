@@ -1,9 +1,9 @@
-import freshWaterFish from "../assets/fish/freshwater.json";
-import saltWaterFish from "../assets/fish/saltwater.json";
-import rainFish from "../assets/fish/rain.json";
-import voidFish from "../assets/fish/void.json";
-import alienFish from "../assets/fish/alien.json";
-import junkFish from "../assets/fish/junk.json";
+import freshWaterFish from "../data/fishes/freshwater.json";
+import saltWaterFish from "../data/fishes/saltwater.json";
+import rainFish from "../data/fishes/rain.json";
+import voidFish from "../data/fishes/void.json";
+import alienFish from "../data/fishes/alien.json";
+import junkFish from "../data/fishes/junk.json";
 
 import Fish from "../types/fishType";
 import FishTypesEnum from "../types/fishTypes";
@@ -25,11 +25,11 @@ const miscFish = [
 ].flat()
 
 const fishApi = {
-  getAllFish: (): Fish[] => {
+  getAllFishes: (): Fish[] => {
     return allFish
   },
 
-  getAllFishByType(type: FishTypesEnum): Fish[] {
+  getFishesByType(type: FishTypesEnum): Fish[] {
     switch (type) {
       case FishTypesEnum.FRESHWATER: return freshWaterFish
       case FishTypesEnum.SALTWATER: return saltWaterFish

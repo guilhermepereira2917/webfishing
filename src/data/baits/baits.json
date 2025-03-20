@@ -1,0 +1,226 @@
+[
+  {
+    "id": "worms",
+    "name": "Worms",
+    "description": "Low Quality Cheap Bait\nCatches Low Tier fish only",
+    "cost": 0,
+    "qualities": [
+      {
+        "quality": "normal",
+        "chance": 1
+      },
+      {
+        "quality": "shining",
+        "chance": 0
+      },
+      {
+        "quality": "glistening",
+        "chance": 0
+      },
+      {
+        "quality": "opulent",
+        "chance": 0
+      },
+      {
+        "quality": "radiant",
+        "chance": 0
+      },
+      {
+        "quality": "alpha",
+        "chance": 0
+      }
+    ]
+  },
+  {
+    "id": "cricket",
+    "name": "Cricket",
+    "description": "Standard Quality Cheap Bait\nCatches all Tiers of fish\nLow chance of finding SHINING fish",
+    "cost": 20,
+    "qualities": [
+      {
+        "quality": "normal",
+        "chance": 0.95
+      },
+      {
+        "quality": "shining",
+        "chance": 0.05
+      },
+      {
+        "quality": "glistening",
+        "chance": 0
+      },
+      {
+        "quality": "opulent",
+        "chance": 0
+      },
+      {
+        "quality": "radiant",
+        "chance": 0
+      },
+      {
+        "quality": "alpha",
+        "chance": 0
+      }
+    ]
+  },
+  {
+    "id": "leech",
+    "name": "Leech",
+    "description": "Above Standard Quality Bait\nCatches all Tiers of fish\nLow chance of finding GLISTENING fish",
+    "cost": 50,
+    "qualities": [
+      {
+        "quality": "normal",
+        "chance": 0.8075
+      },
+      {
+        "quality": "shining",
+        "chance": 0.1425
+      },
+      {
+        "quality": "glistening",
+        "chance": 0.5
+      },
+      {
+        "quality": "opulent",
+        "chance": 0
+      },
+      {
+        "quality": "radiant",
+        "chance": 0
+      },
+      {
+        "quality": "alpha",
+        "chance": 0
+      }
+    ]
+  },
+  {
+    "id": "minnow",
+    "name": "Minnow",
+    "description": "High Quality Bait\nCatches all Tiers of fish\nLow chance of finding OPULENT fish",
+    "cost": 100,
+    "qualities": [
+      {
+        "quality": "normal",
+        "chance": 0.3562
+      },
+      {
+        "quality": "shining",
+        "chance": 0.3563
+      },
+      {
+        "quality": "glistening",
+        "chance": 0.2375
+      },
+      {
+        "quality": "opulent",
+        "chance": 0.5
+      },
+      {
+        "quality": "radiant",
+        "chance": 0
+      },
+      {
+        "quality": "alpha",
+        "chance": 0
+      }
+    ]
+  },
+  {
+    "id": "squid",
+    "name": "Squid",
+    "description": "Very High Quality Bait\nCatches all Tiers of fish\nLow chance of finding RADIANT fish",
+    "cost": 200,
+    "qualities": [
+      {
+        "quality": "normal",
+        "chance": 0.888
+      },
+      {
+        "quality": "shining",
+        "chance": 0.3553
+      },
+      {
+        "quality": "glistening",
+        "chance": 0.3634
+      },
+      {
+        "quality": "opulent",
+        "chance": 0.1425
+      },
+      {
+        "quality": "radiant",
+        "chance": 0.5
+      },
+      {
+        "quality": "alpha",
+        "chance": 0
+      }
+    ]
+  },
+  {
+    "id": "nautilus",
+    "name": "Nautilus",
+    "description": "Pristine Quality Bait\nCatches all Tiers of fish\nLow chance of finding ALPHA fish",
+    "cost": 500,
+    "qualities": [
+      {
+        "quality": "normal",
+        "chance": 0.0016
+      },
+      {
+        "quality": "shining",
+        "chance": 0.786
+      },
+      {
+        "quality": "glistening",
+        "chance": 0.2405
+      },
+      {
+        "quality": "opulent",
+        "chance": 0.3919
+      },
+      {
+        "quality": "radiant",
+        "chance": 0.2375
+      },
+      {
+        "quality": "alpha",
+        "chance": 0.5
+      }
+    ]
+  },
+  {
+    "id": "gilded_worm",
+    "name": "Gilded Worm",
+    "description": "Pristine Quality Bait\nCatches all Tiers of fish\nBest chance of finding ALPHA fish",
+    "cost": 1200,
+    "qualities": [
+      {
+        "quality": "normal",
+        "chance": 0.000149
+      },
+      {
+        "quality": "shining",
+        "chance": 0.147
+      },
+      {
+        "quality": "glistening",
+        "chance": 0.842
+      },
+      {
+        "quality": "opulent",
+        "chance": 0.297
+      },
+      {
+        "quality": "radiant",
+        "chance": 0.484
+      },
+      {
+        "quality": "alpha",
+        "chance": 0.12
+      }
+    ]
+  }
+]

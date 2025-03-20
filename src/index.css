@@ -11,7 +11,7 @@ body,
 }
 
 body {
-  background-color: var(--color-medium-beige);
+  background-color: var(--color-dark-beige);
 
   font-family: "accid";
   letter-spacing: 0.12rem;
@@ -33,8 +33,9 @@ body {
 
   --color-light-beige: rgb(255, 238, 213);
   --color-greyed-out-beige: rgb(178, 167, 149);
-  --color-medium-beige: rgb(128, 89, 49);
-  --color-dark-beige: rgb(213, 170, 115);
+  --color-medium-beige: rgb(213, 170, 115);
+  --color-dark-beige: rgb(128, 89, 49);
+  --color-dark-beige-alternative: rgb(106, 68, 32);
 
   --color-light-green: rgb(90, 117, 90);
   --color-dark-green: rgb(63, 82, 63);

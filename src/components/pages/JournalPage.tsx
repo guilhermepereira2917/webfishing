@@ -1,17 +1,17 @@
 import { ReactNode, useEffect, useState } from "react";
-import fishApi from "../api/fishApi";
-import Fish from "../types/fishType";
-import FishTypesEnum from "../types/fishTypes";
-import Container from "./Container";
+import fishApi from "../../api/fishApi";
+import Fish from "../../types/fishType";
+import FishTypesEnum from "../../types/fishTypes";
+import Container from "../Container";
 
-export default function Journal(): ReactNode {
+export default function JournalPage(): ReactNode {
   const [selectedTabIndex, setSelectedTabIndex] = useState(0)
-  const [fishList, setFishList] = useState<Fish[]>(fishApi.getAllFish())
+  const [fishList, setFishList] = useState<Fish[]>(fishApi.getAllFishes())
   const [selectedFish, setSelectedFish] = useState<Fish | null>(null)
 
   useEffect(() => {
     const fishType = Object.values(FishTypesEnum)[selectedTabIndex] as FishTypesEnum
-    const fish = fishApi.getAllFishByType(fishType)
+    const fish = fishApi.getFishesByType(fishType)
     setFishList(fish)
   }, [selectedTabIndex])
 
@@ -29,14 +29,14 @@ export default function Journal(): ReactNode {
               }
 
               return (
-                <button onClick={handleClick} key={type} className={`${style} w-full text-center px-2 text-2xl rounded-xl cursor-pointer`}>
+                <button onClick={handleClick} key={type} className={`${style} w-full text-center px-2 rounded-xl cursor-pointer`}>
                   {type}
                 </button>
               )
             })}
           </div>
 
-          <div className="bg-dark-beige w-full h-full rounded-4xl overflow-y-scroll no-scrollbar">
+          <div className="bg-medium-beige w-full h-full rounded-4xl overflow-y-scroll no-scrollbar">
             <div className="flex flex-wrap gap-1 w-full p-4">
               {fishList.map((fish: Fish): ReactNode => {
 
@@ -50,7 +50,7 @@ export default function Journal(): ReactNode {
                     key={fish.id}
                     className="flex items-center justify-center w-[165px] h-[90px] bg-light-beige rounded-4xl cursor-pointer"
                   >
-                    <img src={`/img/fish/${fish.textureName}`} className="h-full" alt={fish.description} />
+                    <img src={`/img/fishes/${fish.textureName}`} className="h-full" alt={fish.description} />
                   </button>
                 )
               })}
@@ -58,26 +58,26 @@ export default function Journal(): ReactNode {
           </div>
         </div>
         <div className="flex flex-col gap-4 w-2/6 h-full">
-          <div className="flex items-center justify-center w-full h-3/5 bg-dark-beige rounded-4xl">
+          <div className="flex items-center justify-center w-full h-3/5 bg-medium-beige rounded-4xl">
             {selectedFish && (
-              <img className="rotate-animation" src={`/img/fish/${selectedFish.textureName}`} alt={selectedFish.description} />
+              <img className="rotate-animation" src={`/img/fishes/${selectedFish.textureName}`} alt={selectedFish.description} />
             )}
           </div>
 
-          <div className="w-full h-2/5 p-4 bg-dark-beige rounded-4xl overflow-y-scroll no-scrollbar">
+          <div className="w-full h-2/5 p-4 bg-medium-beige rounded-4xl overflow-y-scroll no-scrollbar">
             {selectedFish && (
-              <p className="text-2xl text-wrap break-words">
+              <p className="text-wrap break-words">
                 <span>{selectedFish.name}</span> <br />
-                <span className="text-medium-beige">{selectedFish.description}</span> <br />
+                <span className="text-dark-beige">{selectedFish.description}</span> <br />
                 <span className="text-light-beige">{selectedFish.catchBlurb}</span> <br />
 
-                <span className="text-medium-beige">Tier: </span>
+                <span className="text-dark-beige">Tier: </span>
                 <span className="text-light-beige">{selectedFish.tier + 1}</span> <br />
 
-                <span className="text-medium-beige">Sell Value: </span>
+                <span className="text-dark-beige">Sell Value: </span>
                 <span className="text-light-beige">${selectedFish.sellValue}</span> <br />
 
-                <span className="text-medium-beige">Average Size: </span>
+                <span className="text-dark-beige">Average Size: </span>
                 <span className="text-light-beige">{selectedFish.averageSize}.0 m</span> <br />
               </p>
             )}

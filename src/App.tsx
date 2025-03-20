@@ -1,14 +1,14 @@
 import { useState } from "react"
-import Journal from "./components/Journal"
+import JournalPage from "./components/pages/JournalPage"
 import TabSelector from "./components/TabSelector"
-import Baits from "./components/Baits"
+import BaitsAndLuresPage from "./components/pages/BaitsAndLuresPage"
 
 function App() {
   const [selectedTab, setSelectedTab] = useState<number>(0)
-  const component = selectedTab == 0 ? <Journal /> : <Baits />
+  const component = selectedTab == 0 ? <JournalPage /> : <BaitsAndLuresPage />
 
   return (
-    <div>
+    <div className="text-2xl">
       <TabSelector setSelectedTab={setSelectedTab} />
       {component}
     </div>
