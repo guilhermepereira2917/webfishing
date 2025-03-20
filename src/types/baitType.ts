@@ -5,5 +5,6 @@ export default interface Bait {
   name: string,
   description: string,
   cost: number,
+  maxTier: number,
   qualities: { quality: Quality | string, chance: number }[]
 }

@@ -67,17 +67,17 @@ export default function JournalPage(): ReactNode {
           <div className="w-full h-2/5 p-4 bg-medium-beige rounded-4xl overflow-y-scroll no-scrollbar">
             {selectedFish && (
               <p className="text-wrap break-words">
-                <span>{selectedFish.name}</span> <br />
-                <span className="text-dark-beige">{selectedFish.description}</span> <br />
+                <span className="text-dark-beige-alternative">{selectedFish.name}</span> <br />
+                <span className="text-light-beige-alternative">{selectedFish.description}</span> <br />
                 <span className="text-light-beige">{selectedFish.catchBlurb}</span> <br />
 
-                <span className="text-dark-beige">Tier: </span>
+                <span className="text-dark-beige-alternative">Tier: </span>
                 <span className="text-light-beige">{selectedFish.tier + 1}</span> <br />
 
-                <span className="text-dark-beige">Sell Value: </span>
+                <span className="text-dark-beige-alternative">Sell Value: </span>
                 <span className="text-light-beige">${selectedFish.sellValue}</span> <br />
 
-                <span className="text-dark-beige">Average Size: </span>
+                <span className="text-dark-beige-alternative">Average Size: </span>
                 <span className="text-light-beige">{selectedFish.averageSize}.0 m</span> <br />
               </p>
             )}

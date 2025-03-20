@@ -28,10 +28,11 @@ body {
   font-style: normal;
 }
 
-@theme {
+@theme static {
   --font-accid: "accid", sans-serif;
 
   --color-light-beige: rgb(255, 238, 213);
+  --color-light-beige-alternative: rgb(180, 129, 65);
   --color-greyed-out-beige: rgb(178, 167, 149);
   --color-medium-beige: rgb(213, 170, 115);
   --color-dark-beige: rgb(128, 89, 49);
@@ -39,6 +40,20 @@ body {
 
   --color-light-green: rgb(90, 117, 90);
   --color-dark-green: rgb(63, 82, 63);
+
+  --color-quality-normal: rgb(213, 170, 115);
+  --color-quality-shining: rgb(213, 170, 115);
+  --color-quality-glistening: rgb(164, 157, 156);
+  --color-quality-opulent: rgb(0, 133, 131);
+  --color-quality-radiant: rgb(230, 157, 0);
+  --color-quality-alpha: rgb(205, 4, 98);
+
+  --color-quality-normal-text: var(--color-dark-beige);
+  --color-quality-shining-text: var(--color-dark-beige);
+  --color-quality-glistening-text: rgb(164, 157, 156);
+  --color-quality-opulent-text: rgb(0, 133, 131);
+  --color-quality-radiant-text: rgb(169, 134, 0);
+  --color-quality-alpha-text: rgb(205, 4, 98);
 }
 
 @layer utilities {

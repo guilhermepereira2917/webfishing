@@ -1,9 +1,18 @@
 [
   {
+    "id": "no_bait",
+    "name": "No Bait",
+    "description": "",
+    "cost": 0,
+    "maxTier": 1,
+    "qualities": []
+  },
+  {
     "id": "worms",
     "name": "Worms",
     "description": "Low Quality Cheap Bait\nCatches Low Tier fish only",
     "cost": 0,
+    "maxTier": 2,
     "qualities": [
       {
         "quality": "normal",
@@ -36,6 +45,7 @@
     "name": "Cricket",
     "description": "Standard Quality Cheap Bait\nCatches all Tiers of fish\nLow chance of finding SHINING fish",
     "cost": 20,
+    "maxTier": 3,
     "qualities": [
       {
         "quality": "normal",
@@ -68,6 +78,7 @@
     "name": "Leech",
     "description": "Above Standard Quality Bait\nCatches all Tiers of fish\nLow chance of finding GLISTENING fish",
     "cost": 50,
+    "maxTier": 3,
     "qualities": [
       {
         "quality": "normal",
@@ -79,7 +90,7 @@
       },
       {
         "quality": "glistening",
-        "chance": 0.5
+        "chance": 0.05
       },
       {
         "quality": "opulent",
@@ -100,6 +111,7 @@
     "name": "Minnow",
     "description": "High Quality Bait\nCatches all Tiers of fish\nLow chance of finding OPULENT fish",
     "cost": 100,
+    "maxTier": 3,
     "qualities": [
       {
         "quality": "normal",
@@ -115,7 +127,7 @@
       },
       {
         "quality": "opulent",
-        "chance": 0.5
+        "chance": 0.05
       },
       {
         "quality": "radiant",
@@ -132,10 +144,11 @@
     "name": "Squid",
     "description": "Very High Quality Bait\nCatches all Tiers of fish\nLow chance of finding RADIANT fish",
     "cost": 200,
+    "maxTier": 3,
     "qualities": [
       {
         "quality": "normal",
-        "chance": 0.888
+        "chance": 0.0888
       },
       {
         "quality": "shining",
@@ -151,7 +164,7 @@
       },
       {
         "quality": "radiant",
-        "chance": 0.5
+        "chance": 0.05
       },
       {
         "quality": "alpha",
@@ -164,6 +177,7 @@
     "name": "Nautilus",
     "description": "Pristine Quality Bait\nCatches all Tiers of fish\nLow chance of finding ALPHA fish",
     "cost": 500,
+    "maxTier": 3,
     "qualities": [
       {
         "quality": "normal",
@@ -171,7 +185,7 @@
       },
       {
         "quality": "shining",
-        "chance": 0.786
+        "chance": 0.0786
       },
       {
         "quality": "glistening",
@@ -187,7 +201,7 @@
       },
       {
         "quality": "alpha",
-        "chance": 0.5
+        "chance": 0.05
       }
     ]
   },
@@ -196,6 +210,7 @@
     "name": "Gilded Worm",
     "description": "Pristine Quality Bait\nCatches all Tiers of fish\nBest chance of finding ALPHA fish",
     "cost": 1200,
+    "maxTier": 3,
     "qualities": [
       {
         "quality": "normal",
@@ -203,11 +218,11 @@
       },
       {
         "quality": "shining",
-        "chance": 0.147
+        "chance": 0.0147
       },
       {
         "quality": "glistening",
-        "chance": 0.842
+        "chance": 0.0842
       },
       {
         "quality": "opulent",
