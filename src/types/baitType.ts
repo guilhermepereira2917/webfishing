@@ -8,3 +8,7 @@ export default interface Bait {
   maxTier: number,
   qualities: { quality: Quality | string, chance: number }[]
 }
+
+export function isBait(obj: any): obj is Bait {
+  return obj && 'maxTier' in obj;
+}

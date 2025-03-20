@@ -1,0 +1,82 @@
+[
+  {
+    "id": "bare_hook",
+    "name": "Bare Hook",
+    "description": "Simple fishhook with no special qualities"
+  },
+  {
+    "id": "fly_hook",
+    "name": "Fly Hook",
+    "description": "Catches have a higher chance of being smaller fish"
+  },
+  {
+    "id": "lucky_hook",
+    "name": "Lucky Hook",
+    "description": "Gain a small amount of cash on every catch"
+  },
+  {
+    "id": "patient_lure",
+    "name": "Patient Lure",
+    "description": "Catches wait for your input before beginning to reel in"
+  },
+  {
+    "id": "quick_jig",
+    "name": "Quick Jig",
+    "description": "Reel Quicker and gain Rod Power"
+  },
+  {
+    "id": "salty_lure",
+    "name": "Salty Lure",
+    "description": "Always catch Saltwater fish, no matter the body of water."
+  },
+  {
+    "id": "fresh_lure",
+    "name": "Fresh Lure",
+    "description": "Always catch Freshwater fish, no matter the body of water."
+  },
+  {
+    "id": "efficient_lure",
+    "name": "Efficient Lure",
+    "description": "Chance to not consume bait on catch"
+  },
+  {
+    "id": "magnet_lure",
+    "name": "Magnet Lure",
+    "description": "Higher chance of catching treasure (and garbage...)"
+  },
+  {
+    "id": "large_lure",
+    "name": "Large Lure",
+    "description": "Higher chance of catching bigger fish\n... chance to consume extra bait on catch"
+  },
+  {
+    "id": "attractive_angler",
+    "name": "Attractive Angler",
+    "description": "Higher catch chance"
+  },
+  {
+    "id": "sparkling_lure",
+    "name": "Sparkling Lure",
+    "description": "Higher chance of catching greater tiers of fish\n... chance to consume extra bait on catch"
+  },
+  {
+    "id": "double_hook",
+    "name": "Double Hook",
+    "description": "Low Chance of doubling fish on catch\n... chance to consume extra bait on catch"
+  },
+  {
+    "id": "gold_hook",
+    "name": "Golden Hook",
+    "description": "Higher chance of catching extremely rare fish\n... always consumes 3x bait."
+  },
+  {
+    "id": "challenge_lure",
+    "name": "Challenge Lure",
+    "description": "Popups appear during the fishing minigame, clicking them gives cash- but missing them hurts you!"
+  },
+  {
+    "id": "rain_lure",
+    "name": "Shower Lure",
+    "description": "On catch, small chance to summon a tiny rainstorm above you."
+  }
+]
