@@ -7,7 +7,33 @@
     "tier": 0,
     "averageSize": 2.0,
     "sellValue": 1.0,
-    "textureName": "fish_ocean_angelfish.png"
+    "textureName": "fish_ocean_angelfish.png",
+    "catchChances": [
+      {
+        "lureId": "bare_hook",
+        "chance": 4.684
+      },
+      {
+        "lureId": "sparkling_lure",
+        "chance": 2.214
+      },
+      {
+        "lureId": "fly_hook",
+        "chance": 8.153
+      },
+      {
+        "lureId": "large_lure",
+        "chance": 1.037
+      },
+      {
+        "lureId": "magnet_lure",
+        "chance": 4.105
+      },
+      {
+        "lureId": "gold_hook",
+        "chance": 4.668
+      }
+    ]
   },
   {
     "id": "fish_ocean_atlantic_salmon",
@@ -17,7 +43,33 @@
     "tier": 0,
     "averageSize": 3.0,
     "sellValue": 9.0,
-    "textureName": "fish_ocean_atlantic_salmon.png"
+    "textureName": "fish_ocean_atlantic_salmon.png",
+    "catchChances": [
+      {
+        "lureId": "bare_hook",
+        "chance": 6.245
+      },
+      {
+        "lureId": "sparkling_lure",
+        "chance": 2.952
+      },
+      {
+        "lureId": "fly_hook",
+        "chance": 7.172
+      },
+      {
+        "lureId": "large_lure",
+        "chance": 3.36
+      },
+      {
+        "lureId": "magnet_lure",
+        "chance": 5.473
+      },
+      {
+        "lureId": "gold_hook",
+        "chance": 6.224
+      }
+    ]
   },
   {
     "id": "fish_ocean_bluefish",
@@ -27,7 +79,33 @@
     "tier": 0,
     "averageSize": 8.0,
     "sellValue": 1.0,
-    "textureName": "fish_ocean_bluefish.png"
+    "textureName": "fish_ocean_bluefish.png",
+    "catchChances": [
+      {
+        "lureId": "bare_hook",
+        "chance": 3.903
+      },
+      {
+        "lureId": "sparkling_lure",
+        "chance": 1.845
+      },
+      {
+        "lureId": "fly_hook",
+        "chance": 1.919
+      },
+      {
+        "lureId": "large_lure",
+        "chance": 4.869
+      },
+      {
+        "lureId": "magnet_lure",
+        "chance": 3.421
+      },
+      {
+        "lureId": "gold_hook",
+        "chance": 3.89
+      }
+    ]
   },
   {
     "id": "fish_ocean_clownfish",
@@ -37,7 +115,33 @@
     "tier": 0,
     "averageSize": 1.0,
     "sellValue": 9.0,
-    "textureName": "fish_ocean_clownfish.png"
+    "textureName": "fish_ocean_clownfish.png",
+    "catchChances": [
+      {
+        "lureId": "bare_hook",
+        "chance": 5.204
+      },
+      {
+        "lureId": "sparkling_lure",
+        "chance": 2.46
+      },
+      {
+        "lureId": "fly_hook",
+        "chance": 10.626
+      },
+      {
+        "lureId": "large_lure",
+        "chance": 0.627
+      },
+      {
+        "lureId": "magnet_lure",
+        "chance": 4.561
+      },
+      {
+        "lureId": "gold_hook",
+        "chance": 5.187
+      }
+    ]
   },
   {
     "id": "fish_ocean_coalacanth",
@@ -47,7 +151,33 @@
     "tier": 2,
     "averageSize": 1.0,
     "sellValue": 3.0,
-    "textureName": "fish_ocean_coalacanth.png"
+    "textureName": "fish_ocean_coalacanth.png",
+    "catchChances": [
+      {
+        "lureId": "bare_hook",
+        "chance": 0.52
+      },
+      {
+        "lureId": "sparkling_lure",
+        "chance": 1.455
+      },
+      {
+        "lureId": "fly_hook",
+        "chance": 0.1
+      },
+      {
+        "lureId": "large_lure",
+        "chance": 1.043
+      },
+      {
+        "lureId": "magnet_lure",
+        "chance": 0.456
+      },
+      {
+        "lureId": "gold_hook",
+        "chance": 0.519
+      }
+    ]
   },
   {
     "id": "fish_ocean_dogfish",
@@ -57,7 +187,33 @@
     "tier": 0,
     "averageSize": 8.0,
     "sellValue": 2.0,
-    "textureName": "fish_ocean_dogfish.png"
+    "textureName": "fish_ocean_dogfish.png",
+    "catchChances": [
+      {
+        "lureId": "bare_hook",
+        "chance": 1.561
+      },
+      {
+        "lureId": "sparkling_lure",
+        "chance": 0.738
+      },
+      {
+        "lureId": "fly_hook",
+        "chance": 0.82
+      },
+      {
+        "lureId": "large_lure",
+        "chance": 1.859
+      },
+      {
+        "lureId": "magnet_lure",
+        "chance": 1.368
+      },
+      {
+        "lureId": "gold_hook",
+        "chance": 1.556
+      }
+    ]
   },
   {
     "id": "fish_ocean_eel",
@@ -67,7 +223,33 @@
     "tier": 0,
     "averageSize": 5.0,
     "sellValue": 3.0,
-    "textureName": "fish_ocean_eel.png"
+    "textureName": "fish_ocean_eel.png",
+    "catchChances": [
+      {
+        "lureId": "bare_hook",
+        "chance": 1.821
+      },
+      {
+        "lureId": "sparkling_lure",
+        "chance": 0.861
+      },
+      {
+        "lureId": "fly_hook",
+        "chance": 1.397
+      },
+      {
+        "lureId": "large_lure",
+        "chance": 1.587
+      },
+      {
+        "lureId": "magnet_lure",
+        "chance": 1.596
+      },
+      {
+        "lureId": "gold_hook",
+        "chance": 1.815
+      }
+    ]
   },
   {
     "id": "fish_ocean_flounder",
@@ -77,7 +259,33 @@
     "tier": 0,
     "averageSize": 4.0,
     "sellValue": 1.0,
-    "textureName": "fish_ocean_flounder.png"
+    "textureName": "fish_ocean_flounder.png",
+    "catchChances": [
+      {
+        "lureId": "bare_hook",
+        "chance": 5.985
+      },
+      {
+        "lureId": "sparkling_lure",
+        "chance": 2.829
+      },
+      {
+        "lureId": "fly_hook",
+        "chance": 5.522
+      },
+      {
+        "lureId": "large_lure",
+        "chance": 4.295
+      },
+      {
+        "lureId": "magnet_lure",
+        "chance": 5.245
+      },
+      {
+        "lureId": "gold_hook",
+        "chance": 5.965
+      }
+    ]
   },
   {
     "id": "fish_ocean_golden_manta_ray",
@@ -87,7 +295,33 @@
     "tier": 2,
     "averageSize": 6.0,
     "sellValue": 3.0,
-    "textureName": "fish_ocean_golden_manta_ray.png"
+    "textureName": "fish_ocean_golden_manta_ray.png",
+    "catchChances": [
+      {
+        "lureId": "bare_hook",
+        "chance": 0.156
+      },
+      {
+        "lureId": "sparkling_lure",
+        "chance": 0.437
+      },
+      {
+        "lureId": "fly_hook",
+        "chance": 0.009
+      },
+      {
+        "lureId": "large_lure",
+        "chance": 0.434
+      },
+      {
+        "lureId": "magnet_lure",
+        "chance": 0.137
+      },
+      {
+        "lureId": "gold_hook",
+        "chance": 0.468
+      }
+    ]
   },
   {
     "id": "fish_ocean_greatwhiteshark",
@@ -97,7 +331,33 @@
     "tier": 2,
     "averageSize": 1.0,
     "sellValue": 3.0,
-    "textureName": "fish_ocean_greatwhiteshark.png"
+    "textureName": "fish_ocean_greatwhiteshark.png",
+    "catchChances": [
+      {
+        "lureId": "bare_hook",
+        "chance": 0.624
+      },
+      {
+        "lureId": "sparkling_lure",
+        "chance": 1.747
+      },
+      {
+        "lureId": "fly_hook",
+        "chance": 0.12
+      },
+      {
+        "lureId": "large_lure",
+        "chance": 1.251
+      },
+      {
+        "lureId": "magnet_lure",
+        "chance": 0.547
+      },
+      {
+        "lureId": "gold_hook",
+        "chance": 0.622
+      }
+    ]
   },
   {
     "id": "fish_ocean_grouper",
@@ -107,7 +367,33 @@
     "tier": 0,
     "averageSize": 1.0,
     "sellValue": 1.0,
-    "textureName": "fish_ocean_grouper.png"
+    "textureName": "fish_ocean_grouper.png",
+    "catchChances": [
+      {
+        "lureId": "bare_hook",
+        "chance": 4.684
+      },
+      {
+        "lureId": "sparkling_lure",
+        "chance": 2.214
+      },
+      {
+        "lureId": "fly_hook",
+        "chance": 1.707
+      },
+      {
+        "lureId": "large_lure",
+        "chance": 7.031
+      },
+      {
+        "lureId": "magnet_lure",
+        "chance": 4.105
+      },
+      {
+        "lureId": "gold_hook",
+        "chance": 4.668
+      }
+    ]
   },
   {
     "id": "fish_ocean_hammerhead_shark",
@@ -117,7 +403,33 @@
     "tier": 1,
     "averageSize": 3.0,
     "sellValue": 3.0,
-    "textureName": "fish_ocean_hammerhead_shark.png"
+    "textureName": "fish_ocean_hammerhead_shark.png",
+    "catchChances": [
+      {
+        "lureId": "bare_hook",
+        "chance": 1.821
+      },
+      {
+        "lureId": "sparkling_lure",
+        "chance": 3.604
+      },
+      {
+        "lureId": "fly_hook",
+        "chance": 0.183
+      },
+      {
+        "lureId": "large_lure",
+        "chance": 4.46
+      },
+      {
+        "lureId": "magnet_lure",
+        "chance": 1.596
+      },
+      {
+        "lureId": "gold_hook",
+        "chance": 1.815
+      }
+    ]
   },
   {
     "id": "fish_ocean_herring",
@@ -127,7 +439,33 @@
     "tier": 0,
     "averageSize": 3.0,
     "sellValue": 9.0,
-    "textureName": "fish_ocean_herring.png"
+    "textureName": "fish_ocean_herring.png",
+    "catchChances": [
+      {
+        "lureId": "bare_hook",
+        "chance": 6.245
+      },
+      {
+        "lureId": "sparkling_lure",
+        "chance": 2.952
+      },
+      {
+        "lureId": "fly_hook",
+        "chance": 8.135
+      },
+      {
+        "lureId": "large_lure",
+        "chance": 2.73
+      },
+      {
+        "lureId": "magnet_lure",
+        "chance": 5.473
+      },
+      {
+        "lureId": "gold_hook",
+        "chance": 6.224
+      }
+    ]
   },
   {
     "id": "fish_ocean_krill",
@@ -137,7 +475,33 @@
     "tier": 0,
     "averageSize": 5.0,
     "sellValue": 5.0,
-    "textureName": "fish_ocean_krill.png"
+    "textureName": "fish_ocean_krill.png",
+    "catchChances": [
+      {
+        "lureId": "bare_hook",
+        "chance": 4.163
+      },
+      {
+        "lureId": "sparkling_lure",
+        "chance": 1.968
+      },
+      {
+        "lureId": "fly_hook",
+        "chance": 11.265
+      },
+      {
+        "lureId": "large_lure",
+        "chance": 0.039
+      },
+      {
+        "lureId": "magnet_lure",
+        "chance": 3.649
+      },
+      {
+        "lureId": "gold_hook",
+        "chance": 4.149
+      }
+    ]
   },
   {
     "id": "fish_ocean_lionfish",
@@ -147,7 +511,33 @@
     "tier": 1,
     "averageSize": 3.0,
     "sellValue": 3.0,
-    "textureName": "fish_ocean_lionfish.png"
+    "textureName": "fish_ocean_lionfish.png",
+    "catchChances": [
+      {
+        "lureId": "bare_hook",
+        "chance": 2.602
+      },
+      {
+        "lureId": "sparkling_lure",
+        "chance": 5.149
+      },
+      {
+        "lureId": "fly_hook",
+        "chance": 3.39
+      },
+      {
+        "lureId": "large_lure",
+        "chance": 1.138
+      },
+      {
+        "lureId": "magnet_lure",
+        "chance": 2.281
+      },
+      {
+        "lureId": "gold_hook",
+        "chance": 2.593
+      }
+    ]
   },
   {
     "id": "fish_ocean_lobster",
@@ -157,7 +547,33 @@
     "tier": 0,
     "averageSize": 7.0,
     "sellValue": 1.0,
-    "textureName": "fish_ocean_lobster.png"
+    "textureName": "fish_ocean_lobster.png",
+    "catchChances": [
+      {
+        "lureId": "bare_hook",
+        "chance": 3.643
+      },
+      {
+        "lureId": "sparkling_lure",
+        "chance": 1.722
+      },
+      {
+        "lureId": "fly_hook",
+        "chance": 2.051
+      },
+      {
+        "lureId": "large_lure",
+        "chance": 4.125
+      },
+      {
+        "lureId": "magnet_lure",
+        "chance": 3.193
+      },
+      {
+        "lureId": "gold_hook",
+        "chance": 3.631
+      }
+    ]
   },
   {
     "id": "fish_ocean_manowar",
@@ -167,7 +583,33 @@
     "tier": 2,
     "averageSize": 3.0,
     "sellValue": 3.0,
-    "textureName": "fish_ocean_manowar.png"
+    "textureName": "fish_ocean_manowar.png",
+    "catchChances": [
+      {
+        "lureId": "bare_hook",
+        "chance": 1.041
+      },
+      {
+        "lureId": "sparkling_lure",
+        "chance": 2.911
+      },
+      {
+        "lureId": "fly_hook",
+        "chance": 1.195
+      },
+      {
+        "lureId": "large_lure",
+        "chance": 0.56
+      },
+      {
+        "lureId": "magnet_lure",
+        "chance": 0.912
+      },
+      {
+        "lureId": "gold_hook",
+        "chance": 1.037
+      }
+    ]
   },
   {
     "id": "fish_ocean_manta_ray",
@@ -177,7 +619,33 @@
     "tier": 2,
     "averageSize": 6.0,
     "sellValue": 3.0,
-    "textureName": "fish_ocean_manta_ray.png"
+    "textureName": "fish_ocean_manta_ray.png",
+    "catchChances": [
+      {
+        "lureId": "bare_hook",
+        "chance": 0.937
+      },
+      {
+        "lureId": "sparkling_lure",
+        "chance": 2.62
+      },
+      {
+        "lureId": "fly_hook",
+        "chance": 0.052
+      },
+      {
+        "lureId": "large_lure",
+        "chance": 2.604
+      },
+      {
+        "lureId": "magnet_lure",
+        "chance": 0.821
+      },
+      {
+        "lureId": "gold_hook",
+        "chance": 0.934
+      }
+    ]
   },
   {
     "id": "fish_ocean_marlin",
@@ -187,7 +655,33 @@
     "tier": 1,
     "averageSize": 2.0,
     "sellValue": 3.0,
-    "textureName": "fish_ocean_marlin.png"
+    "textureName": "fish_ocean_marlin.png",
+    "catchChances": [
+      {
+        "lureId": "bare_hook",
+        "chance": 3.122
+      },
+      {
+        "lureId": "sparkling_lure",
+        "chance": 6.179
+      },
+      {
+        "lureId": "fly_hook",
+        "chance": 0.391
+      },
+      {
+        "lureId": "large_lure",
+        "chance": 7.201
+      },
+      {
+        "lureId": "magnet_lure",
+        "chance": 2.737
+      },
+      {
+        "lureId": "gold_hook",
+        "chance": 3.112
+      }
+    ]
   },
   {
     "id": "fish_ocean_octopus",
@@ -197,7 +691,33 @@
     "tier": 1,
     "averageSize": 1.0,
     "sellValue": 3.0,
-    "textureName": "fish_ocean_octopus.png"
+    "textureName": "fish_ocean_octopus.png",
+    "catchChances": [
+      {
+        "lureId": "bare_hook",
+        "chance": 3.122
+      },
+      {
+        "lureId": "sparkling_lure",
+        "chance": 6.179
+      },
+      {
+        "lureId": "fly_hook",
+        "chance": 1.277
+      },
+      {
+        "lureId": "large_lure",
+        "chance": 4.388
+      },
+      {
+        "lureId": "magnet_lure",
+        "chance": 2.737
+      },
+      {
+        "lureId": "gold_hook",
+        "chance": 3.112
+      }
+    ]
   },
   {
     "id": "fish_ocean_oyster",
@@ -207,7 +727,33 @@
     "tier": 0,
     "averageSize": 1.0,
     "sellValue": 1.0,
-    "textureName": "fish_ocean_oyster.png"
+    "textureName": "fish_ocean_oyster.png",
+    "catchChances": [
+      {
+        "lureId": "bare_hook",
+        "chance": 4.163
+      },
+      {
+        "lureId": "sparkling_lure",
+        "chance": 1.968
+      },
+      {
+        "lureId": "fly_hook",
+        "chance": 7.722
+      },
+      {
+        "lureId": "large_lure",
+        "chance": 0.746
+      },
+      {
+        "lureId": "magnet_lure",
+        "chance": 3.649
+      },
+      {
+        "lureId": "gold_hook",
+        "chance": 4.149
+      }
+    ]
   },
   {
     "id": "fish_ocean_sawfish",
@@ -217,17 +763,69 @@
     "tier": 0,
     "averageSize": 2.0,
     "sellValue": 5.0,
-    "textureName": "fish_ocean_sawfish.png"
+    "textureName": "fish_ocean_sawfish.png",
+    "catchChances": [
+      {
+        "lureId": "bare_hook",
+        "chance": 0.781
+      },
+      {
+        "lureId": "sparkling_lure",
+        "chance": 0.369
+      },
+      {
+        "lureId": "fly_hook",
+        "chance": 0.098
+      },
+      {
+        "lureId": "large_lure",
+        "chance": 1.8
+      },
+      {
+        "lureId": "magnet_lure",
+        "chance": 0.684
+      },
+      {
+        "lureId": "gold_hook",
+        "chance": 0.778
+      }
+    ]
   },
   {
     "id": "fish_ocean_seahorse",
     "name": "Seahorse",
     "description": "Hippocampus kuda",
-    "catchBlurb": "Giddy up!﻿",
+    "catchBlurb": "Giddy up!ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¯ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â»ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¿",
     "tier": 1,
     "averageSize": 2.0,
     "sellValue": 3.0,
-    "textureName": "fish_ocean_seahorse.png"
+    "textureName": "fish_ocean_seahorse.png",
+    "catchChances": [
+      {
+        "lureId": "bare_hook",
+        "chance": 3.643
+      },
+      {
+        "lureId": "sparkling_lure",
+        "chance": 7.208
+      },
+      {
+        "lureId": "fly_hook",
+        "chance": 5.452
+      },
+      {
+        "lureId": "large_lure",
+        "chance": 1.203
+      },
+      {
+        "lureId": "magnet_lure",
+        "chance": 3.193
+      },
+      {
+        "lureId": "gold_hook",
+        "chance": 3.631
+      }
+    ]
   },
   {
     "id": "fish_ocean_sea_turtle",
@@ -237,7 +835,33 @@
     "tier": 2,
     "averageSize": 1.0,
     "sellValue": 3.0,
-    "textureName": "fish_ocean_sea_turtle.png"
+    "textureName": "fish_ocean_sea_turtle.png",
+    "catchChances": [
+      {
+        "lureId": "bare_hook",
+        "chance": 1.301
+      },
+      {
+        "lureId": "sparkling_lure",
+        "chance": 3.639
+      },
+      {
+        "lureId": "fly_hook",
+        "chance": 0.532
+      },
+      {
+        "lureId": "large_lure",
+        "chance": 1.828
+      },
+      {
+        "lureId": "magnet_lure",
+        "chance": 1.14
+      },
+      {
+        "lureId": "gold_hook",
+        "chance": 1.297
+      }
+    ]
   },
   {
     "id": "fish_ocean_shrimp",
@@ -247,7 +871,33 @@
     "tier": 0,
     "averageSize": 1.0,
     "sellValue": 9.0,
-    "textureName": "fish_ocean_shrimp.png"
+    "textureName": "fish_ocean_shrimp.png",
+    "catchChances": [
+      {
+        "lureId": "bare_hook",
+        "chance": 5.204
+      },
+      {
+        "lureId": "sparkling_lure",
+        "chance": 2.46
+      },
+      {
+        "lureId": "fly_hook",
+        "chance": 10.628
+      },
+      {
+        "lureId": "large_lure",
+        "chance": 0.626
+      },
+      {
+        "lureId": "magnet_lure",
+        "chance": 4.561
+      },
+      {
+        "lureId": "gold_hook",
+        "chance": 5.187
+      }
+    ]
   },
   {
     "id": "fish_ocean_squid",
@@ -257,7 +907,33 @@
     "tier": 2,
     "averageSize": 2.0,
     "sellValue": 3.0,
-    "textureName": "fish_ocean_squid.png"
+    "textureName": "fish_ocean_squid.png",
+    "catchChances": [
+      {
+        "lureId": "bare_hook",
+        "chance": 1.301
+      },
+      {
+        "lureId": "sparkling_lure",
+        "chance": 3.639
+      },
+      {
+        "lureId": "fly_hook",
+        "chance": 0.182
+      },
+      {
+        "lureId": "large_lure",
+        "chance": 2.907
+      },
+      {
+        "lureId": "magnet_lure",
+        "chance": 1.14
+      },
+      {
+        "lureId": "gold_hook",
+        "chance": 1.297
+      }
+    ]
   },
   {
     "id": "fish_ocean_stingray",
@@ -267,7 +943,33 @@
     "tier": 1,
     "averageSize": 1.0,
     "sellValue": 3.0,
-    "textureName": "fish_ocean_stingray.png"
+    "textureName": "fish_ocean_stingray.png",
+    "catchChances": [
+      {
+        "lureId": "bare_hook",
+        "chance": 3.122
+      },
+      {
+        "lureId": "sparkling_lure",
+        "chance": 6.179
+      },
+      {
+        "lureId": "fly_hook",
+        "chance": 0.768
+      },
+      {
+        "lureId": "large_lure",
+        "chance": 5.683
+      },
+      {
+        "lureId": "magnet_lure",
+        "chance": 2.737
+      },
+      {
+        "lureId": "gold_hook",
+        "chance": 3.112
+      }
+    ]
   },
   {
     "id": "fish_ocean_sunfish",
@@ -277,7 +979,33 @@
     "tier": 0,
     "averageSize": 1.0,
     "sellValue": 3.0,
-    "textureName": "fish_ocean_sunfish.png"
+    "textureName": "fish_ocean_sunfish.png",
+    "catchChances": [
+      {
+        "lureId": "bare_hook",
+        "chance": 2.082
+      },
+      {
+        "lureId": "sparkling_lure",
+        "chance": 0.984
+      },
+      {
+        "lureId": "fly_hook",
+        "chance": 0.375
+      },
+      {
+        "lureId": "large_lure",
+        "chance": 4.281
+      },
+      {
+        "lureId": "magnet_lure",
+        "chance": 1.824
+      },
+      {
+        "lureId": "gold_hook",
+        "chance": 2.075
+      }
+    ]
   },
   {
     "id": "fish_ocean_swordfish",
@@ -287,7 +1015,33 @@
     "tier": 1,
     "averageSize": 2.0,
     "sellValue": 3.0,
-    "textureName": "fish_ocean_swordfish.png"
+    "textureName": "fish_ocean_swordfish.png",
+    "catchChances": [
+      {
+        "lureId": "bare_hook",
+        "chance": 3.383
+      },
+      {
+        "lureId": "sparkling_lure",
+        "chance": 6.693
+      },
+      {
+        "lureId": "fly_hook",
+        "chance": 0.372
+      },
+      {
+        "lureId": "large_lure",
+        "chance": 8.109
+      },
+      {
+        "lureId": "magnet_lure",
+        "chance": 2.965
+      },
+      {
+        "lureId": "gold_hook",
+        "chance": 3.371
+      }
+    ]
   },
   {
     "id": "fish_ocean_tuna",
@@ -297,7 +1051,33 @@
     "tier": 0,
     "averageSize": 1.0,
     "sellValue": 2.0,
-    "textureName": "fish_ocean_tuna.png"
+    "textureName": "fish_ocean_tuna.png",
+    "catchChances": [
+      {
+        "lureId": "bare_hook",
+        "chance": 3.643
+      },
+      {
+        "lureId": "sparkling_lure",
+        "chance": 1.722
+      },
+      {
+        "lureId": "fly_hook",
+        "chance": 0.897
+      },
+      {
+        "lureId": "large_lure",
+        "chance": 6.63
+      },
+      {
+        "lureId": "magnet_lure",
+        "chance": 3.193
+      },
+      {
+        "lureId": "gold_hook",
+        "chance": 3.631
+      }
+    ]
   },
   {
     "id": "fish_ocean_whale",
@@ -307,7 +1087,33 @@
     "tier": 2,
     "averageSize": 2.0,
     "sellValue": 3.0,
-    "textureName": "fish_ocean_whale.png"
+    "textureName": "fish_ocean_whale.png",
+    "catchChances": [
+      {
+        "lureId": "bare_hook",
+        "chance": 0.572
+      },
+      {
+        "lureId": "sparkling_lure",
+        "chance": 1.601
+      },
+      {
+        "lureId": "fly_hook",
+        "chance": 0.022
+      },
+      {
+        "lureId": "large_lure",
+        "chance": 1.677
+      },
+      {
+        "lureId": "magnet_lure",
+        "chance": 0.502
+      },
+      {
+        "lureId": "gold_hook",
+        "chance": 0.571
+      }
+    ]
   },
   {
     "id": "fish_ocean_wolffish",
@@ -317,6 +1123,32 @@
     "tier": 1,
     "averageSize": 1.0,
     "sellValue": 3.0,
-    "textureName": "fish_ocean_wolffish.png"
+    "textureName": "fish_ocean_wolffish.png",
+    "catchChances": [
+      {
+        "lureId": "bare_hook",
+        "chance": 1.821
+      },
+      {
+        "lureId": "sparkling_lure",
+        "chance": 3.604
+      },
+      {
+        "lureId": "fly_hook",
+        "chance": 0.567
+      },
+      {
+        "lureId": "large_lure",
+        "chance": 2.973
+      },
+      {
+        "lureId": "magnet_lure",
+        "chance": 1.596
+      },
+      {
+        "lureId": "gold_hook",
+        "chance": 1.815
+      }
+    ]
   }
 ]

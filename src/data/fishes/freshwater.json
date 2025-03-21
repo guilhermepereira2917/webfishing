@@ -7,7 +7,33 @@
     "tier": 2,
     "averageSize": 2.0,
     "sellValue": 9.0,
-    "textureName": "fish_lake_alligator.png"
+    "textureName": "fish_lake_alligator.png",
+    "catchChances": [
+      {
+        "lureId": "bare_hook",
+        "chance": 0.511
+      },
+      {
+        "lureId": "sparkling_lure",
+        "chance": 1.439
+      },
+      {
+        "lureId": "fly_hook",
+        "chance": 0.031
+      },
+      {
+        "lureId": "large_lure",
+        "chance": 1.433
+      },
+      {
+        "lureId": "magnet_lure",
+        "chance": 0.448
+      },
+      {
+        "lureId": "gold_hook",
+        "chance": 0.509
+      }
+    ]
   },
   {
     "id": "fish_lake_axolotl",
@@ -17,7 +43,33 @@
     "tier": 2,
     "averageSize": 3.0,
     "sellValue": 9.0,
-    "textureName": "fish_lake_axolotl.png"
+    "textureName": "fish_lake_axolotl.png",
+    "catchChances": [
+      {
+        "lureId": "bare_hook",
+        "chance": 0.715
+      },
+      {
+        "lureId": "sparkling_lure",
+        "chance": 2.015
+      },
+      {
+        "lureId": "fly_hook",
+        "chance": 0.598
+      },
+      {
+        "lureId": "large_lure",
+        "chance": 0.571
+      },
+      {
+        "lureId": "magnet_lure",
+        "chance": 0.627
+      },
+      {
+        "lureId": "gold_hook",
+        "chance": 0.713
+      }
+    ]
   },
   {
     "id": "fish_lake_bass",
@@ -27,7 +79,33 @@
     "tier": 0,
     "averageSize": 4.0,
     "sellValue": 8.0,
-    "textureName": "fish_lake_bass.png"
+    "textureName": "fish_lake_bass.png",
+    "catchChances": [
+      {
+        "lureId": "bare_hook",
+        "chance": 6.384
+      },
+      {
+        "lureId": "sparkling_lure",
+        "chance": 3.579
+      },
+      {
+        "lureId": "fly_hook",
+        "chance": 3.412
+      },
+      {
+        "lureId": "large_lure",
+        "chance": 7.773
+      },
+      {
+        "lureId": "magnet_lure",
+        "chance": 5.595
+      },
+      {
+        "lureId": "gold_hook",
+        "chance": 6.363
+      }
+    ]
   },
   {
     "id": "fish_lake_bluegill",
@@ -37,7 +115,33 @@
     "tier": 0,
     "averageSize": 1.0,
     "sellValue": 9.0,
-    "textureName": "fish_lake_bluegill.png"
+    "textureName": "fish_lake_bluegill.png",
+    "catchChances": [
+      {
+        "lureId": "bare_hook",
+        "chance": 5.873
+      },
+      {
+        "lureId": "sparkling_lure",
+        "chance": 3.293
+      },
+      {
+        "lureId": "fly_hook",
+        "chance": 8.575
+      },
+      {
+        "lureId": "large_lure",
+        "chance": 1.955
+      },
+      {
+        "lureId": "magnet_lure",
+        "chance": 5.148
+      },
+      {
+        "lureId": "gold_hook",
+        "chance": 5.854
+      }
+    ]
   },
   {
     "id": "fish_lake_bowfin",
@@ -47,7 +151,33 @@
     "tier": 1,
     "averageSize": 7.0,
     "sellValue": 3.0,
-    "textureName": "fish_lake_bowfin.png"
+    "textureName": "fish_lake_bowfin.png",
+    "catchChances": [
+      {
+        "lureId": "bare_hook",
+        "chance": 2.553
+      },
+      {
+        "lureId": "sparkling_lure",
+        "chance": 5.472
+      },
+      {
+        "lureId": "fly_hook",
+        "chance": 0.656
+      },
+      {
+        "lureId": "large_lure",
+        "chance": 4.856
+      },
+      {
+        "lureId": "magnet_lure",
+        "chance": 2.238
+      },
+      {
+        "lureId": "gold_hook",
+        "chance": 2.545
+      }
+    ]
   },
   {
     "id": "fish_lake_bullshark",
@@ -57,7 +187,33 @@
     "tier": 2,
     "averageSize": 2.0,
     "sellValue": 1.0,
-    "textureName": "fish_lake_bullshark.png"
+    "textureName": "fish_lake_bullshark.png",
+    "catchChances": [
+      {
+        "lureId": "bare_hook",
+        "chance": 0.409
+      },
+      {
+        "lureId": "sparkling_lure",
+        "chance": 1.151
+      },
+      {
+        "lureId": "fly_hook",
+        "chance": 0.026
+      },
+      {
+        "lureId": "large_lure",
+        "chance": 1.142
+      },
+      {
+        "lureId": "magnet_lure",
+        "chance": 0.358
+      },
+      {
+        "lureId": "gold_hook",
+        "chance": 0.407
+      }
+    ]
   },
   {
     "id": "fish_lake_carp",
@@ -67,7 +223,33 @@
     "tier": 0,
     "averageSize": 5.0,
     "sellValue": 8.0,
-    "textureName": "fish_lake_carp.png"
+    "textureName": "fish_lake_carp.png",
+    "catchChances": [
+      {
+        "lureId": "bare_hook",
+        "chance": 6.384
+      },
+      {
+        "lureId": "sparkling_lure",
+        "chance": 3.579
+      },
+      {
+        "lureId": "fly_hook",
+        "chance": 2.608
+      },
+      {
+        "lureId": "large_lure",
+        "chance": 9.423
+      },
+      {
+        "lureId": "magnet_lure",
+        "chance": 5.595
+      },
+      {
+        "lureId": "gold_hook",
+        "chance": 6.363
+      }
+    ]
   },
   {
     "id": "fish_lake_catfish",
@@ -77,7 +259,33 @@
     "tier": 0,
     "averageSize": 6.0,
     "sellValue": 3.0,
-    "textureName": "fish_lake_catfish.png"
+    "textureName": "fish_lake_catfish.png",
+    "catchChances": [
+      {
+        "lureId": "bare_hook",
+        "chance": 1.787
+      },
+      {
+        "lureId": "sparkling_lure",
+        "chance": 1.002
+      },
+      {
+        "lureId": "fly_hook",
+        "chance": 0.572
+      },
+      {
+        "lureId": "large_lure",
+        "chance": 3.05
+      },
+      {
+        "lureId": "magnet_lure",
+        "chance": 1.567
+      },
+      {
+        "lureId": "gold_hook",
+        "chance": 1.782
+      }
+    ]
   },
   {
     "id": "fish_lake_crab",
@@ -87,7 +295,33 @@
     "tier": 1,
     "averageSize": 8.0,
     "sellValue": 2.0,
-    "textureName": "fish_lake_crab.png"
+    "textureName": "fish_lake_crab.png",
+    "catchChances": [
+      {
+        "lureId": "bare_hook",
+        "chance": 3.32
+      },
+      {
+        "lureId": "sparkling_lure",
+        "chance": 7.113
+      },
+      {
+        "lureId": "fly_hook",
+        "chance": 6.744
+      },
+      {
+        "lureId": "large_lure",
+        "chance": 0.391
+      },
+      {
+        "lureId": "magnet_lure",
+        "chance": 2.909
+      },
+      {
+        "lureId": "gold_hook",
+        "chance": 3.309
+      }
+    ]
   },
   {
     "id": "fish_lake_crappie",
@@ -97,7 +331,33 @@
     "tier": 1,
     "averageSize": 2.0,
     "sellValue": 2.0,
-    "textureName": "fish_lake_crappie.png"
+    "textureName": "fish_lake_crappie.png",
+    "catchChances": [
+      {
+        "lureId": "bare_hook",
+        "chance": 2.809
+      },
+      {
+        "lureId": "sparkling_lure",
+        "chance": 6.019
+      },
+      {
+        "lureId": "fly_hook",
+        "chance": 2.78
+      },
+      {
+        "lureId": "large_lure",
+        "chance": 1.827
+      },
+      {
+        "lureId": "magnet_lure",
+        "chance": 2.462
+      },
+      {
+        "lureId": "gold_hook",
+        "chance": 2.8
+      }
+    ]
   },
   {
     "id": "fish_lake_crayfish",
@@ -107,7 +367,33 @@
     "tier": 0,
     "averageSize": 1.0,
     "sellValue": 1.0,
-    "textureName": "fish_lake_crayfish.png"
+    "textureName": "fish_lake_crayfish.png",
+    "catchChances": [
+      {
+        "lureId": "bare_hook",
+        "chance": 4.086
+      },
+      {
+        "lureId": "sparkling_lure",
+        "chance": 2.291
+      },
+      {
+        "lureId": "fly_hook",
+        "chance": 7.508
+      },
+      {
+        "lureId": "large_lure",
+        "chance": 0.714
+      },
+      {
+        "lureId": "magnet_lure",
+        "chance": 3.581
+      },
+      {
+        "lureId": "gold_hook",
+        "chance": 4.072
+      }
+    ]
   },
   {
     "id": "fish_lake_drum",
@@ -117,7 +403,33 @@
     "tier": 0,
     "averageSize": 2.0,
     "sellValue": 1.0,
-    "textureName": "fish_lake_drum.png"
+    "textureName": "fish_lake_drum.png",
+    "catchChances": [
+      {
+        "lureId": "bare_hook",
+        "chance": 4.086
+      },
+      {
+        "lureId": "sparkling_lure",
+        "chance": 2.291
+      },
+      {
+        "lureId": "fly_hook",
+        "chance": 4.043
+      },
+      {
+        "lureId": "large_lure",
+        "chance": 2.658
+      },
+      {
+        "lureId": "magnet_lure",
+        "chance": 3.581
+      },
+      {
+        "lureId": "gold_hook",
+        "chance": 4.072
+      }
+    ]
   },
   {
     "id": "fish_lake_frog",
@@ -127,7 +439,33 @@
     "tier": 0,
     "averageSize": 6.0,
     "sellValue": 2.0,
-    "textureName": "fish_lake_frog.png"
+    "textureName": "fish_lake_frog.png",
+    "catchChances": [
+      {
+        "lureId": "bare_hook",
+        "chance": 2.043
+      },
+      {
+        "lureId": "sparkling_lure",
+        "chance": 1.145
+      },
+      {
+        "lureId": "fly_hook",
+        "chance": 4.62
+      },
+      {
+        "lureId": "large_lure",
+        "chance": 0.137
+      },
+      {
+        "lureId": "magnet_lure",
+        "chance": 1.79
+      },
+      {
+        "lureId": "gold_hook",
+        "chance": 2.036
+      }
+    ]
   },
   {
     "id": "fish_lake_gar",
@@ -137,7 +475,33 @@
     "tier": 2,
     "averageSize": 1.0,
     "sellValue": 8.0,
-    "textureName": "fish_lake_gar.png"
+    "textureName": "fish_lake_gar.png",
+    "catchChances": [
+      {
+        "lureId": "bare_hook",
+        "chance": 0.919
+      },
+      {
+        "lureId": "sparkling_lure",
+        "chance": 2.59
+      },
+      {
+        "lureId": "fly_hook",
+        "chance": 0.076
+      },
+      {
+        "lureId": "large_lure",
+        "chance": 2.457
+      },
+      {
+        "lureId": "magnet_lure",
+        "chance": 0.806
+      },
+      {
+        "lureId": "gold_hook",
+        "chance": 0.916
+      }
+    ]
   },
   {
     "id": "fish_lake_golden_bass",
@@ -147,7 +511,33 @@
     "tier": 2,
     "averageSize": 4.0,
     "sellValue": 3.0,
-    "textureName": "fish_lake_golden_bass.png"
+    "textureName": "fish_lake_golden_bass.png",
+    "catchChances": [
+      {
+        "lureId": "bare_hook",
+        "chance": 0.153
+      },
+      {
+        "lureId": "sparkling_lure",
+        "chance": 0.432
+      },
+      {
+        "lureId": "fly_hook",
+        "chance": 0.082
+      },
+      {
+        "lureId": "large_lure",
+        "chance": 0.187
+      },
+      {
+        "lureId": "magnet_lure",
+        "chance": 0.134
+      },
+      {
+        "lureId": "gold_hook",
+        "chance": 0.459
+      }
+    ]
   },
   {
     "id": "fish_lake_goldfish",
@@ -157,7 +547,33 @@
     "tier": 0,
     "averageSize": 1.0,
     "sellValue": 1.0,
-    "textureName": "fish_lake_goldfish.png"
+    "textureName": "fish_lake_goldfish.png",
+    "catchChances": [
+      {
+        "lureId": "bare_hook",
+        "chance": 4.596
+      },
+      {
+        "lureId": "sparkling_lure",
+        "chance": 2.577
+      },
+      {
+        "lureId": "fly_hook",
+        "chance": 6.711
+      },
+      {
+        "lureId": "large_lure",
+        "chance": 1.53
+      },
+      {
+        "lureId": "magnet_lure",
+        "chance": 4.029
+      },
+      {
+        "lureId": "gold_hook",
+        "chance": 4.581
+      }
+    ]
   },
   {
     "id": "fish_lake_guppy",
@@ -167,7 +583,33 @@
     "tier": 0,
     "averageSize": 4.0,
     "sellValue": 1.0,
-    "textureName": "fish_lake_guppy.png"
+    "textureName": "fish_lake_guppy.png",
+    "catchChances": [
+      {
+        "lureId": "bare_hook",
+        "chance": 3.32
+      },
+      {
+        "lureId": "sparkling_lure",
+        "chance": 1.861
+      },
+      {
+        "lureId": "fly_hook",
+        "chance": 8.422
+      },
+      {
+        "lureId": "large_lure",
+        "chance": 0.086
+      },
+      {
+        "lureId": "magnet_lure",
+        "chance": 2.909
+      },
+      {
+        "lureId": "gold_hook",
+        "chance": 3.309
+      }
+    ]
   },
   {
     "id": "fish_lake_kingsalmon",
@@ -177,7 +619,33 @@
     "tier": 2,
     "averageSize": 1.0,
     "sellValue": 7.0,
-    "textureName": "fish_lake_kingsalmon.png"
+    "textureName": "fish_lake_kingsalmon.png",
+    "catchChances": [
+      {
+        "lureId": "bare_hook",
+        "chance": 1.634
+      },
+      {
+        "lureId": "sparkling_lure",
+        "chance": 4.605
+      },
+      {
+        "lureId": "fly_hook",
+        "chance": 0.21
+      },
+      {
+        "lureId": "large_lure",
+        "chance": 3.963
+      },
+      {
+        "lureId": "magnet_lure",
+        "chance": 1.432
+      },
+      {
+        "lureId": "gold_hook",
+        "chance": 1.629
+      }
+    ]
   },
   {
     "id": "fish_lake_koi",
@@ -187,7 +655,33 @@
     "tier": 0,
     "averageSize": 3.0,
     "sellValue": 2.0,
-    "textureName": "fish_lake_koi.png"
+    "textureName": "fish_lake_koi.png",
+    "catchChances": [
+      {
+        "lureId": "bare_hook",
+        "chance": 1.277
+      },
+      {
+        "lureId": "sparkling_lure",
+        "chance": 0.716
+      },
+      {
+        "lureId": "fly_hook",
+        "chance": 1.068
+      },
+      {
+        "lureId": "large_lure",
+        "chance": 1.02
+      },
+      {
+        "lureId": "magnet_lure",
+        "chance": 1.119
+      },
+      {
+        "lureId": "gold_hook",
+        "chance": 1.273
+      }
+    ]
   },
   {
     "id": "fish_lake_leech",
@@ -197,7 +691,33 @@
     "tier": 1,
     "averageSize": 5.0,
     "sellValue": 3.0,
-    "textureName": "fish_lake_leech.png"
+    "textureName": "fish_lake_leech.png",
+    "catchChances": [
+      {
+        "lureId": "bare_hook",
+        "chance": 2.043
+      },
+      {
+        "lureId": "sparkling_lure",
+        "chance": 4.377
+      },
+      {
+        "lureId": "fly_hook",
+        "chance": 4.89
+      },
+      {
+        "lureId": "large_lure",
+        "chance": 0.092
+      },
+      {
+        "lureId": "magnet_lure",
+        "chance": 1.79
+      },
+      {
+        "lureId": "gold_hook",
+        "chance": 2.036
+      }
+    ]
   },
   {
     "id": "fish_lake_mooneye",
@@ -207,7 +727,33 @@
     "tier": 2,
     "averageSize": 3.0,
     "sellValue": 8.0,
-    "textureName": "fish_lake_mooneye.png"
+    "textureName": "fish_lake_mooneye.png",
+    "catchChances": [
+      {
+        "lureId": "bare_hook",
+        "chance": 0.715
+      },
+      {
+        "lureId": "sparkling_lure",
+        "chance": 2.015
+      },
+      {
+        "lureId": "fly_hook",
+        "chance": 0.598
+      },
+      {
+        "lureId": "large_lure",
+        "chance": 0.571
+      },
+      {
+        "lureId": "magnet_lure",
+        "chance": 0.627
+      },
+      {
+        "lureId": "gold_hook",
+        "chance": 0.713
+      }
+    ]
   },
   {
     "id": "fish_lake_muskellunge",
@@ -217,7 +763,33 @@
     "tier": 1,
     "averageSize": 1.0,
     "sellValue": 6.0,
-    "textureName": "fish_lake_muskellunge.png"
+    "textureName": "fish_lake_muskellunge.png",
+    "catchChances": [
+      {
+        "lureId": "bare_hook",
+        "chance": 0.766
+      },
+      {
+        "lureId": "sparkling_lure",
+        "chance": 1.642
+      },
+      {
+        "lureId": "fly_hook",
+        "chance": 0.127
+      },
+      {
+        "lureId": "large_lure",
+        "chance": 1.724
+      },
+      {
+        "lureId": "magnet_lure",
+        "chance": 0.671
+      },
+      {
+        "lureId": "gold_hook",
+        "chance": 0.764
+      }
+    ]
   },
   {
     "id": "fish_lake_perch",
@@ -227,7 +799,33 @@
     "tier": 0,
     "averageSize": 2.0,
     "sellValue": 7.0,
-    "textureName": "fish_lake_perch.png"
+    "textureName": "fish_lake_perch.png",
+    "catchChances": [
+      {
+        "lureId": "bare_hook",
+        "chance": 5.873
+      },
+      {
+        "lureId": "sparkling_lure",
+        "chance": 3.293
+      },
+      {
+        "lureId": "fly_hook",
+        "chance": 6.987
+      },
+      {
+        "lureId": "large_lure",
+        "chance": 2.907
+      },
+      {
+        "lureId": "magnet_lure",
+        "chance": 5.148
+      },
+      {
+        "lureId": "gold_hook",
+        "chance": 5.854
+      }
+    ]
   },
   {
     "id": "fish_lake_pike",
@@ -237,7 +835,33 @@
     "tier": 1,
     "averageSize": 5.0,
     "sellValue": 2.0,
-    "textureName": "fish_lake_pike.png"
+    "textureName": "fish_lake_pike.png",
+    "catchChances": [
+      {
+        "lureId": "bare_hook",
+        "chance": 2.553
+      },
+      {
+        "lureId": "sparkling_lure",
+        "chance": 5.472
+      },
+      {
+        "lureId": "fly_hook",
+        "chance": 1.044
+      },
+      {
+        "lureId": "large_lure",
+        "chance": 3.769
+      },
+      {
+        "lureId": "magnet_lure",
+        "chance": 2.238
+      },
+      {
+        "lureId": "gold_hook",
+        "chance": 2.545
+      }
+    ]
   },
   {
     "id": "fish_lake_pupfish",
@@ -247,7 +871,33 @@
     "tier": 2,
     "averageSize": 7.0,
     "sellValue": 8.0,
-    "textureName": "fish_lake_pupfish.png"
+    "textureName": "fish_lake_pupfish.png",
+    "catchChances": [
+      {
+        "lureId": "bare_hook",
+        "chance": 0.715
+      },
+      {
+        "lureId": "sparkling_lure",
+        "chance": 2.015
+      },
+      {
+        "lureId": "fly_hook",
+        "chance": 1.531
+      },
+      {
+        "lureId": "large_lure",
+        "chance": 0.065
+      },
+      {
+        "lureId": "magnet_lure",
+        "chance": 0.627
+      },
+      {
+        "lureId": "gold_hook",
+        "chance": 0.713
+      }
+    ]
   },
   {
     "id": "fish_lake_rainbowtrout",
@@ -257,7 +907,33 @@
     "tier": 0,
     "averageSize": 6.0,
     "sellValue": 7.0,
-    "textureName": "fish_lake_rainbowtrout.png"
+    "textureName": "fish_lake_rainbowtrout.png",
+    "catchChances": [
+      {
+        "lureId": "bare_hook",
+        "chance": 6.384
+      },
+      {
+        "lureId": "sparkling_lure",
+        "chance": 3.579
+      },
+      {
+        "lureId": "fly_hook",
+        "chance": 2.303
+      },
+      {
+        "lureId": "large_lure",
+        "chance": 10.183
+      },
+      {
+        "lureId": "magnet_lure",
+        "chance": 5.595
+      },
+      {
+        "lureId": "gold_hook",
+        "chance": 6.363
+      }
+    ]
   },
   {
     "id": "fish_lake_salmon",
@@ -267,7 +943,33 @@
     "tier": 0,
     "averageSize": 7.0,
     "sellValue": 5.0,
-    "textureName": "fish_lake_salmon.png"
+    "textureName": "fish_lake_salmon.png",
+    "catchChances": [
+      {
+        "lureId": "bare_hook",
+        "chance": 7.66
+      },
+      {
+        "lureId": "sparkling_lure",
+        "chance": 4.295
+      },
+      {
+        "lureId": "fly_hook",
+        "chance": 2.194
+      },
+      {
+        "lureId": "large_lure",
+        "chance": 13.853
+      },
+      {
+        "lureId": "magnet_lure",
+        "chance": 6.714
+      },
+      {
+        "lureId": "gold_hook",
+        "chance": 7.635
+      }
+    ]
   },
   {
     "id": "fish_lake_snail",
@@ -277,7 +979,33 @@
     "tier": 0,
     "averageSize": 4.0,
     "sellValue": 2.0,
-    "textureName": "fish_lake_snail.png"
+    "textureName": "fish_lake_snail.png",
+    "catchChances": [
+      {
+        "lureId": "bare_hook",
+        "chance": 3.064
+      },
+      {
+        "lureId": "sparkling_lure",
+        "chance": 1.718
+      },
+      {
+        "lureId": "fly_hook",
+        "chance": 7.78
+      },
+      {
+        "lureId": "large_lure",
+        "chance": 0.079
+      },
+      {
+        "lureId": "magnet_lure",
+        "chance": 2.686
+      },
+      {
+        "lureId": "gold_hook",
+        "chance": 3.054
+      }
+    ]
   },
   {
     "id": "fish_lake_sturgeon",
@@ -287,7 +1015,33 @@
     "tier": 0,
     "averageSize": 1.0,
     "sellValue": 4.0,
-    "textureName": "fish_lake_sturgeon.png"
+    "textureName": "fish_lake_sturgeon.png",
+    "catchChances": [
+      {
+        "lureId": "bare_hook",
+        "chance": 1.021
+      },
+      {
+        "lureId": "sparkling_lure",
+        "chance": 0.573
+      },
+      {
+        "lureId": "fly_hook",
+        "chance": 0.1
+      },
+      {
+        "lureId": "large_lure",
+        "chance": 2.643
+      },
+      {
+        "lureId": "magnet_lure",
+        "chance": 0.895
+      },
+      {
+        "lureId": "gold_hook",
+        "chance": 1.018
+      }
+    ]
   },
   {
     "id": "fish_lake_toad",
@@ -297,7 +1051,33 @@
     "tier": 1,
     "averageSize": 1.0,
     "sellValue": 3.0,
-    "textureName": "fish_lake_toad.png"
+    "textureName": "fish_lake_toad.png",
+    "catchChances": [
+      {
+        "lureId": "bare_hook",
+        "chance": 1.787
+      },
+      {
+        "lureId": "sparkling_lure",
+        "chance": 3.83
+      },
+      {
+        "lureId": "fly_hook",
+        "chance": 3.285
+      },
+      {
+        "lureId": "large_lure",
+        "chance": 0.312
+      },
+      {
+        "lureId": "magnet_lure",
+        "chance": 1.567
+      },
+      {
+        "lureId": "gold_hook",
+        "chance": 1.782
+      }
+    ]
   },
   {
     "id": "fish_lake_turtle",
@@ -307,7 +1087,33 @@
     "tier": 1,
     "averageSize": 2.0,
     "sellValue": 3.0,
-    "textureName": "fish_lake_turtle.png"
+    "textureName": "fish_lake_turtle.png",
+    "catchChances": [
+      {
+        "lureId": "bare_hook",
+        "chance": 1.787
+      },
+      {
+        "lureId": "sparkling_lure",
+        "chance": 3.83
+      },
+      {
+        "lureId": "fly_hook",
+        "chance": 1.833
+      },
+      {
+        "lureId": "large_lure",
+        "chance": 1.108
+      },
+      {
+        "lureId": "magnet_lure",
+        "chance": 1.567
+      },
+      {
+        "lureId": "gold_hook",
+        "chance": 1.782
+      }
+    ]
   },
   {
     "id": "fish_lake_walleye",
@@ -317,6 +1123,32 @@
     "tier": 0,
     "averageSize": 7.0,
     "sellValue": 9.0,
-    "textureName": "fish_lake_walleye.png"
+    "textureName": "fish_lake_walleye.png",
+    "catchChances": [
+      {
+        "lureId": "bare_hook",
+        "chance": 5.873
+      },
+      {
+        "lureId": "sparkling_lure",
+        "chance": 3.293
+      },
+      {
+        "lureId": "fly_hook",
+        "chance": 1.685
+      },
+      {
+        "lureId": "large_lure",
+        "chance": 10.621
+      },
+      {
+        "lureId": "magnet_lure",
+        "chance": 5.148
+      },
+      {
+        "lureId": "gold_hook",
+        "chance": 5.854
+      }
+    ]
   }
 ]

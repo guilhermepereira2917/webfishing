@@ -1,0 +1,2158 @@
+{
+  "Alligator": {
+    "chances": [
+      {
+        "lureId": "bare_hook",
+        "chance": 0.511
+      },
+      {
+        "lureId": "sparkling_lure",
+        "chance": 1.439
+      },
+      {
+        "lureId": "fly_hook",
+        "chance": 0.031
+      },
+      {
+        "lureId": "large_lure",
+        "chance": 1.433
+      },
+      {
+        "lureId": "magnet_lure",
+        "chance": 0.448
+      },
+      {
+        "lureId": "gold_hook",
+        "chance": 0.509
+      }
+    ]
+  },
+  "Axolotl": {
+    "chances": [
+      {
+        "lureId": "bare_hook",
+        "chance": 0.715
+      },
+      {
+        "lureId": "sparkling_lure",
+        "chance": 2.015
+      },
+      {
+        "lureId": "fly_hook",
+        "chance": 0.598
+      },
+      {
+        "lureId": "large_lure",
+        "chance": 0.571
+      },
+      {
+        "lureId": "magnet_lure",
+        "chance": 0.627
+      },
+      {
+        "lureId": "gold_hook",
+        "chance": 0.713
+      }
+    ]
+  },
+  "Largemouth Bass": {
+    "chances": [
+      {
+        "lureId": "bare_hook",
+        "chance": 6.384
+      },
+      {
+        "lureId": "sparkling_lure",
+        "chance": 3.579
+      },
+      {
+        "lureId": "fly_hook",
+        "chance": 3.412
+      },
+      {
+        "lureId": "large_lure",
+        "chance": 7.773
+      },
+      {
+        "lureId": "magnet_lure",
+        "chance": 5.595
+      },
+      {
+        "lureId": "gold_hook",
+        "chance": 6.363
+      }
+    ]
+  },
+  "Bluegill": {
+    "chances": [
+      {
+        "lureId": "bare_hook",
+        "chance": 5.873
+      },
+      {
+        "lureId": "sparkling_lure",
+        "chance": 3.293
+      },
+      {
+        "lureId": "fly_hook",
+        "chance": 8.575
+      },
+      {
+        "lureId": "large_lure",
+        "chance": 1.955
+      },
+      {
+        "lureId": "magnet_lure",
+        "chance": 5.148
+      },
+      {
+        "lureId": "gold_hook",
+        "chance": 5.854
+      }
+    ]
+  },
+  "Bowfin": {
+    "chances": [
+      {
+        "lureId": "bare_hook",
+        "chance": 2.553
+      },
+      {
+        "lureId": "sparkling_lure",
+        "chance": 5.472
+      },
+      {
+        "lureId": "fly_hook",
+        "chance": 0.656
+      },
+      {
+        "lureId": "large_lure",
+        "chance": 4.856
+      },
+      {
+        "lureId": "magnet_lure",
+        "chance": 2.238
+      },
+      {
+        "lureId": "gold_hook",
+        "chance": 2.545
+      }
+    ]
+  },
+  "Bull Shark": {
+    "chances": [
+      {
+        "lureId": "bare_hook",
+        "chance": 0.409
+      },
+      {
+        "lureId": "sparkling_lure",
+        "chance": 1.151
+      },
+      {
+        "lureId": "fly_hook",
+        "chance": 0.026
+      },
+      {
+        "lureId": "large_lure",
+        "chance": 1.142
+      },
+      {
+        "lureId": "magnet_lure",
+        "chance": 0.358
+      },
+      {
+        "lureId": "gold_hook",
+        "chance": 0.407
+      }
+    ]
+  },
+  "Carp": {
+    "chances": [
+      {
+        "lureId": "bare_hook",
+        "chance": 6.384
+      },
+      {
+        "lureId": "sparkling_lure",
+        "chance": 3.579
+      },
+      {
+        "lureId": "fly_hook",
+        "chance": 2.608
+      },
+      {
+        "lureId": "large_lure",
+        "chance": 9.423
+      },
+      {
+        "lureId": "magnet_lure",
+        "chance": 5.595
+      },
+      {
+        "lureId": "gold_hook",
+        "chance": 6.363
+      }
+    ]
+  },
+  "Catfish": {
+    "chances": [
+      {
+        "lureId": "bare_hook",
+        "chance": 1.787
+      },
+      {
+        "lureId": "sparkling_lure",
+        "chance": 1.002
+      },
+      {
+        "lureId": "fly_hook",
+        "chance": 0.572
+      },
+      {
+        "lureId": "large_lure",
+        "chance": 3.05
+      },
+      {
+        "lureId": "magnet_lure",
+        "chance": 1.567
+      },
+      {
+        "lureId": "gold_hook",
+        "chance": 1.782
+      }
+    ]
+  },
+  "Crab": {
+    "chances": [
+      {
+        "lureId": "bare_hook",
+        "chance": 3.32
+      },
+      {
+        "lureId": "sparkling_lure",
+        "chance": 7.113
+      },
+      {
+        "lureId": "fly_hook",
+        "chance": 6.744
+      },
+      {
+        "lureId": "large_lure",
+        "chance": 0.391
+      },
+      {
+        "lureId": "magnet_lure",
+        "chance": 2.909
+      },
+      {
+        "lureId": "gold_hook",
+        "chance": 3.309
+      }
+    ]
+  },
+  "Crappie": {
+    "chances": [
+      {
+        "lureId": "bare_hook",
+        "chance": 2.809
+      },
+      {
+        "lureId": "sparkling_lure",
+        "chance": 6.019
+      },
+      {
+        "lureId": "fly_hook",
+        "chance": 2.78
+      },
+      {
+        "lureId": "large_lure",
+        "chance": 1.827
+      },
+      {
+        "lureId": "magnet_lure",
+        "chance": 2.462
+      },
+      {
+        "lureId": "gold_hook",
+        "chance": 2.8
+      }
+    ]
+  },
+  "Crayfish": {
+    "chances": [
+      {
+        "lureId": "bare_hook",
+        "chance": 4.086
+      },
+      {
+        "lureId": "sparkling_lure",
+        "chance": 2.291
+      },
+      {
+        "lureId": "fly_hook",
+        "chance": 7.508
+      },
+      {
+        "lureId": "large_lure",
+        "chance": 0.714
+      },
+      {
+        "lureId": "magnet_lure",
+        "chance": 3.581
+      },
+      {
+        "lureId": "gold_hook",
+        "chance": 4.072
+      }
+    ]
+  },
+  "Drum": {
+    "chances": [
+      {
+        "lureId": "bare_hook",
+        "chance": 4.086
+      },
+      {
+        "lureId": "sparkling_lure",
+        "chance": 2.291
+      },
+      {
+        "lureId": "fly_hook",
+        "chance": 4.043
+      },
+      {
+        "lureId": "large_lure",
+        "chance": 2.658
+      },
+      {
+        "lureId": "magnet_lure",
+        "chance": 3.581
+      },
+      {
+        "lureId": "gold_hook",
+        "chance": 4.072
+      }
+    ]
+  },
+  "Frog": {
+    "chances": [
+      {
+        "lureId": "bare_hook",
+        "chance": 2.043
+      },
+      {
+        "lureId": "sparkling_lure",
+        "chance": 1.145
+      },
+      {
+        "lureId": "fly_hook",
+        "chance": 4.62
+      },
+      {
+        "lureId": "large_lure",
+        "chance": 0.137
+      },
+      {
+        "lureId": "magnet_lure",
+        "chance": 1.79
+      },
+      {
+        "lureId": "gold_hook",
+        "chance": 2.036
+      }
+    ]
+  },
+  "Gar": {
+    "chances": [
+      {
+        "lureId": "bare_hook",
+        "chance": 0.919
+      },
+      {
+        "lureId": "sparkling_lure",
+        "chance": 2.59
+      },
+      {
+        "lureId": "fly_hook",
+        "chance": 0.076
+      },
+      {
+        "lureId": "large_lure",
+        "chance": 2.457
+      },
+      {
+        "lureId": "magnet_lure",
+        "chance": 0.806
+      },
+      {
+        "lureId": "gold_hook",
+        "chance": 0.916
+      }
+    ]
+  },
+  "Golden Bass": {
+    "chances": [
+      {
+        "lureId": "bare_hook",
+        "chance": 0.153
+      },
+      {
+        "lureId": "sparkling_lure",
+        "chance": 0.432
+      },
+      {
+        "lureId": "fly_hook",
+        "chance": 0.082
+      },
+      {
+        "lureId": "large_lure",
+        "chance": 0.187
+      },
+      {
+        "lureId": "magnet_lure",
+        "chance": 0.134
+      },
+      {
+        "lureId": "gold_hook",
+        "chance": 0.459
+      }
+    ]
+  },
+  "Goldfish": {
+    "chances": [
+      {
+        "lureId": "bare_hook",
+        "chance": 4.596
+      },
+      {
+        "lureId": "sparkling_lure",
+        "chance": 2.577
+      },
+      {
+        "lureId": "fly_hook",
+        "chance": 6.711
+      },
+      {
+        "lureId": "large_lure",
+        "chance": 1.53
+      },
+      {
+        "lureId": "magnet_lure",
+        "chance": 4.029
+      },
+      {
+        "lureId": "gold_hook",
+        "chance": 4.581
+      }
+    ]
+  },
+  "Guppy": {
+    "chances": [
+      {
+        "lureId": "bare_hook",
+        "chance": 3.32
+      },
+      {
+        "lureId": "sparkling_lure",
+        "chance": 1.861
+      },
+      {
+        "lureId": "fly_hook",
+        "chance": 8.422
+      },
+      {
+        "lureId": "large_lure",
+        "chance": 0.086
+      },
+      {
+        "lureId": "magnet_lure",
+        "chance": 2.909
+      },
+      {
+        "lureId": "gold_hook",
+        "chance": 3.309
+      }
+    ]
+  },
+  "King Salmon": {
+    "chances": [
+      {
+        "lureId": "bare_hook",
+        "chance": 1.634
+      },
+      {
+        "lureId": "sparkling_lure",
+        "chance": 4.605
+      },
+      {
+        "lureId": "fly_hook",
+        "chance": 0.21
+      },
+      {
+        "lureId": "large_lure",
+        "chance": 3.963
+      },
+      {
+        "lureId": "magnet_lure",
+        "chance": 1.432
+      },
+      {
+        "lureId": "gold_hook",
+        "chance": 1.629
+      }
+    ]
+  },
+  "Koi": {
+    "chances": [
+      {
+        "lureId": "bare_hook",
+        "chance": 1.277
+      },
+      {
+        "lureId": "sparkling_lure",
+        "chance": 0.716
+      },
+      {
+        "lureId": "fly_hook",
+        "chance": 1.068
+      },
+      {
+        "lureId": "large_lure",
+        "chance": 1.02
+      },
+      {
+        "lureId": "magnet_lure",
+        "chance": 1.119
+      },
+      {
+        "lureId": "gold_hook",
+        "chance": 1.273
+      }
+    ]
+  },
+  "Leech": {
+    "chances": [
+      {
+        "lureId": "bare_hook",
+        "chance": 2.043
+      },
+      {
+        "lureId": "sparkling_lure",
+        "chance": 4.377
+      },
+      {
+        "lureId": "fly_hook",
+        "chance": 4.89
+      },
+      {
+        "lureId": "large_lure",
+        "chance": 0.092
+      },
+      {
+        "lureId": "magnet_lure",
+        "chance": 1.79
+      },
+      {
+        "lureId": "gold_hook",
+        "chance": 2.036
+      }
+    ]
+  },
+  "Mooneye": {
+    "chances": [
+      {
+        "lureId": "bare_hook",
+        "chance": 0.715
+      },
+      {
+        "lureId": "sparkling_lure",
+        "chance": 2.015
+      },
+      {
+        "lureId": "fly_hook",
+        "chance": 0.598
+      },
+      {
+        "lureId": "large_lure",
+        "chance": 0.571
+      },
+      {
+        "lureId": "magnet_lure",
+        "chance": 0.627
+      },
+      {
+        "lureId": "gold_hook",
+        "chance": 0.713
+      }
+    ]
+  },
+  "Muskellunge": {
+    "chances": [
+      {
+        "lureId": "bare_hook",
+        "chance": 0.766
+      },
+      {
+        "lureId": "sparkling_lure",
+        "chance": 1.642
+      },
+      {
+        "lureId": "fly_hook",
+        "chance": 0.127
+      },
+      {
+        "lureId": "large_lure",
+        "chance": 1.724
+      },
+      {
+        "lureId": "magnet_lure",
+        "chance": 0.671
+      },
+      {
+        "lureId": "gold_hook",
+        "chance": 0.764
+      }
+    ]
+  },
+  "Perch": {
+    "chances": [
+      {
+        "lureId": "bare_hook",
+        "chance": 5.873
+      },
+      {
+        "lureId": "sparkling_lure",
+        "chance": 3.293
+      },
+      {
+        "lureId": "fly_hook",
+        "chance": 6.987
+      },
+      {
+        "lureId": "large_lure",
+        "chance": 2.907
+      },
+      {
+        "lureId": "magnet_lure",
+        "chance": 5.148
+      },
+      {
+        "lureId": "gold_hook",
+        "chance": 5.854
+      }
+    ]
+  },
+  "Pike": {
+    "chances": [
+      {
+        "lureId": "bare_hook",
+        "chance": 2.553
+      },
+      {
+        "lureId": "sparkling_lure",
+        "chance": 5.472
+      },
+      {
+        "lureId": "fly_hook",
+        "chance": 1.044
+      },
+      {
+        "lureId": "large_lure",
+        "chance": 3.769
+      },
+      {
+        "lureId": "magnet_lure",
+        "chance": 2.238
+      },
+      {
+        "lureId": "gold_hook",
+        "chance": 2.545
+      }
+    ]
+  },
+  "Pupfish": {
+    "chances": [
+      {
+        "lureId": "bare_hook",
+        "chance": 0.715
+      },
+      {
+        "lureId": "sparkling_lure",
+        "chance": 2.015
+      },
+      {
+        "lureId": "fly_hook",
+        "chance": 1.531
+      },
+      {
+        "lureId": "large_lure",
+        "chance": 0.065
+      },
+      {
+        "lureId": "magnet_lure",
+        "chance": 0.627
+      },
+      {
+        "lureId": "gold_hook",
+        "chance": 0.713
+      }
+    ]
+  },
+  "Rainbow Trout": {
+    "chances": [
+      {
+        "lureId": "bare_hook",
+        "chance": 6.384
+      },
+      {
+        "lureId": "sparkling_lure",
+        "chance": 3.579
+      },
+      {
+        "lureId": "fly_hook",
+        "chance": 2.303
+      },
+      {
+        "lureId": "large_lure",
+        "chance": 10.183
+      },
+      {
+        "lureId": "magnet_lure",
+        "chance": 5.595
+      },
+      {
+        "lureId": "gold_hook",
+        "chance": 6.363
+      }
+    ]
+  },
+  "Salmon": {
+    "chances": [
+      {
+        "lureId": "bare_hook",
+        "chance": 7.66
+      },
+      {
+        "lureId": "sparkling_lure",
+        "chance": 4.295
+      },
+      {
+        "lureId": "fly_hook",
+        "chance": 2.194
+      },
+      {
+        "lureId": "large_lure",
+        "chance": 13.853
+      },
+      {
+        "lureId": "magnet_lure",
+        "chance": 6.714
+      },
+      {
+        "lureId": "gold_hook",
+        "chance": 7.635
+      }
+    ]
+  },
+  "Snail": {
+    "chances": [
+      {
+        "lureId": "bare_hook",
+        "chance": 3.064
+      },
+      {
+        "lureId": "sparkling_lure",
+        "chance": 1.718
+      },
+      {
+        "lureId": "fly_hook",
+        "chance": 7.78
+      },
+      {
+        "lureId": "large_lure",
+        "chance": 0.079
+      },
+      {
+        "lureId": "magnet_lure",
+        "chance": 2.686
+      },
+      {
+        "lureId": "gold_hook",
+        "chance": 3.054
+      }
+    ]
+  },
+  "Sturgeon": {
+    "chances": [
+      {
+        "lureId": "bare_hook",
+        "chance": 1.021
+      },
+      {
+        "lureId": "sparkling_lure",
+        "chance": 0.573
+      },
+      {
+        "lureId": "fly_hook",
+        "chance": 0.1
+      },
+      {
+        "lureId": "large_lure",
+        "chance": 2.643
+      },
+      {
+        "lureId": "magnet_lure",
+        "chance": 0.895
+      },
+      {
+        "lureId": "gold_hook",
+        "chance": 1.018
+      }
+    ]
+  },
+  "Toad": {
+    "chances": [
+      {
+        "lureId": "bare_hook",
+        "chance": 1.787
+      },
+      {
+        "lureId": "sparkling_lure",
+        "chance": 3.83
+      },
+      {
+        "lureId": "fly_hook",
+        "chance": 3.285
+      },
+      {
+        "lureId": "large_lure",
+        "chance": 0.312
+      },
+      {
+        "lureId": "magnet_lure",
+        "chance": 1.567
+      },
+      {
+        "lureId": "gold_hook",
+        "chance": 1.782
+      }
+    ]
+  },
+  "Turtle": {
+    "chances": [
+      {
+        "lureId": "bare_hook",
+        "chance": 1.787
+      },
+      {
+        "lureId": "sparkling_lure",
+        "chance": 3.83
+      },
+      {
+        "lureId": "fly_hook",
+        "chance": 1.833
+      },
+      {
+        "lureId": "large_lure",
+        "chance": 1.108
+      },
+      {
+        "lureId": "magnet_lure",
+        "chance": 1.567
+      },
+      {
+        "lureId": "gold_hook",
+        "chance": 1.782
+      }
+    ]
+  },
+  "Walleye": {
+    "chances": [
+      {
+        "lureId": "bare_hook",
+        "chance": 5.873
+      },
+      {
+        "lureId": "sparkling_lure",
+        "chance": 3.293
+      },
+      {
+        "lureId": "fly_hook",
+        "chance": 1.685
+      },
+      {
+        "lureId": "large_lure",
+        "chance": 10.621
+      },
+      {
+        "lureId": "magnet_lure",
+        "chance": 5.148
+      },
+      {
+        "lureId": "gold_hook",
+        "chance": 5.854
+      }
+    ]
+  },
+  "Angelfish": {
+    "chances": [
+      {
+        "lureId": "bare_hook",
+        "chance": 4.684
+      },
+      {
+        "lureId": "sparkling_lure",
+        "chance": 2.214
+      },
+      {
+        "lureId": "fly_hook",
+        "chance": 8.153
+      },
+      {
+        "lureId": "large_lure",
+        "chance": 1.037
+      },
+      {
+        "lureId": "magnet_lure",
+        "chance": 4.105
+      },
+      {
+        "lureId": "gold_hook",
+        "chance": 4.668
+      }
+    ]
+  },
+  "Atlantic Salmon": {
+    "chances": [
+      {
+        "lureId": "bare_hook",
+        "chance": 6.245
+      },
+      {
+        "lureId": "sparkling_lure",
+        "chance": 2.952
+      },
+      {
+        "lureId": "fly_hook",
+        "chance": 7.172
+      },
+      {
+        "lureId": "large_lure",
+        "chance": 3.36
+      },
+      {
+        "lureId": "magnet_lure",
+        "chance": 5.473
+      },
+      {
+        "lureId": "gold_hook",
+        "chance": 6.224
+      }
+    ]
+  },
+  "Bluefish": {
+    "chances": [
+      {
+        "lureId": "bare_hook",
+        "chance": 3.903
+      },
+      {
+        "lureId": "sparkling_lure",
+        "chance": 1.845
+      },
+      {
+        "lureId": "fly_hook",
+        "chance": 1.919
+      },
+      {
+        "lureId": "large_lure",
+        "chance": 4.869
+      },
+      {
+        "lureId": "magnet_lure",
+        "chance": 3.421
+      },
+      {
+        "lureId": "gold_hook",
+        "chance": 3.89
+      }
+    ]
+  },
+  "Clownfish": {
+    "chances": [
+      {
+        "lureId": "bare_hook",
+        "chance": 5.204
+      },
+      {
+        "lureId": "sparkling_lure",
+        "chance": 2.46
+      },
+      {
+        "lureId": "fly_hook",
+        "chance": 10.626
+      },
+      {
+        "lureId": "large_lure",
+        "chance": 0.627
+      },
+      {
+        "lureId": "magnet_lure",
+        "chance": 4.561
+      },
+      {
+        "lureId": "gold_hook",
+        "chance": 5.187
+      }
+    ]
+  },
+  "Coelacanth": {
+    "chances": [
+      {
+        "lureId": "bare_hook",
+        "chance": 0.52
+      },
+      {
+        "lureId": "sparkling_lure",
+        "chance": 1.455
+      },
+      {
+        "lureId": "fly_hook",
+        "chance": 0.1
+      },
+      {
+        "lureId": "large_lure",
+        "chance": 1.043
+      },
+      {
+        "lureId": "magnet_lure",
+        "chance": 0.456
+      },
+      {
+        "lureId": "gold_hook",
+        "chance": 0.519
+      }
+    ]
+  },
+  "Dogfish": {
+    "chances": [
+      {
+        "lureId": "bare_hook",
+        "chance": 1.561
+      },
+      {
+        "lureId": "sparkling_lure",
+        "chance": 0.738
+      },
+      {
+        "lureId": "fly_hook",
+        "chance": 0.82
+      },
+      {
+        "lureId": "large_lure",
+        "chance": 1.859
+      },
+      {
+        "lureId": "magnet_lure",
+        "chance": 1.368
+      },
+      {
+        "lureId": "gold_hook",
+        "chance": 1.556
+      }
+    ]
+  },
+  "Eel": {
+    "chances": [
+      {
+        "lureId": "bare_hook",
+        "chance": 1.821
+      },
+      {
+        "lureId": "sparkling_lure",
+        "chance": 0.861
+      },
+      {
+        "lureId": "fly_hook",
+        "chance": 1.397
+      },
+      {
+        "lureId": "large_lure",
+        "chance": 1.587
+      },
+      {
+        "lureId": "magnet_lure",
+        "chance": 1.596
+      },
+      {
+        "lureId": "gold_hook",
+        "chance": 1.815
+      }
+    ]
+  },
+  "Flounder": {
+    "chances": [
+      {
+        "lureId": "bare_hook",
+        "chance": 5.985
+      },
+      {
+        "lureId": "sparkling_lure",
+        "chance": 2.829
+      },
+      {
+        "lureId": "fly_hook",
+        "chance": 5.522
+      },
+      {
+        "lureId": "large_lure",
+        "chance": 4.295
+      },
+      {
+        "lureId": "magnet_lure",
+        "chance": 5.245
+      },
+      {
+        "lureId": "gold_hook",
+        "chance": 5.965
+      }
+    ]
+  },
+  "Golden Manta Ray": {
+    "chances": [
+      {
+        "lureId": "bare_hook",
+        "chance": 0.156
+      },
+      {
+        "lureId": "sparkling_lure",
+        "chance": 0.437
+      },
+      {
+        "lureId": "fly_hook",
+        "chance": 0.009
+      },
+      {
+        "lureId": "large_lure",
+        "chance": 0.434
+      },
+      {
+        "lureId": "magnet_lure",
+        "chance": 0.137
+      },
+      {
+        "lureId": "gold_hook",
+        "chance": 0.468
+      }
+    ]
+  },
+  "Great White Shark": {
+    "chances": [
+      {
+        "lureId": "bare_hook",
+        "chance": 0.624
+      },
+      {
+        "lureId": "sparkling_lure",
+        "chance": 1.747
+      },
+      {
+        "lureId": "fly_hook",
+        "chance": 0.12
+      },
+      {
+        "lureId": "large_lure",
+        "chance": 1.251
+      },
+      {
+        "lureId": "magnet_lure",
+        "chance": 0.547
+      },
+      {
+        "lureId": "gold_hook",
+        "chance": 0.622
+      }
+    ]
+  },
+  "Grouper": {
+    "chances": [
+      {
+        "lureId": "bare_hook",
+        "chance": 4.684
+      },
+      {
+        "lureId": "sparkling_lure",
+        "chance": 2.214
+      },
+      {
+        "lureId": "fly_hook",
+        "chance": 1.707
+      },
+      {
+        "lureId": "large_lure",
+        "chance": 7.031
+      },
+      {
+        "lureId": "magnet_lure",
+        "chance": 4.105
+      },
+      {
+        "lureId": "gold_hook",
+        "chance": 4.668
+      }
+    ]
+  },
+  "Hammerhead Shark": {
+    "chances": [
+      {
+        "lureId": "bare_hook",
+        "chance": 1.821
+      },
+      {
+        "lureId": "sparkling_lure",
+        "chance": 3.604
+      },
+      {
+        "lureId": "fly_hook",
+        "chance": 0.183
+      },
+      {
+        "lureId": "large_lure",
+        "chance": 4.46
+      },
+      {
+        "lureId": "magnet_lure",
+        "chance": 1.596
+      },
+      {
+        "lureId": "gold_hook",
+        "chance": 1.815
+      }
+    ]
+  },
+  "Herring": {
+    "chances": [
+      {
+        "lureId": "bare_hook",
+        "chance": 6.245
+      },
+      {
+        "lureId": "sparkling_lure",
+        "chance": 2.952
+      },
+      {
+        "lureId": "fly_hook",
+        "chance": 8.135
+      },
+      {
+        "lureId": "large_lure",
+        "chance": 2.73
+      },
+      {
+        "lureId": "magnet_lure",
+        "chance": 5.473
+      },
+      {
+        "lureId": "gold_hook",
+        "chance": 6.224
+      }
+    ]
+  },
+  "Krill": {
+    "chances": [
+      {
+        "lureId": "bare_hook",
+        "chance": 4.163
+      },
+      {
+        "lureId": "sparkling_lure",
+        "chance": 1.968
+      },
+      {
+        "lureId": "fly_hook",
+        "chance": 11.265
+      },
+      {
+        "lureId": "large_lure",
+        "chance": 0.039
+      },
+      {
+        "lureId": "magnet_lure",
+        "chance": 3.649
+      },
+      {
+        "lureId": "gold_hook",
+        "chance": 4.149
+      }
+    ]
+  },
+  "Lionfish": {
+    "chances": [
+      {
+        "lureId": "bare_hook",
+        "chance": 2.602
+      },
+      {
+        "lureId": "sparkling_lure",
+        "chance": 5.149
+      },
+      {
+        "lureId": "fly_hook",
+        "chance": 3.39
+      },
+      {
+        "lureId": "large_lure",
+        "chance": 1.138
+      },
+      {
+        "lureId": "magnet_lure",
+        "chance": 2.281
+      },
+      {
+        "lureId": "gold_hook",
+        "chance": 2.593
+      }
+    ]
+  },
+  "Lobster": {
+    "chances": [
+      {
+        "lureId": "bare_hook",
+        "chance": 3.643
+      },
+      {
+        "lureId": "sparkling_lure",
+        "chance": 1.722
+      },
+      {
+        "lureId": "fly_hook",
+        "chance": 2.051
+      },
+      {
+        "lureId": "large_lure",
+        "chance": 4.125
+      },
+      {
+        "lureId": "magnet_lure",
+        "chance": 3.193
+      },
+      {
+        "lureId": "gold_hook",
+        "chance": 3.631
+      }
+    ]
+  },
+  "Man O' War": {
+    "chances": [
+      {
+        "lureId": "bare_hook",
+        "chance": 1.041
+      },
+      {
+        "lureId": "sparkling_lure",
+        "chance": 2.911
+      },
+      {
+        "lureId": "fly_hook",
+        "chance": 1.195
+      },
+      {
+        "lureId": "large_lure",
+        "chance": 0.56
+      },
+      {
+        "lureId": "magnet_lure",
+        "chance": 0.912
+      },
+      {
+        "lureId": "gold_hook",
+        "chance": 1.037
+      }
+    ]
+  },
+  "Manta Ray": {
+    "chances": [
+      {
+        "lureId": "bare_hook",
+        "chance": 0.937
+      },
+      {
+        "lureId": "sparkling_lure",
+        "chance": 2.62
+      },
+      {
+        "lureId": "fly_hook",
+        "chance": 0.052
+      },
+      {
+        "lureId": "large_lure",
+        "chance": 2.604
+      },
+      {
+        "lureId": "magnet_lure",
+        "chance": 0.821
+      },
+      {
+        "lureId": "gold_hook",
+        "chance": 0.934
+      }
+    ]
+  },
+  "Marlin": {
+    "chances": [
+      {
+        "lureId": "bare_hook",
+        "chance": 3.122
+      },
+      {
+        "lureId": "sparkling_lure",
+        "chance": 6.179
+      },
+      {
+        "lureId": "fly_hook",
+        "chance": 0.391
+      },
+      {
+        "lureId": "large_lure",
+        "chance": 7.201
+      },
+      {
+        "lureId": "magnet_lure",
+        "chance": 2.737
+      },
+      {
+        "lureId": "gold_hook",
+        "chance": 3.112
+      }
+    ]
+  },
+  "Octopus": {
+    "chances": [
+      {
+        "lureId": "bare_hook",
+        "chance": 3.122
+      },
+      {
+        "lureId": "sparkling_lure",
+        "chance": 6.179
+      },
+      {
+        "lureId": "fly_hook",
+        "chance": 1.277
+      },
+      {
+        "lureId": "large_lure",
+        "chance": 4.388
+      },
+      {
+        "lureId": "magnet_lure",
+        "chance": 2.737
+      },
+      {
+        "lureId": "gold_hook",
+        "chance": 3.112
+      }
+    ]
+  },
+  "Oyster": {
+    "chances": [
+      {
+        "lureId": "bare_hook",
+        "chance": 4.163
+      },
+      {
+        "lureId": "sparkling_lure",
+        "chance": 1.968
+      },
+      {
+        "lureId": "fly_hook",
+        "chance": 7.722
+      },
+      {
+        "lureId": "large_lure",
+        "chance": 0.746
+      },
+      {
+        "lureId": "magnet_lure",
+        "chance": 3.649
+      },
+      {
+        "lureId": "gold_hook",
+        "chance": 4.149
+      }
+    ]
+  },
+  "Sawfish": {
+    "chances": [
+      {
+        "lureId": "bare_hook",
+        "chance": 0.781
+      },
+      {
+        "lureId": "sparkling_lure",
+        "chance": 0.369
+      },
+      {
+        "lureId": "fly_hook",
+        "chance": 0.098
+      },
+      {
+        "lureId": "large_lure",
+        "chance": 1.8
+      },
+      {
+        "lureId": "magnet_lure",
+        "chance": 0.684
+      },
+      {
+        "lureId": "gold_hook",
+        "chance": 0.778
+      }
+    ]
+  },
+  "Seahorse": {
+    "chances": [
+      {
+        "lureId": "bare_hook",
+        "chance": 3.643
+      },
+      {
+        "lureId": "sparkling_lure",
+        "chance": 7.208
+      },
+      {
+        "lureId": "fly_hook",
+        "chance": 5.452
+      },
+      {
+        "lureId": "large_lure",
+        "chance": 1.203
+      },
+      {
+        "lureId": "magnet_lure",
+        "chance": 3.193
+      },
+      {
+        "lureId": "gold_hook",
+        "chance": 3.631
+      }
+    ]
+  },
+  "Sea Turtle": {
+    "chances": [
+      {
+        "lureId": "bare_hook",
+        "chance": 1.301
+      },
+      {
+        "lureId": "sparkling_lure",
+        "chance": 3.639
+      },
+      {
+        "lureId": "fly_hook",
+        "chance": 0.532
+      },
+      {
+        "lureId": "large_lure",
+        "chance": 1.828
+      },
+      {
+        "lureId": "magnet_lure",
+        "chance": 1.14
+      },
+      {
+        "lureId": "gold_hook",
+        "chance": 1.297
+      }
+    ]
+  },
+  "Shrimp": {
+    "chances": [
+      {
+        "lureId": "bare_hook",
+        "chance": 5.204
+      },
+      {
+        "lureId": "sparkling_lure",
+        "chance": 2.46
+      },
+      {
+        "lureId": "fly_hook",
+        "chance": 10.628
+      },
+      {
+        "lureId": "large_lure",
+        "chance": 0.626
+      },
+      {
+        "lureId": "magnet_lure",
+        "chance": 4.561
+      },
+      {
+        "lureId": "gold_hook",
+        "chance": 5.187
+      }
+    ]
+  },
+  "Squid": {
+    "chances": [
+      {
+        "lureId": "bare_hook",
+        "chance": 1.301
+      },
+      {
+        "lureId": "sparkling_lure",
+        "chance": 3.639
+      },
+      {
+        "lureId": "fly_hook",
+        "chance": 0.182
+      },
+      {
+        "lureId": "large_lure",
+        "chance": 2.907
+      },
+      {
+        "lureId": "magnet_lure",
+        "chance": 1.14
+      },
+      {
+        "lureId": "gold_hook",
+        "chance": 1.297
+      }
+    ]
+  },
+  "Sting Ray": {
+    "chances": [
+      {
+        "lureId": "bare_hook",
+        "chance": 3.122
+      },
+      {
+        "lureId": "sparkling_lure",
+        "chance": 6.179
+      },
+      {
+        "lureId": "fly_hook",
+        "chance": 0.768
+      },
+      {
+        "lureId": "large_lure",
+        "chance": 5.683
+      },
+      {
+        "lureId": "magnet_lure",
+        "chance": 2.737
+      },
+      {
+        "lureId": "gold_hook",
+        "chance": 3.112
+      }
+    ]
+  },
+  "Sunfish": {
+    "chances": [
+      {
+        "lureId": "bare_hook",
+        "chance": 2.082
+      },
+      {
+        "lureId": "sparkling_lure",
+        "chance": 0.984
+      },
+      {
+        "lureId": "fly_hook",
+        "chance": 0.375
+      },
+      {
+        "lureId": "large_lure",
+        "chance": 4.281
+      },
+      {
+        "lureId": "magnet_lure",
+        "chance": 1.824
+      },
+      {
+        "lureId": "gold_hook",
+        "chance": 2.075
+      }
+    ]
+  },
+  "Swordfish": {
+    "chances": [
+      {
+        "lureId": "bare_hook",
+        "chance": 3.383
+      },
+      {
+        "lureId": "sparkling_lure",
+        "chance": 6.693
+      },
+      {
+        "lureId": "fly_hook",
+        "chance": 0.372
+      },
+      {
+        "lureId": "large_lure",
+        "chance": 8.109
+      },
+      {
+        "lureId": "magnet_lure",
+        "chance": 2.965
+      },
+      {
+        "lureId": "gold_hook",
+        "chance": 3.371
+      }
+    ]
+  },
+  "Tuna": {
+    "chances": [
+      {
+        "lureId": "bare_hook",
+        "chance": 3.643
+      },
+      {
+        "lureId": "sparkling_lure",
+        "chance": 1.722
+      },
+      {
+        "lureId": "fly_hook",
+        "chance": 0.897
+      },
+      {
+        "lureId": "large_lure",
+        "chance": 6.63
+      },
+      {
+        "lureId": "magnet_lure",
+        "chance": 3.193
+      },
+      {
+        "lureId": "gold_hook",
+        "chance": 3.631
+      }
+    ]
+  },
+  "Whale": {
+    "chances": [
+      {
+        "lureId": "bare_hook",
+        "chance": 0.572
+      },
+      {
+        "lureId": "sparkling_lure",
+        "chance": 1.601
+      },
+      {
+        "lureId": "fly_hook",
+        "chance": 0.022
+      },
+      {
+        "lureId": "large_lure",
+        "chance": 1.677
+      },
+      {
+        "lureId": "magnet_lure",
+        "chance": 0.502
+      },
+      {
+        "lureId": "gold_hook",
+        "chance": 0.571
+      }
+    ]
+  },
+  "Wolffish": {
+    "chances": [
+      {
+        "lureId": "bare_hook",
+        "chance": 1.821
+      },
+      {
+        "lureId": "sparkling_lure",
+        "chance": 3.604
+      },
+      {
+        "lureId": "fly_hook",
+        "chance": 0.567
+      },
+      {
+        "lureId": "large_lure",
+        "chance": 2.973
+      },
+      {
+        "lureId": "magnet_lure",
+        "chance": 1.596
+      },
+      {
+        "lureId": "gold_hook",
+        "chance": 1.815
+      }
+    ]
+  },
+  "Anomalocaris": {
+    "chances": [
+      {
+        "lureId": "bare_hook",
+        "chance": 3.24
+      },
+      {
+        "lureId": "sparkling_lure",
+        "chance": 2.213
+      },
+      {
+        "lureId": "fly_hook",
+        "chance": 3.869
+      },
+      {
+        "lureId": "large_lure",
+        "chance": 2.238
+      },
+      {
+        "lureId": "magnet_lure",
+        "chance": 3.174
+      },
+      {
+        "lureId": "gold_hook",
+        "chance": 2.926
+      }
+    ]
+  },
+  "Helicoprion": {
+    "chances": [
+      {
+        "lureId": "bare_hook",
+        "chance": 0.972
+      },
+      {
+        "lureId": "sparkling_lure",
+        "chance": 2.305
+      },
+      {
+        "lureId": "fly_hook",
+        "chance": 0.083
+      },
+      {
+        "lureId": "large_lure",
+        "chance": 2.277
+      },
+      {
+        "lureId": "magnet_lure",
+        "chance": 0.952
+      },
+      {
+        "lureId": "gold_hook",
+        "chance": 0.878
+      }
+    ]
+  },
+  "Horseshoe Crab": {
+    "chances": [
+      {
+        "lureId": "bare_hook",
+        "chance": 3.24
+      },
+      {
+        "lureId": "sparkling_lure",
+        "chance": 2.213
+      },
+      {
+        "lureId": "fly_hook",
+        "chance": 3.872
+      },
+      {
+        "lureId": "large_lure",
+        "chance": 2.237
+      },
+      {
+        "lureId": "magnet_lure",
+        "chance": 3.174
+      },
+      {
+        "lureId": "gold_hook",
+        "chance": 2.926
+      }
+    ]
+  },
+  "Leedsichthys": {
+    "chances": [
+      {
+        "lureId": "bare_hook",
+        "chance": 0.389
+      },
+      {
+        "lureId": "sparkling_lure",
+        "chance": 1.109
+      },
+      {
+        "lureId": "fly_hook",
+        "chance": 0.017
+      },
+      {
+        "lureId": "large_lure",
+        "chance": 1.088
+      },
+      {
+        "lureId": "magnet_lure",
+        "chance": 0.381
+      },
+      {
+        "lureId": "gold_hook",
+        "chance": 1.109
+      }
+    ]
+  },
+  "Bone": {
+    "chances": [
+      {
+        "lureId": "bare_hook",
+        "chance": 0.207
+      },
+      {
+        "lureId": "sparkling_lure",
+        "chance": 0.207
+      },
+      {
+        "lureId": "fly_hook",
+        "chance": 0.195
+      },
+      {
+        "lureId": "large_lure",
+        "chance": 0.124
+      },
+      {
+        "lureId": "magnet_lure",
+        "chance": 0.607
+      },
+      {
+        "lureId": "gold_hook",
+        "chance": 0.194
+      }
+    ]
+  },
+  "Old Boot": {
+    "chances": [
+      {
+        "lureId": "bare_hook",
+        "chance": 0.413
+      },
+      {
+        "lureId": "sparkling_lure",
+        "chance": 0.413
+      },
+      {
+        "lureId": "fly_hook",
+        "chance": 0.138
+      },
+      {
+        "lureId": "large_lure",
+        "chance": 0.571
+      },
+      {
+        "lureId": "magnet_lure",
+        "chance": 1.214
+      },
+      {
+        "lureId": "gold_hook",
+        "chance": 0.388
+      }
+    ]
+  },
+  "Branch": {
+    "chances": [
+      {
+        "lureId": "bare_hook",
+        "chance": 0.826
+      },
+      {
+        "lureId": "sparkling_lure",
+        "chance": 0.826
+      },
+      {
+        "lureId": "fly_hook",
+        "chance": 0.038
+      },
+      {
+        "lureId": "large_lure",
+        "chance": 1.949
+      },
+      {
+        "lureId": "magnet_lure",
+        "chance": 2.428
+      },
+      {
+        "lureId": "gold_hook",
+        "chance": 0.777
+      }
+    ]
+  },
+  "Diamond": {
+    "chances": [
+      {
+        "lureId": "bare_hook",
+        "chance": 0.149
+      },
+      {
+        "lureId": "sparkling_lure",
+        "chance": 0.149
+      },
+      {
+        "lureId": "fly_hook",
+        "chance": 0
+      },
+      {
+        "lureId": "large_lure",
+        "chance": 0.433
+      },
+      {
+        "lureId": "magnet_lure",
+        "chance": 0.437
+      },
+      {
+        "lureId": "gold_hook",
+        "chance": 0.433
+      }
+    ]
+  },
+  "Drink Rings": {
+    "chances": [
+      {
+        "lureId": "bare_hook",
+        "chance": 0.826
+      },
+      {
+        "lureId": "sparkling_lure",
+        "chance": 0.826
+      },
+      {
+        "lureId": "fly_hook",
+        "chance": 0.276
+      },
+      {
+        "lureId": "large_lure",
+        "chance": 1.141
+      },
+      {
+        "lureId": "magnet_lure",
+        "chance": 2.428
+      },
+      {
+        "lureId": "gold_hook",
+        "chance": 0.777
+      }
+    ]
+  },
+  "Plastic Bag": {
+    "chances": [
+      {
+        "lureId": "bare_hook",
+        "chance": 0.826
+      },
+      {
+        "lureId": "sparkling_lure",
+        "chance": 0.826
+      },
+      {
+        "lureId": "fly_hook",
+        "chance": 0.779
+      },
+      {
+        "lureId": "large_lure",
+        "chance": 0.495
+      },
+      {
+        "lureId": "magnet_lure",
+        "chance": 2.428
+      },
+      {
+        "lureId": "gold_hook",
+        "chance": 0.777
+      }
+    ]
+  },
+  "Soda Can": {
+    "chances": [
+      {
+        "lureId": "bare_hook",
+        "chance": 0.826
+      },
+      {
+        "lureId": "sparkling_lure",
+        "chance": 0.826
+      },
+      {
+        "lureId": "fly_hook",
+        "chance": 2.084
+      },
+      {
+        "lureId": "large_lure",
+        "chance": 0.023
+      },
+      {
+        "lureId": "magnet_lure",
+        "chance": 2.428
+      },
+      {
+        "lureId": "gold_hook",
+        "chance": 0.777
+      }
+    ]
+  },
+  "Weed": {
+    "chances": [
+      {
+        "lureId": "bare_hook",
+        "chance": 0.826
+      },
+      {
+        "lureId": "sparkling_lure",
+        "chance": 0.826
+      },
+      {
+        "lureId": "fly_hook",
+        "chance": 1.389
+      },
+      {
+        "lureId": "large_lure",
+        "chance": 0.164
+      },
+      {
+        "lureId": "magnet_lure",
+        "chance": 2.428
+      },
+      {
+        "lureId": "gold_hook",
+        "chance": 0.777
+      }
+    ]
+  },
+  "CREATURE": {
+    "chances": [
+      {
+        "lureId": "bare_hook",
+        "chance": 2.328
+      },
+      {
+        "lureId": "sparkling_lure",
+        "chance": 2.328
+      },
+      {
+        "lureId": "fly_hook",
+        "chance": 2.328
+      },
+      {
+        "lureId": "large_lure",
+        "chance": 2.328
+      },
+      {
+        "lureId": "magnet_lure",
+        "chance": 2.04
+      },
+      {
+        "lureId": "gold_hook",
+        "chance": 2.328
+      }
+    ]
+  }
+}

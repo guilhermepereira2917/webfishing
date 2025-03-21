@@ -38,6 +38,8 @@ sell_value_pattern = re.compile(r'sell_value\s*=\s*(.+?)')
 
 texture_pattern = re.compile(r'path="res://(.+?)" type="Texture"')
 
+textures_to_ignore = ["fish_void_voidfish"]
+
 for index, folder in enumerate(fish_folders):
   fish_folder = os.path.join(sources_path, folder)
   fish_data = []
@@ -58,11 +60,12 @@ for index, folder in enumerate(fish_folders):
         average_size_match = average_size_pattern.search(content)
         sell_value_match = sell_value_pattern.search(content)
 
-        texture_match = texture_pattern.search(content)
-        texture_path = os.path.join(sources_path, texture_match.group(1))
-        texture_name = f"{id}.png"
-        texture_save_path = os.path.join(os.path.dirname(__file__), "..", f"public\\img\\fish\\{texture_name}")
-        shutil.copy2(texture_path, texture_save_path)
+        if id not in textures_to_ignore:
+          texture_match = texture_pattern.search(content)
+          texture_path = os.path.join(sources_path, texture_match.group(1))
+          texture_name = f"{id}.png"
+          texture_save_path = os.path.join(os.path.dirname(__file__), "..", f"public\\img\\fish\\{texture_name}")
+          shutil.copy2(texture_path, texture_save_path)
 
         if name_match and desc_match:
           fish_data.append({

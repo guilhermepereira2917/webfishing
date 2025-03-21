@@ -7,6 +7,32 @@
     "tier": 1,
     "averageSize": 9.0,
     "sellValue": 1.0,
-    "textureName": "fish_void_voidfish.gif"
+    "textureName": "fish_void_voidfish.gif",
+    "catchChances": [
+      {
+        "lureId": "bare_hook",
+        "chance": 2.328
+      },
+      {
+        "lureId": "sparkling_lure",
+        "chance": 2.328
+      },
+      {
+        "lureId": "fly_hook",
+        "chance": 2.328
+      },
+      {
+        "lureId": "large_lure",
+        "chance": 2.328
+      },
+      {
+        "lureId": "magnet_lure",
+        "chance": 2.04
+      },
+      {
+        "lureId": "gold_hook",
+        "chance": 2.328
+      }
+    ]
   }
 ]

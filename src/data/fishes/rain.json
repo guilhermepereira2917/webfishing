@@ -7,7 +7,33 @@
     "tier": 0,
     "averageSize": 4.0,
     "sellValue": 1.0,
-    "textureName": "fish_rain_anomalocaris.png"
+    "textureName": "fish_rain_anomalocaris.png",
+    "catchChances": [
+      {
+        "lureId": "bare_hook",
+        "chance": 3.24
+      },
+      {
+        "lureId": "sparkling_lure",
+        "chance": 2.213
+      },
+      {
+        "lureId": "fly_hook",
+        "chance": 3.869
+      },
+      {
+        "lureId": "large_lure",
+        "chance": 2.238
+      },
+      {
+        "lureId": "magnet_lure",
+        "chance": 3.174
+      },
+      {
+        "lureId": "gold_hook",
+        "chance": 2.926
+      }
+    ]
   },
   {
     "id": "fish_rain_heliocoprion",
@@ -17,7 +43,33 @@
     "tier": 1,
     "averageSize": 6.0,
     "sellValue": 1.0,
-    "textureName": "fish_rain_heliocoprion.png"
+    "textureName": "fish_rain_heliocoprion.png",
+    "catchChances": [
+      {
+        "lureId": "bare_hook",
+        "chance": 0.972
+      },
+      {
+        "lureId": "sparkling_lure",
+        "chance": 2.305
+      },
+      {
+        "lureId": "fly_hook",
+        "chance": 0.083
+      },
+      {
+        "lureId": "large_lure",
+        "chance": 2.277
+      },
+      {
+        "lureId": "magnet_lure",
+        "chance": 0.952
+      },
+      {
+        "lureId": "gold_hook",
+        "chance": 0.878
+      }
+    ]
   },
   {
     "id": "fish_rain_horseshoe_crab",
@@ -27,7 +79,33 @@
     "tier": 0,
     "averageSize": 4.0,
     "sellValue": 1.0,
-    "textureName": "fish_rain_horseshoe_crab.png"
+    "textureName": "fish_rain_horseshoe_crab.png",
+    "catchChances": [
+      {
+        "lureId": "bare_hook",
+        "chance": 3.24
+      },
+      {
+        "lureId": "sparkling_lure",
+        "chance": 2.213
+      },
+      {
+        "lureId": "fly_hook",
+        "chance": 3.872
+      },
+      {
+        "lureId": "large_lure",
+        "chance": 2.237
+      },
+      {
+        "lureId": "magnet_lure",
+        "chance": 3.174
+      },
+      {
+        "lureId": "gold_hook",
+        "chance": 2.926
+      }
+    ]
   },
   {
     "id": "fish_rain_leedsichthys",
@@ -37,6 +115,32 @@
     "tier": 2,
     "averageSize": 2.0,
     "sellValue": 1.0,
-    "textureName": "fish_rain_leedsichthys.png"
+    "textureName": "fish_rain_leedsichthys.png",
+    "catchChances": [
+      {
+        "lureId": "bare_hook",
+        "chance": 0.389
+      },
+      {
+        "lureId": "sparkling_lure",
+        "chance": 1.109
+      },
+      {
+        "lureId": "fly_hook",
+        "chance": 0.017
+      },
+      {
+        "lureId": "large_lure",
+        "chance": 1.088
+      },
+      {
+        "lureId": "magnet_lure",
+        "chance": 0.381
+      },
+      {
+        "lureId": "gold_hook",
+        "chance": 1.109
+      }
+    ]
   }
 ]

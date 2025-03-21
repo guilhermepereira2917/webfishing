@@ -7,4 +7,10 @@ export default interface Fish {
   sellValue: number,
   averageSize: number,
   textureName: string,
+  catchChances: CatchChance[],
+}
+
+export interface CatchChance {
+  lureId: string,
+  chance: number,
 }

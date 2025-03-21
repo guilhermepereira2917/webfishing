@@ -1,8 +1,10 @@
 import { ReactNode, useEffect, useState } from "react";
 import fishApi from "../../api/fishApi";
-import Fish from "../../types/fishType";
+import Fish, { CatchChance } from "../../types/fishType";
 import FishTypesEnum from "../../types/fishTypes";
 import Container from "../Container";
+import lureApi from "../../api/lureApi";
+import LureImage from "../lure/LureImage";
 
 export default function JournalPage(): ReactNode {
   const [selectedTabIndex, setSelectedTabIndex] = useState(0)
@@ -74,11 +76,20 @@ export default function JournalPage(): ReactNode {
                 <span className="text-dark-beige-alternative">Tier: </span>
                 <span className="text-light-beige">{selectedFish.tier + 1}</span> <br />
 
-                <span className="text-dark-beige-alternative">Sell Value: </span>
-                <span className="text-light-beige">${selectedFish.sellValue}</span> <br />
+                {selectedFish.catchChances
+                  .sort((a, b) => b.chance - a.chance)
+                  .map(({ lureId, chance }: CatchChance): ReactNode => {
+                    const lure = lureApi.getLureById(lureId)
+                    const formatedChance = chance.toFixed(2) + "%"
 
-                <span className="text-dark-beige-alternative">Average Size: </span>
-                <span className="text-light-beige">{selectedFish.averageSize}.0 m</span> <br />
+                    return (
+                      <>
+                        <span className="text-dark-beige-alternative">{`${lure.name}: `}</span>
+                        <span className="text-light-beige">{formatedChance}</span>
+                        <LureImage lure={lure} className="inline-flex size-8" /> <br />
+                      </>
+                    )
+                  })}
               </p>
             )}
           </div>

@@ -7,6 +7,32 @@
     "tier": 1,
     "averageSize": 9.0,
     "sellValue": 8.0,
-    "textureName": "fish_alien_dog.png"
+    "textureName": "fish_alien_dog.png",
+    "catchChances": [
+      {
+        "lureId": "bare_hook",
+        "chance": 100
+      },
+      {
+        "lureId": "sparkling_lure",
+        "chance": 100
+      },
+      {
+        "lureId": "fly_hook",
+        "chance": 100
+      },
+      {
+        "lureId": "large_lure",
+        "chance": 100
+      },
+      {
+        "lureId": "magnet_lure",
+        "chance": 100
+      },
+      {
+        "lureId": "gold_hook",
+        "chance": 100
+      }
+    ]
   }
 ]

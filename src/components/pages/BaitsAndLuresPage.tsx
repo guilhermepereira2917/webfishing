@@ -5,6 +5,7 @@ import Container from "../Container";
 import Quality, { qualityLabels, qualityTextColors } from "../../types/qualityEnum";
 import Lure from "../../types/lureType";
 import lureApi from "../../api/lureApi";
+import LureImage from "../lure/LureImage";
 
 export default function BaitsAndLuresPage(): ReactNode {
   const baits: Bait[] = baitApi.getAllBaits()
@@ -39,7 +40,7 @@ export default function BaitsAndLuresPage(): ReactNode {
 
               return (
                 <li onClick={handleSelectLure} className="flex p-1 items-center mb-1 text-light-beige bg-light-green rounded-xl cursor-pointer">
-                  <img src={`/img/lures/${lure.id}.png`} alt={lure.name} className="size-10" />
+                  <LureImage lure={lure} className="size-10" />
                   {lure.name}
                 </li>
               )

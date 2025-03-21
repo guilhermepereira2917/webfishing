@@ -7,7 +7,33 @@
     "tier": 0,
     "averageSize": 1.0,
     "sellValue": 1.0,
-    "textureName": "wtrash_bone.png"
+    "textureName": "wtrash_bone.png",
+    "catchChances": [
+      {
+        "lureId": "bare_hook",
+        "chance": 0.207
+      },
+      {
+        "lureId": "sparkling_lure",
+        "chance": 0.207
+      },
+      {
+        "lureId": "fly_hook",
+        "chance": 0.195
+      },
+      {
+        "lureId": "large_lure",
+        "chance": 0.124
+      },
+      {
+        "lureId": "magnet_lure",
+        "chance": 0.607
+      },
+      {
+        "lureId": "gold_hook",
+        "chance": 0.194
+      }
+    ]
   },
   {
     "id": "wtrash_boot",
@@ -17,7 +43,33 @@
     "tier": 0,
     "averageSize": 1.0,
     "sellValue": 1.0,
-    "textureName": "wtrash_boot.png"
+    "textureName": "wtrash_boot.png",
+    "catchChances": [
+      {
+        "lureId": "bare_hook",
+        "chance": 0.413
+      },
+      {
+        "lureId": "sparkling_lure",
+        "chance": 0.413
+      },
+      {
+        "lureId": "fly_hook",
+        "chance": 0.138
+      },
+      {
+        "lureId": "large_lure",
+        "chance": 0.571
+      },
+      {
+        "lureId": "magnet_lure",
+        "chance": 1.214
+      },
+      {
+        "lureId": "gold_hook",
+        "chance": 0.388
+      }
+    ]
   },
   {
     "id": "wtrash_branch",
@@ -27,7 +79,33 @@
     "tier": 0,
     "averageSize": 1.0,
     "sellValue": 5.0,
-    "textureName": "wtrash_branch.png"
+    "textureName": "wtrash_branch.png",
+    "catchChances": [
+      {
+        "lureId": "bare_hook",
+        "chance": 0.826
+      },
+      {
+        "lureId": "sparkling_lure",
+        "chance": 0.826
+      },
+      {
+        "lureId": "fly_hook",
+        "chance": 0.038
+      },
+      {
+        "lureId": "large_lure",
+        "chance": 1.949
+      },
+      {
+        "lureId": "magnet_lure",
+        "chance": 2.428
+      },
+      {
+        "lureId": "gold_hook",
+        "chance": 0.777
+      }
+    ]
   },
   {
     "id": "wtrash_diamond",
@@ -37,7 +115,33 @@
     "tier": 0,
     "averageSize": 4.0,
     "sellValue": 1.0,
-    "textureName": "wtrash_diamond.png"
+    "textureName": "wtrash_diamond.png",
+    "catchChances": [
+      {
+        "lureId": "bare_hook",
+        "chance": 0.149
+      },
+      {
+        "lureId": "sparkling_lure",
+        "chance": 0.149
+      },
+      {
+        "lureId": "fly_hook",
+        "chance": 0
+      },
+      {
+        "lureId": "large_lure",
+        "chance": 0.433
+      },
+      {
+        "lureId": "magnet_lure",
+        "chance": 0.437
+      },
+      {
+        "lureId": "gold_hook",
+        "chance": 0.433
+      }
+    ]
   },
   {
     "id": "wtrash_drink_rings",
@@ -47,7 +151,33 @@
     "tier": 0,
     "averageSize": 1.0,
     "sellValue": 5.0,
-    "textureName": "wtrash_drink_rings.png"
+    "textureName": "wtrash_drink_rings.png",
+    "catchChances": [
+      {
+        "lureId": "bare_hook",
+        "chance": 0.826
+      },
+      {
+        "lureId": "sparkling_lure",
+        "chance": 0.826
+      },
+      {
+        "lureId": "fly_hook",
+        "chance": 0.276
+      },
+      {
+        "lureId": "large_lure",
+        "chance": 1.141
+      },
+      {
+        "lureId": "magnet_lure",
+        "chance": 2.428
+      },
+      {
+        "lureId": "gold_hook",
+        "chance": 0.777
+      }
+    ]
   },
   {
     "id": "wtrash_plastic_bag",
@@ -57,7 +187,33 @@
     "tier": 0,
     "averageSize": 1.0,
     "sellValue": 5.0,
-    "textureName": "wtrash_plastic_bag.png"
+    "textureName": "wtrash_plastic_bag.png",
+    "catchChances": [
+      {
+        "lureId": "bare_hook",
+        "chance": 0.826
+      },
+      {
+        "lureId": "sparkling_lure",
+        "chance": 0.826
+      },
+      {
+        "lureId": "fly_hook",
+        "chance": 0.779
+      },
+      {
+        "lureId": "large_lure",
+        "chance": 0.495
+      },
+      {
+        "lureId": "magnet_lure",
+        "chance": 2.428
+      },
+      {
+        "lureId": "gold_hook",
+        "chance": 0.777
+      }
+    ]
   },
   {
     "id": "wtrash_sodacan",
@@ -67,7 +223,33 @@
     "tier": 0,
     "averageSize": 3.0,
     "sellValue": 5.0,
-    "textureName": "wtrash_sodacan.png"
+    "textureName": "wtrash_sodacan.png",
+    "catchChances": [
+      {
+        "lureId": "bare_hook",
+        "chance": 0.826
+      },
+      {
+        "lureId": "sparkling_lure",
+        "chance": 0.826
+      },
+      {
+        "lureId": "fly_hook",
+        "chance": 2.084
+      },
+      {
+        "lureId": "large_lure",
+        "chance": 0.023
+      },
+      {
+        "lureId": "magnet_lure",
+        "chance": 2.428
+      },
+      {
+        "lureId": "gold_hook",
+        "chance": 0.777
+      }
+    ]
   },
   {
     "id": "wtrash_weed",
@@ -77,6 +259,32 @@
     "tier": 0,
     "averageSize": 1.0,
     "sellValue": 5.0,
-    "textureName": "wtrash_weed.png"
+    "textureName": "wtrash_weed.png",
+    "catchChances": [
+      {
+        "lureId": "bare_hook",
+        "chance": 0.826
+      },
+      {
+        "lureId": "sparkling_lure",
+        "chance": 0.826
+      },
+      {
+        "lureId": "fly_hook",
+        "chance": 1.389
+      },
+      {
+        "lureId": "large_lure",
+        "chance": 0.164
+      },
+      {
+        "lureId": "magnet_lure",
+        "chance": 2.428
+      },
+      {
+        "lureId": "gold_hook",
+        "chance": 0.777
+      }
+    ]
   }
 ]
