@@ -24,7 +24,7 @@ export default function JournalPage(): ReactNode {
           <div className="flex w-full items-start justify-evenly gap-2">
             {Object.keys(FishTypesEnum).filter((type) => isNaN(parseInt(type))).map((type, index) => {
               const isSelected = index == selectedTabIndex
-              const style = isSelected ? "bg-light-green text-light-beige" : "bg-dark-green text-greyed-out-beige"
+              const style = isSelected ? "bg-light-green text-light-beige hover:bg-medium-yellow" : "bg-dark-green text-greyed-out-beige hover:bg-dark-yellow"
 
               const handleClick = () => {
                 setSelectedTabIndex(index)

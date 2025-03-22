@@ -19,8 +19,8 @@ export default function TabSelector({ setSelectedTab }: TabSelectorProps): React
         }
 
         return (
-          <li onClick={handleChangeTab} className="cursor-pointer">
-            <img src={`/img/tabs/${tab}.png`} alt={tab} className="size-32 render-pixelated"/>
+          <li onClick={handleChangeTab} className="cursor-pointer brightness-75 hover:brightness-[80%]">
+            <img src={`/img/tabs/${tab}.png`} alt={tab} className="size-32 render-pixelated outline-4 outline-light-beige rounded-full"/>
           </li>
         )
       })}

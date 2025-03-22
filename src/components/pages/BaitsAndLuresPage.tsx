@@ -25,10 +25,10 @@ export default function BaitsAndLuresPage(): ReactNode {
               }
 
               return (
-                <li onClick={handleSelectBait} className="flex p-1 items-center mb-1 text-light-beige bg-light-green rounded-xl cursor-pointer">
+                <ListItem onClick={handleSelectBait} isSelected={bait === selectedBaitOrLure}>
                   <img src={`/img/baits/${bait.id}.png`} alt={bait.name} className="size-10" />
                   {bait.name}
-                </li>
+                </ListItem>
               )
             })}
           </List>
@@ -39,10 +39,10 @@ export default function BaitsAndLuresPage(): ReactNode {
               }
 
               return (
-                <li onClick={handleSelectLure} className="flex p-1 items-center mb-1 text-light-beige bg-light-green rounded-xl cursor-pointer">
+                <ListItem onClick={handleSelectLure} isSelected={lure === selectedBaitOrLure}>
                   <LureImage lure={lure} className="size-10" />
                   {lure.name}
-                </li>
+                </ListItem>
               )
             })}
           </List>
@@ -127,5 +127,27 @@ function List({ title, children, classname }: ListProps): ReactNode {
         </ol>
       </div>
     </div>
+  )
+}
+
+interface ListItemProps {
+  onClick?: () => void,
+  isSelected: boolean,
+  children: ReactNode,
+}
+
+function ListItem({ isSelected, onClick, children }: ListItemProps): ReactNode {
+  return (
+    <li
+      onClick={onClick}
+      className={`
+        flex p-1 items-center mb-1 rounded-xl
+         ${isSelected ? "bg-dark-beige-alternative text-medium-beige" :
+          "bg-light-green text-light-beige hover:bg-medium-yellow cursor-pointer active:bg-light-green active:text-medium-beige"
+        }          
+      `}
+    >
+      {children}
+    </li>
   )
 }

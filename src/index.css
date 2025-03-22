@@ -41,6 +41,9 @@ body {
   --color-light-green: rgb(90, 117, 90);
   --color-dark-green: rgb(63, 82, 63);
 
+  --color-medium-yellow: rgb(156, 145, 74);
+  --color-dark-yellow: rgba(109, 102, 52);
+
   --color-quality-normal: rgb(213, 170, 115);
   --color-quality-shining: rgb(213, 170, 115);
   --color-quality-glistening: rgb(164, 157, 156);
