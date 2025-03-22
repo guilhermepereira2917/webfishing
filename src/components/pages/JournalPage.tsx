@@ -76,6 +76,8 @@ export default function JournalPage(): ReactNode {
                 <span className="text-dark-beige-alternative">Tier: </span>
                 <span className="text-light-beige">{selectedFish.tier + 1}</span> <br />
 
+                <br />
+
                 {selectedFish.catchChances
                   .sort((a, b) => b.chance - a.chance)
                   .map(({ lureId, chance }: CatchChance): ReactNode => {
