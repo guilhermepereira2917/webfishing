@@ -1,10 +1,20 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import './index.css'
+import { BrowserRouter, Route, Routes } from 'react-router'
 import App from './App.tsx'
+import BaitsAndLuresPage from './components/pages/BaitsAndLuresPage.tsx'
+import JournalPage from './components/pages/JournalPage.tsx'
+import './index.css'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <App />
+    <BrowserRouter>
+      <Routes>
+        <Route element={<App />}>
+          <Route index element={<JournalPage />} />
+          <Route path='/baits' element={<BaitsAndLuresPage />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
   </StrictMode>,
 )

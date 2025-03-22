@@ -52,7 +52,7 @@ export default function JournalPage(): ReactNode {
                     <CustomTooltip anchorSelect={`#${fish.id}`} title={fish.name} description={fish.description} />
 
                     <button
-                      id={fish.id}                      
+                      id={fish.id}
                       onClick={handleClick}
                       className="flex items-center justify-center w-[165px] h-[90px] bg-light-beige rounded-4xl cursor-pointer"
                     >
