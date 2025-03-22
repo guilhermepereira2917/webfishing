@@ -1,9 +1,10 @@
 import { ReactNode, useEffect, useState } from "react";
 import fishApi from "../../api/fishApi";
+import lureApi from "../../api/lureApi";
 import Fish, { CatchChance } from "../../types/fishType";
 import FishTypesEnum from "../../types/fishTypes";
 import Container from "../Container";
-import lureApi from "../../api/lureApi";
+import CustomTooltip from "../CustomTooltip";
 import LureImage from "../lure/LureImage";
 
 export default function JournalPage(): ReactNode {
@@ -47,13 +48,18 @@ export default function JournalPage(): ReactNode {
                 }
 
                 return (
-                  <button
-                    onClick={handleClick}
-                    key={fish.id}
-                    className="flex items-center justify-center w-[165px] h-[90px] bg-light-beige rounded-4xl cursor-pointer"
-                  >
-                    <img src={`/img/fishes/${fish.textureName}`} className="h-full" alt={fish.description} />
-                  </button>
+                  <>
+                    <CustomTooltip anchorSelect={`#${fish.id}`} title={fish.name} description={fish.description} />
+
+                    <button
+                      id={fish.id}
+                      key={fish.id}
+                      onClick={handleClick}
+                      className="flex items-center justify-center w-[165px] h-[90px] bg-light-beige rounded-4xl cursor-pointer"
+                    >
+                      <img src={`/img/fishes/${fish.textureName}`} className="h-full" alt={fish.description} />
+                    </button>
+                  </>
                 )
               })}
             </div>
