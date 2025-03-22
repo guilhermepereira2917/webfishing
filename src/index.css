@@ -29,6 +29,10 @@ body {
   font-style: normal;
 }
 
+* {
+  cursor: url('/cursor/cursor.png'), auto;
+}
+
 @theme static {
   --font-accid: "accid", sans-serif;
 
