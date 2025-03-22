@@ -26,13 +26,17 @@ export default function TabSelector({ setSelectedTab }: TabSelectorProps): React
         }
 
         return (
-          <>
+          <div key={tab.id}>
             <CustomTooltip anchorSelect={`#${tab.id}`} title={tab.title} description={tab.description} />
+            <li
+              id={tab.id}
+              onClick={handleChangeTab}
+              className="cursor-pointer brightness-75 hover:brightness-[80%]"
+            >
 
-            <li id={tab.id} onClick={handleChangeTab} className="cursor-pointer brightness-75 hover:brightness-[80%]">
               <img src={`/img/tabs/${tab.id}.png`} alt={tab.title} className="size-32 render-pixelated outline-4 outline-light-beige rounded-full" />
             </li>
-          </>
+          </div>
         )
       })}
     </ul>

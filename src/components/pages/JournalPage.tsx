@@ -48,18 +48,17 @@ export default function JournalPage(): ReactNode {
                 }
 
                 return (
-                  <>
+                  <div key={fish.id}>
                     <CustomTooltip anchorSelect={`#${fish.id}`} title={fish.name} description={fish.description} />
 
                     <button
-                      id={fish.id}
-                      key={fish.id}
+                      id={fish.id}                      
                       onClick={handleClick}
                       className="flex items-center justify-center w-[165px] h-[90px] bg-light-beige rounded-4xl cursor-pointer"
                     >
                       <img src={`/img/fishes/${fish.textureName}`} className="h-full" alt={fish.description} />
                     </button>
-                  </>
+                  </div>
                 )
               })}
             </div>

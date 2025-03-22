@@ -25,7 +25,7 @@ export default function BaitsAndLuresPage(): ReactNode {
               }
 
               return (
-                <ListItem onClick={handleSelectBait} isSelected={bait === selectedBaitOrLure}>
+                <ListItem key={bait.id} onClick={handleSelectBait} isSelected={bait === selectedBaitOrLure}>
                   <img src={`/img/baits/${bait.id}.png`} alt={bait.name} className="size-10" />
                   {bait.name}
                 </ListItem>
@@ -39,7 +39,7 @@ export default function BaitsAndLuresPage(): ReactNode {
               }
 
               return (
-                <ListItem onClick={handleSelectLure} isSelected={lure === selectedBaitOrLure}>
+                <ListItem key={lure.id} onClick={handleSelectLure} isSelected={lure === selectedBaitOrLure}>
                   <LureImage lure={lure} className="size-10" />
                   {lure.name}
                 </ListItem>
