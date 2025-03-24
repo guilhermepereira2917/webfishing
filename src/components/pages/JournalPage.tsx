@@ -20,9 +20,9 @@ export default function JournalPage(): ReactNode {
 
   return (
     <Container name="journal">
-      <div className="flex w-full h-full gap-4 p-4 pt-8">
-        <div className="flex flex-col gap-4 w-4/6">
-          <div className="flex w-full items-start justify-evenly gap-2">
+      <div className="flex sm:flex-row flex-col-reverse w-full h-full gap-4 p-4 pt-8">
+        <div className="flex flex-col gap-4 sm:w-4/6">
+          <div className="flex flex-wrap xs:flex-nowrap w-full items-start justify-evenly gap-2">
             {Object.keys(FishTypesEnum).filter((type) => isNaN(parseInt(type))).map((type, index) => {
               const isSelected = index == selectedTabIndex
               const style = isSelected ? "bg-light-green text-light-beige hover:bg-medium-yellow" : "bg-dark-green text-greyed-out-beige hover:bg-dark-yellow"
@@ -40,7 +40,7 @@ export default function JournalPage(): ReactNode {
           </div>
 
           <div className="bg-medium-beige w-full h-full rounded-4xl overflow-y-scroll no-scrollbar">
-            <div className="flex flex-wrap gap-1 w-full p-4">
+            <div className="grid lg:grid-cols-4 md:grid-cols-3 grid-cols-2 gap-1 w-full p-4">
               {fishList.map((fish: Fish): ReactNode => {
 
                 const handleClick = () => {
@@ -54,7 +54,7 @@ export default function JournalPage(): ReactNode {
                     <button
                       id={fish.id}
                       onClick={handleClick}
-                      className="flex items-center justify-center w-[165px] h-[90px] bg-light-beige rounded-4xl cursor-pointer"
+                      className="flex items-center justify-center w-full h-[90px] bg-light-beige rounded-4xl cursor-pointer"
                     >
                       <img src={`/img/fishes/${fish.textureName}`} className="h-full" alt={fish.description} />
                     </button>
@@ -64,7 +64,7 @@ export default function JournalPage(): ReactNode {
             </div>
           </div>
         </div>
-        <div className="flex flex-col gap-4 w-2/6 h-full">
+        <div className="flex flex-col gap-4 sm:w-2/6 h-full">
           <div className="flex items-center justify-center w-full h-3/5 bg-medium-beige rounded-4xl">
             {selectedFish && (
               <img className="rotate-animation" src={`/img/fishes/${selectedFish.textureName}`} alt={selectedFish.description} />

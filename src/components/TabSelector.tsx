@@ -28,8 +28,8 @@ export default function TabSelector(): ReactNode {
                   <img
                     src={`/img/tabs/${tab.id}.png`} alt={tab.title}
                     className={`
-                      size-32 render-pixelated outline-4 outline-light-beige rounded-full
-                      ${isActive ? "-translate-y-3" : "brightness-75 hover:brightness-[80%]"}
+                      size-20 xs:size-24 sm:size-32 render-pixelated rounded-full
+                      ${isActive ? "-translate-y-3 outline-4 outline-light-beige" : "brightness-75 hover:brightness-[80%]"}
                     `}
                   />
                 </div>

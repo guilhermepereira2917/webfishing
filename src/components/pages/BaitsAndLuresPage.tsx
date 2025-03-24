@@ -16,9 +16,9 @@ export default function BaitsAndLuresPage(): ReactNode {
 
   return (
     <Container name="baits & lures">
-      <div className="flex gap-4 h-full p-4 pt-8 text-3xl">
-        <div className="flex-2 flex bg-medium-beige w-full rounded-4xl">
-          <List title="Baits" classname="pr-0">
+      <div className="flex flex-col-reverse md:flex-row gap-4 h-full p-4 pt-8 text-3xl">
+        <div className="flex-2 flex flex-col md:flex-row bg-medium-beige w-full rounded-4xl">
+          <List title="Baits" classname="md:pr-0">
             {baits.map((bait: Bait): ReactNode => {
               const handleSelectBait = () => {
                 setSelectedBaitOrLure(bait)

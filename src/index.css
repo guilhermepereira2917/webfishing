@@ -3,8 +3,8 @@
 
 body,
 #root {
-  min-width: 100vw;
-  min-height: 100vh;
+  min-width: 100svw;
+  min-height: 100svh;
 
   display: flex;
   align-items: center;
@@ -20,6 +20,7 @@ body {
 
 #root {
   align-items: start;
+  padding-bottom: 2rem;
 }
 
 @font-face {
@@ -30,11 +31,13 @@ body {
 }
 
 * {
-  cursor: url('/cursor/cursor.png'), auto;
+  cursor: url('/cusor/cursor.png'), auto;
 }
 
 @theme static {
   --font-accid: "accid", sans-serif;
+
+  --breakpoint-xs: 23.438rem;
 
   --color-light-beige: rgb(255, 238, 213);
   --color-light-beige-alternative: rgb(180, 129, 65);
