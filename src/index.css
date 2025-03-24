@@ -31,7 +31,7 @@ body {
 }
 
 * {
-  cursor: url('/cusor/cursor.png'), auto;
+  cursor: url('/cursor/cursor.png'), auto;
 }
 
 @theme static {

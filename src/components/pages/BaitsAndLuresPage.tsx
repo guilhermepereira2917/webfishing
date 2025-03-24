@@ -57,21 +57,23 @@ export default function BaitsAndLuresPage(): ReactNode {
 
 function BaitInfo(bait: Bait): ReactNode {
   return (
-    <p>
-      <span className="text-dark-beige-alternative">{bait.name}</span> <br />
-      {bait.description &&
-        <>
-          <span className="text-light-beige">{bait.description}</span> <br />
-        </>
-      }
+    <>
+      <p>
+        <span className="text-dark-beige-alternative">{bait.name}</span> <br />
+        {bait.description &&
+          <>
+            <span className="text-light-beige">{bait.description}</span> <br />
+          </>
+        }
 
-      <span className="text-dark-beige">Cost: </span>
-      <span className="text-light-beige">${bait.cost}</span> <br />
+        <span className="text-dark-beige">Cost: </span>
+        <span className="text-light-beige">${bait.cost}</span> <br />
 
-      <span className="text-dark-beige">Max Tier: </span>
-      <span className="text-light-beige">{bait.maxTier}</span> <br />
+        <span className="text-dark-beige">Max Tier: </span>
+        <span className="text-light-beige">{bait.maxTier}</span> <br />
 
-      <br />
+        <br />
+      </p>
 
       <ol>
         {bait.qualities.map((value): ReactNode => {
@@ -87,14 +89,14 @@ function BaitInfo(bait: Bait): ReactNode {
           const formatedChance = (value.chance * 100).toFixed(2)
 
           return (
-            <li>
+            <li key={quality}>
               <span className={textColor}>{label}: </span>
               <span className="text-light-beige">{formatedChance}%</span>
             </li>
           )
         })}
       </ol>
-    </p>
+    </>
   )
 }
 

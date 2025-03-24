@@ -90,11 +90,11 @@ export default function JournalPage(): ReactNode {
                     const formatedChance = chance.toFixed(2) + "%"
 
                     return (
-                      <>
+                      <span key={lureId}>
                         <span className="text-dark-beige-alternative">{`${lure.name}: `}</span>
                         <span className="text-light-beige">{formatedChance}</span>
                         <LureImage lure={lure} className="inline-flex size-8" /> <br />
-                      </>
+                      </span>
                     )
                   })}
               </p>
