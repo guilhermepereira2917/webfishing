@@ -6,17 +6,24 @@ import FishTypesEnum from "../../types/fishTypes";
 import Container from "../Container";
 import CustomTooltip from "../CustomTooltip";
 import LureImage from "../lure/LureImage";
+import FishSearch from "../fish/FishSearch";
 
 export default function JournalPage(): ReactNode {
   const [selectedTabIndex, setSelectedTabIndex] = useState(0)
+  const [filter, setFilter] = useState("")
   const [fishList, setFishList] = useState<Fish[]>(fishApi.getAllFishes())
   const [selectedFish, setSelectedFish] = useState<Fish | null>(null)
 
   useEffect(() => {
     const fishType = Object.values(FishTypesEnum)[selectedTabIndex] as FishTypesEnum
-    const fish = fishApi.getFishesByType(fishType)
-    setFishList(fish)
-  }, [selectedTabIndex])
+    const newFishList = fishApi.getFishesByType(fishType).filter((fish) => !filter || fish.name.toLowerCase().includes(filter.toLowerCase()))
+
+    setFishList(newFishList)
+
+    if (newFishList.length > 0) {
+      setSelectedFish(newFishList[0])
+    }
+  }, [selectedTabIndex, filter])
 
   return (
     <Container name="journal">
@@ -38,6 +45,8 @@ export default function JournalPage(): ReactNode {
               )
             })}
           </div>
+
+          <FishSearch filter={filter} setFilter={setFilter} />
 
           <div className="bg-medium-beige w-full h-full rounded-4xl overflow-y-scroll no-scrollbar">
             <div className="grid lg:grid-cols-4 md:grid-cols-3 grid-cols-2 gap-1 w-full p-4">

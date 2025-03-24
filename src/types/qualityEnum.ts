@@ -7,6 +7,8 @@ enum Quality {
   ALPHA = "alpha",
 }
 
+export const allQualities: Quality[] = Object.keys(Quality).filter((quality) => isNaN(parseInt(quality))).map((quality) => quality.toLowerCase() as Quality)
+
 export const qualityLabels: Map<Quality, string> = new Map([
   [Quality.NORMAL, "Normal"],
   [Quality.SHINING, "Shining"],
@@ -14,6 +16,15 @@ export const qualityLabels: Map<Quality, string> = new Map([
   [Quality.OPULENT, "Opulent"],
   [Quality.RADIANT, "Radiant"],
   [Quality.ALPHA, "Alpha"],
+])
+
+export const qualityColors: Map<Quality, string> = new Map([
+  [Quality.NORMAL, "bg-quality-normal"],
+  [Quality.SHINING, "bg-quality-shining"],
+  [Quality.GLISTENING, "bg-quality-glistening"],
+  [Quality.OPULENT, "bg-quality-opulent"],
+  [Quality.RADIANT, "bg-quality-radiant"],
+  [Quality.ALPHA, "bg-quality-alpha"],
 ])
 
 export const qualityTextColors: Map<Quality, string> = new Map([
