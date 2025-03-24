@@ -1,3 +1,4 @@
+import { isMobile } from "react-device-detect";
 import { Tooltip } from "react-tooltip";
 
 interface CustomTooltipProps {
@@ -7,6 +8,10 @@ interface CustomTooltipProps {
 }
 
 export default function CustomTooltip({ anchorSelect, title, description }: CustomTooltipProps) {
+  if (isMobile) {
+    return null
+  }
+
   return (
     <Tooltip anchorSelect={anchorSelect} place="bottom-start" float={true} opacity={1} offset={25} noArrow
       style={{
