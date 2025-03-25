@@ -6,6 +6,7 @@ import Quality, { qualityLabels, qualityTextColors } from "../../types/qualityEn
 import Lure from "../../types/lureType";
 import lureApi from "../../api/lureApi";
 import LureImage from "../lure/LureImage";
+import BaitImage from "../bait/BaitImage";
 
 export default function BaitsAndLuresPage(): ReactNode {
   const baits: Bait[] = baitApi.getAllBaits()
@@ -26,7 +27,7 @@ export default function BaitsAndLuresPage(): ReactNode {
 
               return (
                 <ListItem key={bait.id} onClick={handleSelectBait} isSelected={bait === selectedBaitOrLure}>
-                  <img src={`/img/baits/${bait.id}.png`} alt={bait.name} className="size-10" />
+                  <BaitImage bait={bait} className="size-10" />
                   {bait.name}
                 </ListItem>
               )
@@ -122,7 +123,7 @@ interface ListProps {
 function List({ title, children, classname }: ListProps): ReactNode {
   return (
     <div className={`flex flex-col w-full p-4 ${classname}`}>
-      <div className="pt-4 px-2 bg-light-beige w-5/6 text-light-green rounded-4xl rounded-b-none">{title}</div>
+      <div className="pt-4 px-2 bg-light-beige w-5/6 text-medium-green rounded-4xl rounded-b-none">{title}</div>
       <div className="flex flex-col grow min-h-0 bg-light-beige rounded-4xl rounded-tl-none">
         <ol className="p-2 pt-1 mt-2 h-[97%] max-h-full rounded-4xl overflow-y-auto no-scrollbar">
           {children}
@@ -145,7 +146,7 @@ function ListItem({ isSelected, onClick, children }: ListItemProps): ReactNode {
       className={`
         flex p-1 items-center mb-1 rounded-xl
          ${isSelected ? "bg-dark-beige-alternative text-medium-beige" :
-          "bg-light-green text-light-beige hover:bg-medium-yellow cursor-pointer active:bg-light-green active:text-medium-beige"
+          "bg-medium-green text-light-beige hover:bg-medium-yellow cursor-pointer active:bg-medium-green active:text-medium-beige"
         }          
       `}
     >

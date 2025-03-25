@@ -1,6 +1,13 @@
 @import "tailwindcss";
 @import 'react-tooltip/dist/react-tooltip.css';
 
+@font-face {
+  font-family: 'accid';
+  src: url('/font/accid___.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body,
 #root {
   min-width: 100svw;
@@ -23,15 +30,13 @@ body {
   padding-bottom: 2rem;
 }
 
-@font-face {
-  font-family: 'accid';
-  src: url('/font/accid___.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-
 * {
   cursor: url('/cursor/cursor.png'), auto;
+}
+
+*::selection {
+  background: var(--color-medium-green);
+  filter: brightness(100);
 }
 
 @theme static {
@@ -46,7 +51,8 @@ body {
   --color-dark-beige: rgb(128, 89, 49);
   --color-dark-beige-alternative: rgb(106, 68, 32);
 
-  --color-light-green: rgb(90, 117, 90);
+  --color-light-green: rgb(164, 170, 57);
+  --color-medium-green: rgb(90, 117, 90);
   --color-dark-green: rgb(63, 82, 63);
 
   --color-medium-yellow: rgb(156, 145, 74);

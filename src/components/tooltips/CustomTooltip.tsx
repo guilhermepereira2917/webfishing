@@ -1,13 +1,13 @@
+import { ReactNode } from "react";
 import { isMobile } from "react-device-detect";
 import { Tooltip } from "react-tooltip";
 
 interface CustomTooltipProps {
   anchorSelect: string,
-  title: string,
-  description: string,
+  children: ReactNode,
 }
 
-export default function CustomTooltip({ anchorSelect, title, description }: CustomTooltipProps) {
+export default function CustomTooltip({ anchorSelect, children }: CustomTooltipProps) {
   if (isMobile) {
     return null
   }
@@ -21,10 +21,7 @@ export default function CustomTooltip({ anchorSelect, title, description }: Cust
         transition: "none",
       }}
     >
-      <p>
-        <span className="text-dark-beige-alternative">{title}</span> <br />
-        <span className="text-medium-beige">{description}</span>
-      </p>
+      {children}
     </Tooltip>
   )
 }

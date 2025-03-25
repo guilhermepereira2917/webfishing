@@ -4,9 +4,9 @@ import lureApi from "../../api/lureApi";
 import Fish, { CatchChance } from "../../types/fishType";
 import FishTypesEnum from "../../types/fishTypes";
 import Container from "../Container";
-import CustomTooltip from "../CustomTooltip";
-import LureImage from "../lure/LureImage";
 import FishSearch from "../fish/FishSearch";
+import LureImage from "../lure/LureImage";
+import TextTooltip from "../tooltips/TextTooltip";
 
 export default function JournalPage(): ReactNode {
   const [selectedTabIndex, setSelectedTabIndex] = useState(0)
@@ -32,7 +32,7 @@ export default function JournalPage(): ReactNode {
           <div className="flex flex-wrap xs:flex-nowrap w-full items-start justify-evenly gap-2">
             {Object.keys(FishTypesEnum).filter((type) => isNaN(parseInt(type))).map((type, index) => {
               const isSelected = index == selectedTabIndex
-              const style = isSelected ? "bg-light-green text-light-beige hover:bg-medium-yellow" : "bg-dark-green text-greyed-out-beige hover:bg-dark-yellow"
+              const style = isSelected ? "bg-medium-green text-light-beige hover:bg-medium-yellow" : "bg-dark-green text-greyed-out-beige hover:bg-dark-yellow"
 
               const handleClick = () => {
                 setSelectedTabIndex(index)
@@ -58,7 +58,7 @@ export default function JournalPage(): ReactNode {
 
                 return (
                   <div key={fish.id}>
-                    <CustomTooltip anchorSelect={`#${fish.id}`} title={fish.name} description={fish.description} />
+                    <TextTooltip anchorSelect={`#${fish.id}`} title={fish.name} description={fish.description} />
 
                     <button
                       id={fish.id}

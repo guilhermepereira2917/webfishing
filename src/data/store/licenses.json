@@ -1,0 +1,32 @@
+[
+  {
+    "baitId": "cricket",
+    "price": 100,
+    "campLevelRequired": 0
+  },
+  {
+    "baitId": "leech",
+    "price": 400,
+    "campLevelRequired": 0
+  },
+  {
+    "baitId": "minnow",
+    "price": 1250,
+    "campLevelRequired": 1
+  },
+  {
+    "baitId": "squid",
+    "price": 8500,
+    "campLevelRequired": 1
+  },
+  {
+    "baitId": "nautilus",
+    "price": 15000,
+    "campLevelRequired": 2
+  },
+  {
+    "baitId": "gilded_worm",
+    "price": 35000,
+    "campLevelRequired": 2
+  }
+]
