@@ -5,8 +5,8 @@ import Container from "../Container";
 import Quality, { qualityLabels, qualityTextColors } from "../../types/qualityEnum";
 import Lure from "../../types/lureType";
 import lureApi from "../../api/lureApi";
-import LureImage from "../lure/LureImage";
-import BaitImage from "../bait/BaitImage";
+import LureImage from "../image/LureImage";
+import BaitImage from "../image/BaitImage";
 
 export default function BaitsAndLuresPage(): ReactNode {
   const baits: Bait[] = baitApi.getAllBaits()

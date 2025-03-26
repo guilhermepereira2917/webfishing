@@ -1,0 +1,52 @@
+[
+  {
+    "id": "buddy_quality",
+    "description": "Increase your Fishing Buddy's Fishing Highest Quality",
+    "values": [
+      "Normal",
+      "Shining",
+      "Glistening",
+      "Opulent",
+      "Radiant",
+      "Alpha"
+    ],
+    "costs": [
+      100,
+      350,
+      1000,
+      5000,
+      10000,
+      12500,
+      17500,
+      25000,
+      30000,
+      40000,
+      50000
+    ]
+  },
+  {
+    "id": "buddy_speed",
+    "description": "Increase your Fishing Buddy's Catch Speed",
+    "values": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "costs": [
+      100,
+      350,
+      1000,
+      5000,
+      10000,
+      12500,
+      17500,
+      25000,
+      30000,
+      40000,
+      50000
+    ]
+  }
+]

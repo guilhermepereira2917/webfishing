@@ -5,7 +5,7 @@ import Fish, { CatchChance } from "../../types/fishType";
 import FishTypesEnum from "../../types/fishTypes";
 import Container from "../Container";
 import FishSearch from "../fish/FishSearch";
-import LureImage from "../lure/LureImage";
+import LureImage from "../image/LureImage";
 import TextTooltip from "../tooltips/TextTooltip";
 
 export default function JournalPage(): ReactNode {
