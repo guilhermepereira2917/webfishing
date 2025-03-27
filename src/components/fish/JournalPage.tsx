@@ -3,10 +3,13 @@ import fishApi from "../../api/fishApi";
 import lureApi from "../../api/lureApi";
 import Fish, { CatchChance } from "../../types/fishType";
 import FishTypesEnum from "../../types/fishTypes";
+import LureImage from "../baits/LureImage";
 import Container from "../Container";
 import FishSearch from "../fish/FishSearch";
-import LureImage from "../baits/LureImage";
-import TextTooltip from "../tooltips/TextTooltip";
+import CustomTooltip from "../tooltip/CustomTooltip";
+import TooltipText from "../tooltip/TooltipText";
+import TooltipTitle from "../tooltip/TooltipTitle";
+
 
 export default function JournalPage(): ReactNode {
   const [selectedTabIndex, setSelectedTabIndex] = useState(0)
@@ -58,7 +61,10 @@ export default function JournalPage(): ReactNode {
 
                 return (
                   <div key={fish.id}>
-                    <TextTooltip anchorSelect={`#${fish.id}`} title={fish.name} description={fish.description} />
+                    <CustomTooltip anchorSelectId={fish.id}>
+                      <TooltipTitle title={fish.name} />
+                      <TooltipText text={fish.description} />
+                    </CustomTooltip>
 
                     <button
                       id={fish.id}

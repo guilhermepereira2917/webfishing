@@ -3,21 +3,22 @@ import { isMobile } from "react-device-detect";
 import { Tooltip } from "react-tooltip";
 
 interface CustomTooltipProps {
-  anchorSelect: string,
+  anchorSelectId: string,
   children: ReactNode,
 }
 
-export default function CustomTooltip({ anchorSelect, children }: CustomTooltipProps) {
+export default function CustomTooltip({ anchorSelectId, children }: CustomTooltipProps) {
   if (isMobile) {
     return null
   }
 
   return (
-    <Tooltip anchorSelect={anchorSelect} place="bottom-start" float={true} opacity={1} offset={25} noArrow
+    <Tooltip anchorSelect={`#${anchorSelectId}`} place="bottom-start" float={true} opacity={1} offset={25} noArrow
       style={{
         backgroundColor: "var(--color-light-beige)",
         borderRadius: 20,
         zIndex: 1000,
+        maxWidth: 460,
         transition: "none",
       }}
     >

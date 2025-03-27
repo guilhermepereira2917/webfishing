@@ -1,9 +1,14 @@
 import { ReactNode } from "react";
 import baitApi from "../../api/baitApi";
+import lureApi from "../../api/lureApi";
 import storeApi from "../../api/storeApi";
 import BaitImage from "../baits/BaitImage";
+import LureImage from "../baits/LureImage";
 import Container from "../Container";
-import TextTooltip from "../tooltips/TextTooltip";
+import CustomTooltip from "../tooltip/CustomTooltip";
+import TooltipCost from "../tooltip/TooltipCost";
+import TooltipText from "../tooltip/TooltipText";
+import TooltipTitle from "../tooltip/TooltipTitle";
 import StoreCard from "./StoreCard";
 import StoreIncrementalCard from "./StoreIncrementalCard";
 import StoreSection from "./StoreSection";
@@ -25,12 +30,11 @@ export default function StorePage(): ReactNode {
               return (
                 <StoreCard id={baitId} key={baitId} price={price}>
                   <BaitImage bait={bait} className="size-20" />
-                  <TextTooltip
-                    anchorSelect={`#${baitId}`}
-                    title={tooltipTitle}
-                    description={tooltipDescription}
-                    cost={price}
-                  />
+                  <CustomTooltip anchorSelectId={baitId}>
+                    <TooltipTitle title={tooltipTitle} />
+                    <TooltipText text={tooltipDescription} />
+                    <TooltipCost cost={price} />
+                  </CustomTooltip>
                 </StoreCard>
               )
             })}
@@ -39,6 +43,29 @@ export default function StorePage(): ReactNode {
           <StoreSection title="upgrades">
             {storeApi.getRodUpgrades().map((rodUpgrade): ReactNode => {
               return <StoreIncrementalCard key={rodUpgrade.id} {...rodUpgrade} />
+            })}
+          </StoreSection>
+
+          <StoreSection title="lures">
+            {storeApi.getLureUpgrades().map((lureUpgrade): ReactNode => {
+              const { lureId, price } = lureUpgrade
+              const lure = lureApi.getLureById(lureId)
+
+              const tooltipTitle = lure.name
+              const firstTooltipDescription = `Unlocks the ${lure.name} lure:`
+              const secondTooltipDescription = `${lure.description}`
+
+              return (
+                <StoreCard id={lureId} key={lureId} price={price}>
+                  <LureImage lure={lure} className="size-20" />
+                  <CustomTooltip anchorSelectId={lureId}>
+                    <TooltipTitle title={tooltipTitle} />
+                    <TooltipText text={firstTooltipDescription} /> <br />
+                    <TooltipText text={secondTooltipDescription} />
+                    <TooltipCost cost={price} />
+                  </CustomTooltip>
+                </StoreCard>
+              )
             })}
           </StoreSection>
 

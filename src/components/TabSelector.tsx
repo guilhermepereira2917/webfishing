@@ -1,6 +1,8 @@
 import { ReactNode } from "react";
 import { NavLink } from "react-router";
-import TextTooltip from "./tooltips/TextTooltip";
+import CustomTooltip from "./tooltip/CustomTooltip";
+import TooltipText from "./tooltip/TooltipText";
+import TooltipTitle from "./tooltip/TooltipTitle";
 
 interface Tab {
   id: string,
@@ -23,7 +25,10 @@ export default function TabSelector(): ReactNode {
           <NavLink key={tab.id} to={tab.href}>
             {({ isActive }) => (
               <>
-                <TextTooltip anchorSelect={`#${tab.id}`} title={tab.title} description={tab.description} />
+                <CustomTooltip anchorSelectId={tab.id}>
+                  <TooltipTitle title={tab.title} />
+                  <TooltipText text={tab.description} />
+                </CustomTooltip>
 
                 <div id={tab.id}>
                   <img

@@ -1,0 +1,77 @@
+[
+  {
+    "lureId": "fly_hook",
+    "price": 50,
+    "campLevelRequired": 0
+  },
+  {
+    "lureId": "patient_lure",
+    "price": 50,
+    "campLevelRequired": 0
+  },
+  {
+    "lureId": "lucky_hook",
+    "price": 100,
+    "campLevelRequired": 0
+  },
+  {
+    "lureId": "challenge_lure",
+    "price": 100,
+    "campLevelRequired": 0
+  },
+  {
+    "lureId": "salty_lure",
+    "price": 100,
+    "campLevelRequired": 1
+  },
+  {
+    "lureId": "fresh_lure",
+    "price": 100,
+    "campLevelRequired": 1
+  },
+  {
+    "lureId": "quick_jig",
+    "price": 500,
+    "campLevelRequired": 1
+  },
+  {
+    "lureId": "efficient_lure",
+    "price": 500,
+    "campLevelRequired": 1
+  },
+  {
+    "lureId": "magnet_lure",
+    "price": 500,
+    "campLevelRequired": 1
+  },
+  {
+    "lureId": "large_lure",
+    "price": 2000,
+    "campLevelRequired": 2
+  },
+  {
+    "lureId": "attractive_angler",
+    "price": 2000,
+    "campLevelRequired": 2
+  },
+  {
+    "lureId": "sparkling_lure",
+    "price": 2000,
+    "campLevelRequired": 2
+  },
+  {
+    "lureId": "double_hook",
+    "price": 2000,
+    "campLevelRequired": 2
+  },
+  {
+    "lureId": "rain_lure",
+    "price": 2000,
+    "campLevelRequired": 2
+  },
+  {
+    "lureId": "gold_hook",
+    "price": 9999,
+    "campLevelRequired": 3
+  }
+]

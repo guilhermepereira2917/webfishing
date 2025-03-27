@@ -1,6 +1,9 @@
 import { ReactNode, useState } from "react";
 import IncrementalUpgrade from "../../types/store/incrementalUpgradeType";
-import TextTooltip from "../tooltips/TextTooltip";
+import CustomTooltip from "../tooltip/CustomTooltip";
+import TooltipCost from "../tooltip/TooltipCost";
+import TooltipText from "../tooltip/TooltipText";
+import TooltipTitle from "../tooltip/TooltipTitle";
 import IncrementalUpgradeImage from "./IncrementalUpgradeImage";
 import StoreCard from "./StoreCard";
 
@@ -22,12 +25,11 @@ export default function StoreIncrementalCard({ id, name, description, costs, val
   return (
     <StoreCard id={id} price={price} onClick={handleIncrementIndex} >
       <IncrementalUpgradeImage upgradeId={id} upgradeDescription={description} className="size-20" />
-      <TextTooltip
-        anchorSelect={`#${id}`}
-        title={tooltipTitle}
-        description={tooltipDescription}
-        cost={price}
-      />
+      <CustomTooltip anchorSelectId={id}>
+        <TooltipTitle title={tooltipTitle} />
+        <TooltipText text={tooltipDescription} />
+        <TooltipCost cost={price} />
+      </CustomTooltip>
     </StoreCard>
   )
 }
