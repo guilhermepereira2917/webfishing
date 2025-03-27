@@ -1,6 +1,7 @@
 [
   {
     "id": "buddy_quality",
+    "name": "Buddy Quality",
     "description": "Increase your Fishing Buddy's Fishing Highest Quality",
     "values": [
       "Normal",
@@ -26,6 +27,7 @@
   },
   {
     "id": "buddy_speed",
+    "name": "Buddy Speed",
     "description": "Increase your Fishing Buddy's Catch Speed",
     "values": [
       1,

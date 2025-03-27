@@ -2,10 +2,10 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import { BrowserRouter, Route, Routes } from 'react-router'
 import App from './App.tsx'
-import BaitsAndLuresPage from './components/pages/BaitsAndLuresPage.tsx'
-import JournalPage from './components/pages/JournalPage.tsx'
+import BaitsAndLuresPage from './components/baits/BaitsAndLuresPage.tsx'
+import JournalPage from './components/fish/JournalPage.tsx'
+import StorePage from './components/store/StorePage.tsx'
 import './index.css'
-import StorePage from './components/pages/StorePage.tsx'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>

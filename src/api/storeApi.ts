@@ -1,10 +1,11 @@
+import buddyUpgrades from "../data/store/buddy.json"
 import licenseUpgrades from "../data/store/licenses.json"
 import rodUpgrades from "../data/store/rod.json"
+import IncrementalUpgrade from "../types/store/incrementalUpgradeType"
 import LicenseUpgrade from "../types/store/licenseUpgradeType"
-import RodUpgrade from "../types/store/rodUpgradeType"
 
 
-rodUpgrades.forEach(({ id, values, costs }: RodUpgrade) => {
+rodUpgrades.forEach(({ id, values, costs }: IncrementalUpgrade) => {
   if (costs.length != values.length) {
     console.warn(`Rod Upgrade with id ${id} has different number of values ${values.length} and costs ${costs.length}`)
   }
@@ -15,9 +16,13 @@ const storeApi = {
     return licenseUpgrades
   },
 
-  getRodUpgrades: (): RodUpgrade[] => {
+  getRodUpgrades: (): IncrementalUpgrade[] => {
     return rodUpgrades
-  }
+  },
+
+  getBuddyUpgrades: (): IncrementalUpgrade[] => {
+    return buddyUpgrades
+  },
 }
 
 export default storeApi

@@ -6,7 +6,7 @@ interface RodUpgradeImageProps {
   className?: string,
 }
 
-export default function RodUpgradeImage({ upgradeId, upgradeDescription, className }: RodUpgradeImageProps): ReactNode {
+export default function IncrementalUpgradeImage({ upgradeId, upgradeDescription, className }: RodUpgradeImageProps): ReactNode {
   return (
     <img src={`/img/upgrades/${upgradeId}.png`} alt={upgradeDescription} className={`${className || ""}`} />
   )
