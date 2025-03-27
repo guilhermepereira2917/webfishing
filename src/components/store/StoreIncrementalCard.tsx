@@ -4,7 +4,7 @@ import CustomTooltip from "../tooltip/CustomTooltip";
 import TooltipCost from "../tooltip/TooltipCost";
 import TooltipText from "../tooltip/TooltipText";
 import TooltipTitle from "../tooltip/TooltipTitle";
-import IncrementalUpgradeImage from "./IncrementalUpgradeImage";
+import StoreUpgradeImage from "./StoreUpgradeImage";
 import StoreCard from "./StoreCard";
 
 type StoreIncrementalCardProps = IncrementalUpgrade
@@ -24,7 +24,7 @@ export default function StoreIncrementalCard({ id, name, description, costs, val
 
   return (
     <StoreCard id={id} price={price} onClick={handleIncrementIndex} >
-      <IncrementalUpgradeImage upgradeId={id} upgradeDescription={description} className="size-20" />
+      <StoreUpgradeImage upgradeId={id} upgradeDescription={description} className="size-20" />
       <CustomTooltip anchorSelectId={id}>
         <TooltipTitle title={tooltipTitle} />
         <TooltipText text={tooltipDescription} />

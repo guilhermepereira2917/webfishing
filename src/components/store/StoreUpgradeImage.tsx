@@ -1,12 +1,12 @@
 import { ReactNode } from "react";
 
-interface RodUpgradeImageProps {
+interface StoreUpgradeImageProps {
   upgradeId: string,
   upgradeDescription: string,
   className?: string,
 }
 
-export default function IncrementalUpgradeImage({ upgradeId, upgradeDescription, className }: RodUpgradeImageProps): ReactNode {
+export default function StoreUpgradeImage({ upgradeId, upgradeDescription, className }: StoreUpgradeImageProps): ReactNode {
   return (
     <img src={`/img/upgrades/${upgradeId}.png`} alt={upgradeDescription} className={`${className || ""}`} />
   )

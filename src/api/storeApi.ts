@@ -1,10 +1,12 @@
 import buddyUpgrades from "../data/store/buddy.json"
 import licenseUpgrades from "../data/store/licenses.json"
 import lureUpgrades from "../data/store/lures.json"
+import miscUpgrades from "../data/store/misc.json"
 import rodUpgrades from "../data/store/rod.json"
 import IncrementalUpgrade from "../types/store/incrementalUpgradeType"
 import LicenseUpgrade from "../types/store/licenseUpgradeType"
 import LureUpgrade from "../types/store/lureUpgradeType"
+import MiscUpgrade from "../types/store/miscUpgradeType"
 
 
 rodUpgrades.forEach(({ id, values, costs }: IncrementalUpgrade) => {
@@ -29,6 +31,10 @@ const storeApi = {
   getBuddyUpgrades: (): IncrementalUpgrade[] => {
     return buddyUpgrades
   },
+
+  getMiscUpgrades: (): MiscUpgrade[] => {
+    return miscUpgrades
+  }
 }
 
 export default storeApi

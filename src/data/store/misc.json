@@ -1,0 +1,8 @@
+[
+  {
+    "id": "portable_bait",
+    "name": "Portable Bait Station",
+    "description": "Consume to create a temporary Bait + Sell shop.",
+    "cost": 25
+  }
+]

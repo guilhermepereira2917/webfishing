@@ -12,6 +12,7 @@ import TooltipTitle from "../tooltip/TooltipTitle";
 import StoreCard from "./StoreCard";
 import StoreIncrementalCard from "./StoreIncrementalCard";
 import StoreSection from "./StoreSection";
+import StoreUpgradeImage from "./StoreUpgradeImage";
 
 export default function StorePage(): ReactNode {
   return (
@@ -72,6 +73,23 @@ export default function StorePage(): ReactNode {
           <StoreSection title="fishing buddies">
             {storeApi.getBuddyUpgrades().map((buddyUpgrade): ReactNode => {
               return <StoreIncrementalCard key={buddyUpgrade.id} {...buddyUpgrade} />
+            })}
+          </StoreSection>
+
+          <StoreSection title="misc">
+            {storeApi.getMiscUpgrades().map((miscUpgrade): ReactNode => {
+              const { id, name, description, cost } = miscUpgrade
+
+              return (
+                <StoreCard id={id} key={id} price={cost}>
+                  <StoreUpgradeImage upgradeId={id} upgradeDescription={name} className="size-20" />
+                  <CustomTooltip anchorSelectId={id}>
+                    <TooltipTitle title={name} />
+                    <TooltipText text={description} />
+                    <TooltipCost cost={cost} />
+                  </CustomTooltip>
+                </StoreCard>
+              )
             })}
           </StoreSection>
         </div>
